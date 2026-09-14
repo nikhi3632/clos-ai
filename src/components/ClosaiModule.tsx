@@ -64,13 +64,9 @@ function Looks({ product, looks }: { product: CatalogProduct; looks: Look[] }) {
           </li>
         ))}
       </ol>
-      {hidden > 0 && (
-        <button
-          type="button"
-          onClick={() => setExpanded(true)}
-          className="mt-6 border-b border-black text-[12px] uppercase tracking-[0.2em]"
-        >
-          See {hidden} more {hidden === 1 ? "look" : "looks"}
+      {n > LOOKS_BEFORE_FOLD && (
+        <button type="button" onClick={() => setExpanded(!expanded)} className="mt-6 text-[13px] underline underline-offset-4 hover:no-underline">
+          {expanded ? "See fewer" : `See ${hidden} more ${hidden === 1 ? "look" : "looks"}`}
         </button>
       )}
       <p className="mt-6 text-[12px] text-neutral-500">
