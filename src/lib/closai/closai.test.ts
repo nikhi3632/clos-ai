@@ -29,11 +29,14 @@ function product(id: string) {
 describe("Styled with your closet: Tibi blazer", () => {
   const result = styledWithCloset(product(TIBI_BLAZER), closet, stylistSelections);
 
-  it("returns at least two looks, each with a stylist note", () => {
+  it("returns at least two looks, each with a title and a stylist note", () => {
     expect(result.state).toBe("looks");
     if (result.state !== "looks") return;
     expect(result.looks.length).toBeGreaterThanOrEqual(2);
-    for (const look of result.looks) expect(look.note.length).toBeGreaterThan(0);
+    for (const look of result.looks) {
+      expect(look.title.length).toBeGreaterThan(0);
+      expect(look.note.length).toBeGreaterThan(0);
+    }
   });
 
   it("each look is built only from owned pieces, one per part of the body", () => {

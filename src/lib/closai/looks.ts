@@ -57,7 +57,11 @@ export function validateOutfit(candidates: LookItem[], pieceIds: string[]): { it
  * each one. A selection that no longer validates means the data and the rules
  * have drifted apart, which is an error, not something to hide.
  */
-export function resolveLooks(viewed: CatalogProduct, candidates: LookItem[], outfits: { pieces: string[]; note: string }[]): Look[] {
+export function resolveLooks(
+  viewed: CatalogProduct,
+  candidates: LookItem[],
+  outfits: { pieces: string[]; title: string; note: string }[],
+): Look[] {
   const looks: Look[] = [];
   const seen = new Set<string>();
   for (const outfit of outfits) {
@@ -66,7 +70,7 @@ export function resolveLooks(viewed: CatalogProduct, candidates: LookItem[], out
     const key = outfitKey(outfit.pieces);
     if (seen.has(key)) throw new Error(`${viewed.id}: committed outfit ${key} is duplicated`);
     seen.add(key);
-    looks.push({ items: result.items, note: outfit.note });
+    looks.push({ items: result.items, title: outfit.title, note: outfit.note });
   }
   return looks;
 }

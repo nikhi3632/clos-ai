@@ -53,9 +53,9 @@ function Looks({ product, looks }: { product: CatalogProduct; looks: Look[] }) {
       <ol className="space-y-8">
         {visible.map((look, i) => (
           <li key={i}>
-            <p className="mb-1 text-[11px] uppercase tracking-[0.14em] text-neutral-500">Look {i + 1}</p>
-            <p className="mb-3 text-[14px] leading-snug">{look.note}</p>
-            <div className="flex gap-3 overflow-x-auto pb-2">
+            <h3 className="text-[11px] uppercase tracking-[0.14em] text-neutral-500">{look.title}</h3>
+            <p className="mb-3 mt-1 text-[14px] leading-snug">{look.note}</p>
+            <div className="flex gap-3 overflow-x-auto pb-2 md:flex-wrap md:gap-y-6 md:overflow-visible md:pb-0">
               <Tile image={product.image} brand={product.brand} name={product.name} tag="This item" emphasis />
               {look.items.map((li) => (
                 <OwnedTile key={li.item.id} lookItem={li} />

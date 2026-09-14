@@ -40,10 +40,11 @@ Rules:
 - "pieces" lists owned pieces only, by their ids exactly as given. The viewed product is always part of the outfit; do not list it. Never invent a piece.
 - Return every outfit you would confidently show, and none you would not. Different outfits must be genuinely different, not the same idea with one piece swapped. There is no target number: some products deserve one outfit, some six, some none. Do not pad.
 - Order the outfits best first.
+- Give each outfit a title of two to four words, the way a lookbook names a look: "The full suit", "Weekend tailoring", "Dressed-down denim". No product names in titles.
 - For each outfit write one note of at most 14 plain words, addressed to the shopper, that explains why it works. Refer only to attributes you were given. No claims about fit, weather, trends, or anything you cannot see.
 
 Respond with JSON only, in this shape:
-{"outfits":[{"pieces":["<id>","<id>"],"note":"<text>"}]}`;
+{"outfits":[{"pieces":["<id>","<id>"],"title":"<text>","note":"<text>"}]}`;
 
 function describe(p: ProductBase): string {
   const attrs = [p.category.path, p.colorLabel ?? p.colorFamily, p.fabric, p.print, p.occasion && `for ${p.occasion.toLowerCase()}`].filter(Boolean);
@@ -60,7 +61,7 @@ function buildPrompt(product: CatalogProduct, candidates: LookItem[]): string {
 }
 
 interface ModelAnswer {
-  outfits: { pieces: string[]; note: string }[];
+  outfits: { pieces: string[]; title: string; note: string }[];
 }
 
 function parseAnswer(text: string): ModelAnswer {
@@ -75,8 +76,10 @@ function parseAnswer(text: string): ModelAnswer {
     if (!Array.isArray(outfit.pieces) || !outfit.pieces.every((id) => typeof id === "string")) {
       throw new Error(`outfit.pieces is not a string array: ${JSON.stringify(outfit)}`);
     }
-    if (typeof outfit.note !== "string" || outfit.note.trim() === "") {
-      throw new Error(`outfit.note is missing: ${JSON.stringify(outfit)}`);
+    for (const field of ["title", "note"] as const) {
+      if (typeof outfit[field] !== "string" || outfit[field].trim() === "") {
+        throw new Error(`outfit.${field} is missing: ${JSON.stringify(outfit)}`);
+      }
     }
   }
   return parsed as ModelAnswer;
@@ -135,7 +138,7 @@ async function requestModel(prompt: string, followUp: Turn[]): Promise<{ text: s
 }
 
 function checkProposals(candidates: LookItem[], answer: ModelAnswer) {
-  const kept: { pieces: string[]; note: string }[] = [];
+  const kept: { pieces: string[]; title: string; note: string }[] = [];
   const rejected: string[] = [];
   const seen = new Set<string>();
   for (const outfit of answer.outfits) {
@@ -150,7 +153,7 @@ function checkProposals(candidates: LookItem[], answer: ModelAnswer) {
       continue;
     }
     seen.add(key);
-    kept.push({ pieces: outfit.pieces, note: outfit.note.trim() });
+    kept.push({ pieces: outfit.pieces, title: outfit.title.trim(), note: outfit.note.trim() });
   }
   return { kept, rejected, proposed: answer.outfits.length };
 }
@@ -207,7 +210,7 @@ async function main() {
       const flag = rounds === 2 ? `  (corrected once; ${rejected.length} of ${proposed} still rejected)` : "";
       console.log(`${String(kept.length).padStart(2)} looks  ${product.id.padEnd(28)} ${product.name}${flag}`);
       if (only !== undefined) {
-        for (const o of kept) console.log(`   ${o.pieces.join(" + ")}\n   "${o.note}"`);
+        for (const o of kept) console.log(`   ${o.title}: ${o.pieces.join(" + ")}\n   "${o.note}"`);
         for (const r of rejected) console.log(`   rejected ${r}`);
       }
     }

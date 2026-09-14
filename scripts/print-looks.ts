@@ -35,7 +35,7 @@ if (id === undefined) {
     console.log(`→ ${r.looks.length} ways to wear it with what you own`);
     if (r.fit) console.log(`  fit: your ${product.brand} size is ${r.fit.size} · based on ${r.fit.purchases} purchase(s)`);
     r.looks.forEach((look, i) => {
-      console.log(`\n  Look ${i + 1}  "${look.note}"`);
+      console.log(`\n  ${i + 1}. ${look.title}  "${look.note}"`);
       for (const li of look.items) {
         console.log(`    ${li.slot.padEnd(10)} ${line(li.item)}`);
         console.log(`    ${"".padEnd(10)} ${li.reasons.map((x) => x.label).join(" · ")}`);

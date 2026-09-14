@@ -41,7 +41,9 @@ export interface LookItem {
 
 export interface Look {
   items: LookItem[];
-  /** The stylist's one-line note for this outfit, written by the selection model. */
+  /** A short lookbook-style name for the outfit, e.g. "The full suit", written by the stylist model. */
+  title: string;
+  /** The stylist's one-line note for this outfit, written by the stylist model. */
   note: string;
 }
 
@@ -53,7 +55,7 @@ export interface Look {
 export interface StylistSelections {
   model: string;
   generatedAt: string;
-  products: Record<string, { outfits: { pieces: string[]; note: string }[] }>;
+  products: Record<string, { outfits: { pieces: string[]; title: string; note: string }[] }>;
 }
 
 export interface FitSignal {
