@@ -15,30 +15,12 @@ const OCCASION_CONFLICTS: ReadonlyArray<readonly [string, string]> = [
   ["Vacation", "Work"],
 ];
 
-/** Points per reason, used only to rank pairings that already passed the bar. */
-const WEIGHT: Record<Reason["code"], number> = {
-  "same-occasion": 2,
-  "same-brand": 2,
-  "matching-set": 2,
-  "everyday-staple": 1,
-  "neutral-palette": 1,
-  "neutral-pairing": 1,
-  "matching-palette": 1,
-  "layers-under": 1,
-  "same-category": 0,
-  "same-color": 0,
-  "same-designer": 0,
-  "similar-style": 0,
-  "same-fabric": 0,
-};
-
 /** The bar a pairing must clear to be shown: no conflict and at least this many reasons. */
 export const MIN_REASONS = 2;
 
 export interface Compatibility {
   reasons: Reason[];
   conflict: boolean;
-  score: number;
 }
 
 /** Denim reads as neutral in an outfit even though the dataset files it under Blue. */
@@ -58,14 +40,9 @@ export function isMatchingSet(a: ProductBase, b: ProductBase): boolean {
   return patterned(a) && a.brand === b.brand && a.print === b.print;
 }
 
-/**
- * Two patterned pieces clash unless they are a matching set. A patterned piece
- * also refuses a partner whose print is unrecorded: with no evidence it is
- * solid, Closai does not vouch for the pairing. Solids go with anything.
- */
+/** Two patterned pieces clash unless they are a matching set. Solids and unknowns go with anything. */
 export function printsClash(a: ProductBase, b: ProductBase): boolean {
-  const unsafe = (p: ProductBase) => patterned(p) || p.print === null;
-  return ((patterned(a) && unsafe(b)) || (patterned(b) && unsafe(a))) && !isMatchingSet(a, b);
+  return patterned(a) && patterned(b) && !isMatchingSet(a, b);
 }
 
 /** A winter boot and tailored shorts do not share an outfit. */
@@ -120,8 +97,7 @@ export function compatibility(viewed: ProductBase, candidate: ProductBase): Comp
     }
   }
 
-  const score = reasons.reduce((sum, r) => sum + WEIGHT[r.code], 0);
-  return { reasons, conflict, score };
+  return { reasons, conflict };
 }
 
 export function passes(c: Compatibility): boolean {

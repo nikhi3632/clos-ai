@@ -46,7 +46,8 @@ function Looks({ product, looks }: { product: CatalogProduct; looks: Look[] }) {
       <ol className="space-y-8">
         {looks.map((look, i) => (
           <li key={i}>
-            <p className="mb-3 text-[11px] uppercase tracking-[0.14em] text-neutral-500">Look {i + 1}</p>
+            <p className="mb-1 text-[11px] uppercase tracking-[0.14em] text-neutral-500">Look {i + 1}</p>
+            <p className="mb-3 text-[14px] leading-snug">{look.note}</p>
             <div className="flex gap-3 overflow-x-auto pb-2 md:grid md:grid-cols-4 md:overflow-visible md:pb-0">
               <Tile image={product.image} brand={product.brand} name={product.name} tag="This item" emphasis />
               {look.items.map((li) => (
@@ -61,7 +62,7 @@ function Looks({ product, looks }: { product: CatalogProduct; looks: Look[] }) {
         <Link href="/closet" className="underline">
           your closet
         </Link>
-        . Reasons are the rules that matched, nothing more.
+        . Under each piece: the rules that matched it.
       </p>
     </>
   );

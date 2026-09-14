@@ -16,84 +16,15 @@ const TEMPLATES: Record<Slot, readonly (readonly Slot[])[]> = {
 
 export const MAX_LOOKS = 3;
 
-/**
- * Small stable hash used only to break ties. Seeding it with the viewed
- * product means equally supported pieces are drawn differently on different
- * product pages instead of the same three every time, while each page stays
- * deterministic.
- */
-function tieBreak(seed: string, key: string): number {
-  let h = 2166136261;
-  for (const ch of seed + "|" + key) {
-    h ^= ch.charCodeAt(0);
-    h = Math.imul(h, 16777619) >>> 0;
-  }
-  return h;
-}
-
-function cartesian<T>(lists: T[][]): T[][] {
-  return lists.reduce<T[][]>((acc, list) => acc.flatMap((prefix) => list.map((x) => [...prefix, x])), [[]]);
-}
-
-function coherent(items: LookItem[]): boolean {
-  for (let i = 0; i < items.length; i++) {
-    for (let j = i + 1; j < items.length; j++) {
-      if (conflicts(items[i].item, items[j].item)) return false;
-    }
-  }
-  return true;
-}
-
-/** The piece that defines an outfit's silhouette: the bottom, or the dress. */
-function silhouetteKey(look: Look): string {
-  const dress = look.items.find((i) => i.slot === "dress");
-  if (dress) return "dress";
-  const bottom = look.items.find((i) => i.slot === "bottom");
-  if (bottom) return `bottom:${bottom.item.category.level2 ?? bottom.item.category.level1}`;
-  const top = look.items.find((i) => i.slot === "top");
-  return top ? `top:${top.item.category.level2 ?? top.item.category.level1}` : "";
-}
-
-function itemId(look: Look, slot: Slot): string | null {
-  return look.items.find((i) => i.slot === slot)?.item.id ?? null;
-}
+export type Candidates = Map<Slot, LookItem[]>;
 
 /**
- * Picks up to MAX_LOOKS from ranked looks. A different silhouette is required
- * every time; different footwear and a different top are preferred, relaxed
- * only when nothing else qualifies. Relative selection is deliberate here: a
- * second look earns its place by being different, not by being second best.
+ * Owned pieces that clear the compatibility bar against the viewed product,
+ * grouped by slot. This is the whole universe the stylist model may compose
+ * from: it cannot add a piece, and it cannot use one that failed here.
  */
-function selectDiverse(ranked: Look[]): Look[] {
-  const chosen: Look[] = [];
-  const used = { key: new Set<string>(), footwear: new Set<string | null>(), top: new Set<string | null>() };
-  const passes: (readonly ("footwear" | "top")[])[] = [["footwear", "top"], ["footwear"], []];
-  for (const distinct of passes) {
-    for (const look of ranked) {
-      if (chosen.length >= MAX_LOOKS) break;
-      const key = silhouetteKey(look);
-      if (used.key.has(key)) continue;
-      if (distinct.some((slot) => itemId(look, slot) !== null && used[slot].has(itemId(look, slot)))) continue;
-      chosen.push(look);
-      used.key.add(key);
-      used.footwear.add(itemId(look, "footwear"));
-      used.top.add(itemId(look, "top"));
-    }
-  }
-  return chosen;
-}
-
-/**
- * Builds every valid outfit around the viewed product from owned pieces that
- * clear the compatibility bar, checks each outfit for internal coherence,
- * ranks by total evidence, then selects a diverse few. Bags and accessories
- * are never styled: with one closet they repeated across every look.
- */
-export function buildLooks(viewed: CatalogProduct, closet: ClosetItem[]): Look[] {
-  const viewedClass = classify(viewed);
-  if (viewedClass === null) return [];
-
-  const candidates = new Map<Slot, LookItem[]>();
+export function candidatePieces(viewed: CatalogProduct, closet: ClosetItem[]): Candidates {
+  const candidates: Candidates = new Map();
   for (const item of closet) {
     const cls = classify(item);
     if (cls === null) continue;
@@ -103,19 +34,88 @@ export function buildLooks(viewed: CatalogProduct, closet: ClosetItem[]): Look[]
     list.push({ item, slot: cls.slot, reasons: c.reasons });
     candidates.set(cls.slot, list);
   }
-  const score = (li: LookItem) => compatibility(viewed, li.item).score;
+  return candidates;
+}
 
-  const looks: Look[] = [];
-  for (const template of TEMPLATES[viewedClass.slot]) {
-    const lists = template.map((slot) => candidates.get(slot) ?? []);
-    if (lists.some((l) => l.length === 0)) continue;
-    for (const items of cartesian(lists)) {
-      if (!coherent(items)) continue;
-      looks.push({ items, score: items.reduce((sum, li) => sum + score(li), 0) });
+/** The slot sets that could be filled from these candidates, e.g. [["top","bottom","footwear"]]. */
+export function fillableTemplates(viewed: CatalogProduct, candidates: Candidates): readonly (readonly Slot[])[] {
+  const cls = classify(viewed);
+  if (cls === null) return [];
+  return TEMPLATES[cls.slot].filter((template) => template.every((slot) => (candidates.get(slot) ?? []).length > 0));
+}
+
+/** Pairwise coherence: no two pieces in the outfit conflict with each other. */
+function coherent(items: LookItem[]): boolean {
+  for (let i = 0; i < items.length; i++) {
+    for (let j = i + 1; j < items.length; j++) {
+      if (conflicts(items[i].item, items[j].item)) return false;
     }
   }
+  return true;
+}
 
-  const key = (look: Look) => look.items.map((i) => i.item.id).join(",");
-  looks.sort((a, b) => b.score - a.score || tieBreak(viewed.id, key(a)) - tieBreak(viewed.id, key(b)));
-  return selectDiverse(looks);
+/**
+ * The piece that defines an outfit's silhouette: the dress, else the bottom's
+ * category, else the top's, else the shoe's (a dress is completed by footwear
+ * alone, so two dress looks differ by shoe category).
+ */
+export function silhouetteKey(items: LookItem[]): string {
+  const dress = items.find((i) => i.slot === "dress");
+  if (dress) return "dress";
+  for (const slot of ["bottom", "top", "footwear"] as const) {
+    const li = items.find((i) => i.slot === slot);
+    if (li) return `${slot}:${li.item.category.level2 ?? li.item.category.level1}`;
+  }
+  return "";
+}
+
+/**
+ * Checks an outfit proposed by the stylist model against the deterministic
+ * rules: every piece must be a candidate, the pieces must fill exactly one
+ * template, and no two pieces may conflict. Returns the outfit's items, or the
+ * reason it was rejected.
+ */
+export function validateOutfit(
+  viewed: CatalogProduct,
+  candidates: Candidates,
+  pieceIds: string[],
+): { items: LookItem[] } | { error: string } {
+  if (new Set(pieceIds).size !== pieceIds.length) return { error: "repeated piece" };
+  const items: LookItem[] = [];
+  for (const id of pieceIds) {
+    const found = [...candidates.values()].flat().find((li) => li.item.id === id);
+    if (!found) return { error: `piece ${id} is not a compatible owned item` };
+    items.push(found);
+  }
+  const slots = items.map((li) => li.slot).sort();
+  const fits = fillableTemplates(viewed, candidates).some(
+    (template) => template.length === slots.length && [...template].sort().every((slot, i) => slot === slots[i]),
+  );
+  if (!fits) return { error: `slots [${slots.join(", ")}] do not complete the product` };
+  if (!coherent(items)) return { error: "pieces conflict with each other" };
+  return { items };
+}
+
+/**
+ * Resolves the committed selections for a product into looks, re-validating
+ * each one. A selection that no longer validates means the data and the rules
+ * have drifted apart, which is an error, not something to hide.
+ */
+export function resolveLooks(
+  viewed: CatalogProduct,
+  candidates: Candidates,
+  outfits: { pieces: string[]; note: string }[],
+): Look[] {
+  const looks: Look[] = [];
+  const seen = new Set<string>();
+  for (const outfit of outfits) {
+    const result = validateOutfit(viewed, candidates, outfit.pieces);
+    if ("error" in result) throw new Error(`${viewed.id}: committed outfit is invalid: ${result.error}`);
+    const key = silhouetteKey(result.items);
+    if (seen.has(key)) throw new Error(`${viewed.id}: committed outfits repeat silhouette ${key}`);
+    seen.add(key);
+    looks.push({ items: result.items, note: outfit.note });
+  }
+  if (looks.length > MAX_LOOKS) throw new Error(`${viewed.id}: more than ${MAX_LOOKS} committed outfits`);
+  return looks;
 }

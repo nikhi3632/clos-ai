@@ -41,7 +41,20 @@ export interface LookItem {
 
 export interface Look {
   items: LookItem[];
-  score: number;
+  /** The stylist's one-line note for this outfit, written by the selection model. */
+  note: string;
+}
+
+/**
+ * Outfits chosen by the selection model, generated once by scripts/select-looks.ts
+ * and committed. The engine only ever shows an outfit that appears here and that
+ * re-validates against its own rules.
+ */
+export interface StylistSelections {
+  model: string;
+  promptVersion: number;
+  generatedAt: string;
+  products: Record<string, { outfits: { pieces: string[]; note: string }[] }>;
 }
 
 export interface FitSignal {

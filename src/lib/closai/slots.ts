@@ -60,3 +60,4 @@ export function classify(product: ProductBase): Classified | null {
       return ACCESSORY_LEVEL1.has(level1) ? { slot: "accessory", layer: "base" } : null;
   }
 }
+

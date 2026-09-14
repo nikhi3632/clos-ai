@@ -1,9 +1,10 @@
-import { catalog, FEATURED_IDS, isVariant } from "@/lib/data";
+import { catalog, FEATURED_IDS } from "@/lib/data";
+import { isBrowsable } from "@/lib/shop";
 import { ProductCard } from "@/components/ProductCard";
 
 export default function Home() {
   const featured = FEATURED_IDS.map((id) => catalog.find((p) => p.id === id)).filter((p) => p !== undefined);
-  const arrivals = catalog.filter((p) => p.availability === "IN_STOCK" && !isVariant(p.id) && !FEATURED_IDS.includes(p.id));
+  const arrivals = catalog.filter((p) => isBrowsable(p) && !FEATURED_IDS.includes(p.id));
 
   return (
     <div className="space-y-16 pt-10">

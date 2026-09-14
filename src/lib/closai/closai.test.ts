@@ -5,6 +5,7 @@
  */
 import { describe, expect, it } from "vitest";
 import { catalog, closet, getProduct } from "@/lib/data";
+import { stylistSelections } from "@/lib/selections";
 import { styledWithCloset } from "./index";
 import { fitSignal } from "./fit";
 import { classify } from "./slots";
@@ -26,12 +27,14 @@ function product(id: string) {
 }
 
 describe("Styled with your closet: Tibi blazer", () => {
-  const result = styledWithCloset(product(TIBI_BLAZER), closet);
+  const result = styledWithCloset(product(TIBI_BLAZER), closet, stylistSelections);
 
-  it("returns three looks", () => {
+  it("returns two or three looks, each with a stylist note", () => {
     expect(result.state).toBe("looks");
     if (result.state !== "looks") return;
-    expect(result.looks).toHaveLength(3);
+    expect(result.looks.length).toBeGreaterThanOrEqual(2);
+    expect(result.looks.length).toBeLessThanOrEqual(3);
+    for (const look of result.looks) expect(look.note.length).toBeGreaterThan(0);
   });
 
   it("each look is a full outfit built only from owned pieces", () => {
@@ -73,13 +76,13 @@ describe("Styled with your closet: Tibi blazer", () => {
   });
 
   it("is deterministic", () => {
-    expect(styledWithCloset(product(TIBI_BLAZER), closet)).toEqual(result);
+    expect(styledWithCloset(product(TIBI_BLAZER), closet, stylistSelections)).toEqual(result);
   });
 });
 
 describe("You already own something like this", () => {
   it("flags the white gold thin band ring against the owned gold thin band ring", () => {
-    const result = styledWithCloset(product(WHITE_GOLD_RING), closet);
+    const result = styledWithCloset(product(WHITE_GOLD_RING), closet, stylistSelections);
     expect(result.state).toBe("already-own");
     if (result.state !== "already-own") return;
     expect(result.owned.name).toBe("14k Gold Thin Band Ring");
@@ -87,19 +90,19 @@ describe("You already own something like this", () => {
   });
 
   it("flags a black cotton sundress against the owned black cotton sundress", () => {
-    const result = styledWithCloset(product(ASTRO_DRESS), closet);
+    const result = styledWithCloset(product(ASTRO_DRESS), closet, stylistSelections);
     expect(result.state).toBe("already-own");
     if (result.state !== "already-own") return;
     expect(result.owned.name).toBe("Addie Eyelet Flutter Sleeve Dress");
   });
 
   it("does not call a solid and a checkerboard the same thing", () => {
-    const result = styledWithCloset(product("VINCE-0739643"), closet);
+    const result = styledWithCloset(product("VINCE-0739643"), closet, stylistSelections);
     expect(result.state).not.toBe("already-own");
   });
 
   it("stays selective: flags fewer than a fifth of the catalog", () => {
-    const flipped = catalog.filter((p) => styledWithCloset(p, closet).state === "already-own");
+    const flipped = catalog.filter((p) => styledWithCloset(p, closet, stylistSelections).state === "already-own");
     expect(flipped.length).toBeGreaterThan(5);
     expect(flipped.length).toBeLessThan(catalog.length / 5);
   });
@@ -108,7 +111,7 @@ describe("You already own something like this", () => {
 describe("Season coherence", () => {
   it("never styles winter boots or a puffer with shorts or sandals", () => {
     for (const id of [PUFFY_BOOTS, PUFFER_JACKET]) {
-      const result = styledWithCloset(product(id), closet);
+      const result = styledWithCloset(product(id), closet, stylistSelections);
       expect(result.state).toBe("looks");
       if (result.state !== "looks") continue;
       for (const look of result.looks) {
@@ -120,13 +123,24 @@ describe("Season coherence", () => {
   });
 });
 
+describe("Committed stylist selections", () => {
+  it("re-validate against the rules for every catalog product", () => {
+    for (const p of catalog) expect(() => styledWithCloset(p, closet, stylistSelections)).not.toThrow();
+  });
+
+  it("record which model and prompt produced them", () => {
+    expect(stylistSelections.model.length).toBeGreaterThan(0);
+    expect(stylistSelections.promptVersion).toBeGreaterThanOrEqual(1);
+  });
+});
+
 describe("Nothing useful: module stays absent", () => {
   it("returns none for a candle", () => {
-    expect(styledWithCloset(product(CANDLE), closet).state).toBe("none");
+    expect(styledWithCloset(product(CANDLE), closet, stylistSelections).state).toBe("none");
   });
 
   it("returns none for a skincare serum", () => {
-    expect(styledWithCloset(product(SERUM), closet).state).toBe("none");
+    expect(styledWithCloset(product(SERUM), closet, stylistSelections).state).toBe("none");
   });
 });
 

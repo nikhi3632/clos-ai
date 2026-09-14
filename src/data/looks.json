@@ -1,0 +1,1780 @@
+{
+  "model": "anthropic/claude-opus-5",
+  "promptVersion": 1,
+  "generatedAt": "2026-09-14T21:20:32.064Z",
+  "products": {
+    "A-L-C-7409196": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "White knit with pale jeans and natural raffia platforms keeps it light, neutral."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black strappy sandals sharpen the white pullover."
+        },
+        {
+          "pieces": [
+            "29",
+            "50"
+          ],
+          "note": "Acorn chinos and chocolate leather boots warm up the white knit."
+        }
+      ]
+    },
+    "A-P-C-4016692": {
+      "outfits": [
+        {
+          "pieces": [
+            "29",
+            "26"
+          ],
+          "note": "Acorn chinos echo the beige knit polo; natural raffia platforms keep it neutral."
+        },
+        {
+          "pieces": [
+            "36",
+            "50"
+          ],
+          "note": "Salt Flats jeans and chocolate leather boots ground the beige polo."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored bermudas and black strappy sandals sharpen the soft beige knit."
+        }
+      ]
+    },
+    "AEYDE-5847582": {
+      "outfits": [
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black cotton sundress keeps silver strappy sandals the standout."
+        },
+        {
+          "pieces": [
+            "21",
+            "36"
+          ],
+          "note": "White tee and light jeans stay neutral under silver leather sandals."
+        },
+        {
+          "pieces": [
+            "24",
+            "58"
+          ],
+          "note": "Optic white knit with black wrap skirt frames the metallic sandals."
+        }
+      ]
+    },
+    "AJE-4381340": {
+      "outfits": [
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals keep the emerald cutout dress clean and sleek."
+        },
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules warm up the solid emerald cotton midi."
+        }
+      ]
+    },
+    "AJE-9416502": {
+      "outfits": [
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black sandals keep the ivory blouse crisp and clean."
+        },
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "Light jeans with natural raffia platforms soften the blouse's ivory-black contrast."
+        }
+      ]
+    },
+    "ALEXANDER-WA-0409841-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black cotton sundress echoes the sandals' solid black knit straps."
+        },
+        {
+          "pieces": [
+            "21",
+            "58"
+          ],
+          "note": "White tee and black wrap skirt keep the black sandals central."
+        },
+        {
+          "pieces": [
+            "41",
+            "36"
+          ],
+          "note": "Striped sweater with light jeans; black sandals ground the neutral palette."
+        }
+      ]
+    },
+    "AMO-3585784": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "26"
+          ],
+          "note": "White tank with blue jeans; natural raffia platforms keep it easy everyday."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black strappy sandals sharpen the white cotton tank."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored bermuda plus black sandals: clean neutral pairing with white tank."
+        }
+      ]
+    },
+    "AMO-3585784-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "20"
+          ],
+          "note": "Vintage black tank with blue jeans and black sandals reads easy everyday."
+        },
+        {
+          "pieces": [
+            "58",
+            "26"
+          ],
+          "note": "Black wrap skirt echoes the tank; natural raffia platforms lift the palette."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored bermudas and black leather sandals keep this tonal and simple."
+        }
+      ]
+    },
+    "APL-ATHLETIC-1551301": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "25"
+          ],
+          "note": "Active stretchy shorts and white tee keep these performance sneakers in their element."
+        },
+        {
+          "pieces": [
+            "41",
+            "36"
+          ],
+          "note": "Salt Flats jeans and striped sailor sweater balance the mint sneaker brightness."
+        },
+        {
+          "pieces": [
+            "24",
+            "58"
+          ],
+          "note": "Black wrap skirt with optic white turtleneck lets the sneakers pop."
+        }
+      ]
+    },
+    "AREA-7070912": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "20"
+          ],
+          "note": "White stretchy bustier tee with blue jeans and black strappy sandals."
+        },
+        {
+          "pieces": [
+            "58",
+            "26"
+          ],
+          "note": "Black wrap skirt balances the white top; natural raffia platforms lift it."
+        }
+      ]
+    },
+    "AREA-7070912-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "20"
+          ],
+          "note": "White bustier tee with blue jeans and black strappy sandals, clean everyday contrast."
+        },
+        {
+          "pieces": [
+            "58",
+            "26"
+          ],
+          "note": "Black wrap skirt balances the white top; natural raffia platforms add lightness."
+        }
+      ]
+    },
+    "AUTUMN-ADEIG-0472161": {
+      "outfits": [
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black leather strappy sandals echo the dress's black, keeping it sleek."
+        },
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platforms pick up the cream in the dress."
+        },
+        {
+          "pieces": [
+            "50"
+          ],
+          "note": "Chocolate leather boots ground the cream and black solid dress."
+        }
+      ]
+    },
+    "AZEEZA-1296045": {
+      "outfits": [
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals keep the magenta knit dress the focus."
+        },
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules lighten the solid magenta cocktail dress."
+        }
+      ]
+    },
+    "BA-SH-4203079": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "Crisp white tee keeps marine striped shorts clean; black leather sandals ground it."
+        },
+        {
+          "pieces": [
+            "47",
+            "26"
+          ],
+          "note": "Navy polo matches the marine shorts; natural raffia platforms lighten the palette."
+        },
+        {
+          "pieces": [
+            "12",
+            "20"
+          ],
+          "note": "Natural boxy knit softens the stripe; black sandals keep it neutral."
+        }
+      ]
+    },
+    "BA-SH-4203079-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "White cotton tee keeps the marine striped shorts crisp; black sandals ground it."
+        },
+        {
+          "pieces": [
+            "47",
+            "26"
+          ],
+          "note": "Navy polo matches the marine palette; natural raffia platforms lighten the look."
+        },
+        {
+          "pieces": [
+            "12",
+            "20"
+          ],
+          "note": "Natural cotton pullover softens the stripe, black leather sandals add neutral polish."
+        }
+      ]
+    },
+    "BA-SH-5633300": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "White cardigan over pale jeans, natural raffia platforms keep it soft and neutral."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black strappy sandals sharpen the white knit."
+        }
+      ]
+    },
+    "BAUM-UND-PFE-9100959": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "White cotton tee and black sandals keep the black skirt clean and simple."
+        },
+        {
+          "pieces": [
+            "41",
+            "26"
+          ],
+          "note": "Navy stripe knit adds pattern; natural raffia platforms lighten the black skirt."
+        }
+      ]
+    },
+    "BIRKENSTOCK-6961829": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "36"
+          ],
+          "note": "White tee and pale jeans keep the natural leather sandal easy, neutral."
+        },
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black cotton sundress grounds the plaid white and natural footbed."
+        },
+        {
+          "pieces": [
+            "12",
+            "19"
+          ],
+          "note": "Natural knit echoes the sandal; black tailored shorts stay clean."
+        }
+      ]
+    },
+    "CANADA-GOOSE-7735379": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "36",
+            "3"
+          ],
+          "note": "White turtleneck and light jeans keep the black puffer crisp and neutral."
+        },
+        {
+          "pieces": [
+            "12",
+            "13",
+            "50"
+          ],
+          "note": "Natural knit with gold cotton trousers and chocolate leather boots, warm neutrals."
+        },
+        {
+          "pieces": [
+            "43",
+            "50"
+          ],
+          "note": "Black shirtdress echoes the hoody; chocolate boots add neutral contrast."
+        }
+      ]
+    },
+    "CLU-0106230": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "26"
+          ],
+          "note": "Blue jeans ground the multi tie-dye; natural raffia platform keeps it easy."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored bermudas and black sandals let the tie-dye pullover lead."
+        },
+        {
+          "pieces": [
+            "58",
+            "50"
+          ],
+          "note": "Black wrap skirt with chocolate leather boots balances the printed knit."
+        }
+      ]
+    },
+    "CLU-5825632": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "3"
+          ],
+          "note": "White cotton tee and court sneakers keep the multi tie-dye shorts active."
+        },
+        {
+          "pieces": [
+            "5",
+            "3"
+          ],
+          "note": "Heather grey hoodie balances the print; sneakers match the shorts' active intent."
+        },
+        {
+          "pieces": [
+            "41",
+            "26"
+          ],
+          "note": "Navy stripe knit and natural raffia platforms soften the multicolor shorts."
+        }
+      ]
+    },
+    "DENIMIST-2194128": {
+      "outfits": [
+        {
+          "pieces": [
+            "41",
+            "20"
+          ],
+          "note": "Denimist striped sweater matches the jeans' label; black sandals keep it neutral."
+        },
+        {
+          "pieces": [
+            "21",
+            "26"
+          ],
+          "note": "White tee and natural raffia platforms keep the carpenter jeans easy, everyday."
+        }
+      ]
+    },
+    "DENIMIST-2194128-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "41",
+            "20"
+          ],
+          "note": "Matching Denimist stripes, navy-cream sweater with black leather sandals keeps it crisp."
+        },
+        {
+          "pieces": [
+            "21",
+            "26"
+          ],
+          "note": "White tee and natural raffia platforms let the striped jeans lead."
+        }
+      ]
+    },
+    "DENIMIST-2194128-02": {
+      "outfits": [
+        {
+          "pieces": [
+            "41",
+            "20"
+          ],
+          "note": "Matching Denimist stripes top and bottom, grounded by black leather sandals."
+        },
+        {
+          "pieces": [
+            "21",
+            "26"
+          ],
+          "note": "Clean white tee keeps striped jeans simple; natural raffia platforms add texture."
+        }
+      ]
+    },
+    "FARM-RIO-6774826": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "Salt Flats jeans and raffia platforms keep the floral blouse light and easy."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black strappy sandals ground the multicolor floral print."
+        }
+      ]
+    },
+    "FRANKIES-BIK-1523827": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "26"
+          ],
+          "note": "White tee keeps pink gingham crisp; natural raffia platforms suit vacation shorts."
+        },
+        {
+          "pieces": [
+            "24",
+            "20"
+          ],
+          "note": "Optic white knit and black strappy sandals give the plaid a clean frame."
+        }
+      ]
+    },
+    "FRANKIES-BIK-7335496": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "Pale jeans and raffia platforms keep the pink gingham top light and easy."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and strappy sandals ground the check cotton top."
+        }
+      ]
+    },
+    "FREE-PEOPLE-5530380": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "20"
+          ],
+          "note": "Light jeans keep the black striped knit easy; black sandals tie it together."
+        },
+        {
+          "pieces": [
+            "19",
+            "26"
+          ],
+          "note": "Black tailored Bermudas match the stripe's black; natural raffia platforms lighten it."
+        },
+        {
+          "pieces": [
+            "58",
+            "50"
+          ],
+          "note": "Black wrap skirt echoes the sweater; chocolate leather boots add warm contrast."
+        }
+      ]
+    },
+    "FREEDOM-MOSE-8813855": {
+      "outfits": [
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black cotton sundress echoes the black slides for an easy everyday look."
+        },
+        {
+          "pieces": [
+            "21",
+            "19"
+          ],
+          "note": "White tee and black tailored bermuda keep the black slides clean and neutral."
+        },
+        {
+          "pieces": [
+            "44",
+            "36"
+          ],
+          "note": "Leopard tank with light jeans adds print against the solid black slides."
+        }
+      ]
+    },
+    "FREEDOM-MOSE-8813855-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black cotton sundress keeps the silver slides the standout neutral."
+        },
+        {
+          "pieces": [
+            "21",
+            "19"
+          ],
+          "note": "White tee and black tailored bermuda: clean solids beside silver slides."
+        },
+        {
+          "pieces": [
+            "41",
+            "36"
+          ],
+          "note": "Navy stripe sweater with light jeans, easy everyday cotton casual."
+        }
+      ]
+    },
+    "FREEDOM-MOSE-8813855-02": {
+      "outfits": [
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black cotton sundress keeps the solid slides simple and vacation-ready."
+        },
+        {
+          "pieces": [
+            "21",
+            "32"
+          ],
+          "note": "White tee and black sarong skirt echo the slides' easy swim vibe."
+        },
+        {
+          "pieces": [
+            "44",
+            "19"
+          ],
+          "note": "Leopard tank with black tailored shorts adds print against solid slides."
+        }
+      ]
+    },
+    "FREEDOM-MOSE-8813855-03": {
+      "outfits": [
+        {
+          "pieces": [
+            "54"
+          ],
+          "note": "Vacation romper echoes the slides' holiday ease; multi floral pops against neutral knit."
+        },
+        {
+          "pieces": [
+            "21",
+            "19"
+          ],
+          "note": "White tee and black tailored Bermuda keep these solid slides clean and simple."
+        },
+        {
+          "pieces": [
+            "44",
+            "32"
+          ],
+          "note": "Leopard tank with black sarong skirt: vacation-ready pairing for easy slides."
+        }
+      ]
+    },
+    "GIA-BORGHINI-7416676": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "48"
+          ],
+          "note": "Black capri trousers echo the boots; optic white turtleneck keeps it clean."
+        },
+        {
+          "pieces": [
+            "41",
+            "36"
+          ],
+          "note": "Striped sailor sweater with pale jeans, grounded by black knit boots."
+        },
+        {
+          "pieces": [
+            "43"
+          ],
+          "note": "Black shirtdress matches the boots' solid black knit for easy monochrome."
+        }
+      ]
+    },
+    "GIA-BORGHINI-7416676-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "45"
+          ],
+          "note": "Optic white turtleneck and blue jeans keep the black knit boots central."
+        },
+        {
+          "pieces": [
+            "41",
+            "48"
+          ],
+          "note": "Navy stripe sweater with black trousers echoes the boots' solid black."
+        },
+        {
+          "pieces": [
+            "43"
+          ],
+          "note": "Black shirtdress matches the boots for a clean all-black everyday look."
+        }
+      ]
+    },
+    "GOOD-AMERICA-2612764": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "20"
+          ],
+          "note": "Blue jeans match the shirt's palette; black leather sandals keep it neutral."
+        },
+        {
+          "pieces": [
+            "19",
+            "26"
+          ],
+          "note": "Black tailored bermudas with natural raffia platforms balance the solid cotton shirt."
+        },
+        {
+          "pieces": [
+            "58",
+            "50"
+          ],
+          "note": "Black wrap skirt and chocolate leather boots ground the blue everyday shirt."
+        }
+      ]
+    },
+    "HELMUT-LANG-5552841": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "Crisp white tee with black tailored shorts and black leather sandals."
+        },
+        {
+          "pieces": [
+            "12",
+            "26"
+          ],
+          "note": "Natural cotton pullover echoes the raffia platform; black shorts ground it."
+        }
+      ]
+    },
+    "ISABEL-MARAN-4998889": {
+      "outfits": [
+        {
+          "pieces": [
+            "12",
+            "36",
+            "50"
+          ],
+          "note": "Natural boxy knit and pale jeans balance the black jacket; brown boots warm it."
+        },
+        {
+          "pieces": [
+            "24",
+            "58",
+            "50"
+          ],
+          "note": "White turtleneck under the jacket with black wrap skirt, chocolate boots add contrast."
+        },
+        {
+          "pieces": [
+            "41",
+            "13",
+            "50"
+          ],
+          "note": "Striped sailor sweater and relaxed cotton trousers keep the black puffer easy."
+        }
+      ]
+    },
+    "JONATHAN-SIM-3042248": {
+      "outfits": [
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform echoes the ecru dress for an easy neutral pairing."
+        },
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals sharpen the solid ecru dress with clean contrast."
+        },
+        {
+          "pieces": [
+            "50"
+          ],
+          "note": "Chocolate leather boots ground the soft ecru dress in warm neutrals."
+        }
+      ]
+    },
+    "JUUN-J-9704495": {
+      "outfits": [
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals keep the solid blue denim slip dress clean."
+        },
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules add light contrast to the blue cotton dress."
+        },
+        {
+          "pieces": [
+            "50"
+          ],
+          "note": "Chocolate leather boots ground the everyday denim slip dress."
+        }
+      ]
+    },
+    "LA-DOUBLE-J-6281060": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "White jeans and natural raffia platforms keep the striped cardigan light and easy."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black leather sandals ground the nero-cammello stripes."
+        }
+      ]
+    },
+    "LEE-MATHEWS-0895128": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "White cotton tee keeps khaki tailored shorts clean; black leather sandals ground it."
+        },
+        {
+          "pieces": [
+            "41",
+            "26"
+          ],
+          "note": "Navy stripe sweater adds pattern to solid khaki; natural raffia platforms echo the neutrals."
+        },
+        {
+          "pieces": [
+            "44",
+            "20"
+          ],
+          "note": "Leopard tank livens solid khaki shorts; black strappy sandals keep it simple."
+        }
+      ]
+    },
+    "LOVESHACKFAN-0132252": {
+      "outfits": [
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules echo the floral cotton sundress's vacation ease."
+        },
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals keep the floral dress grounded and neutral."
+        }
+      ]
+    },
+    "MACH-MACH-0197333": {
+      "outfits": [
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black solid cotton sundress lets the crystal silver heels shine."
+        },
+        {
+          "pieces": [
+            "40",
+            "58"
+          ],
+          "note": "Black wrap skirt and floral corset crop top dress up the heels."
+        },
+        {
+          "pieces": [
+            "24",
+            "45"
+          ],
+          "note": "Optic white turtleneck with blue jeans keeps the sparkling heels center stage."
+        }
+      ]
+    },
+    "MISA-0776225": {
+      "outfits": [
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules lift the graphic slipdress for vacation days."
+        },
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals keep the stretchy printed slipdress neutral and easy."
+        },
+        {
+          "pieces": [
+            "50"
+          ],
+          "note": "Chocolate leather boots ground the slipdress's bold Disco Matrix graphic."
+        }
+      ]
+    },
+    "NATION-LTD-0463926": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "20"
+          ],
+          "note": "Pink sweatshirt over blue jeans, black strappy sandals keep it simple everyday."
+        },
+        {
+          "pieces": [
+            "19",
+            "26"
+          ],
+          "note": "Black tailored bermudas balance the draped sweatshirt; natural raffia platforms add lightness."
+        },
+        {
+          "pieces": [
+            "29",
+            "50"
+          ],
+          "note": "Acorn chinos and chocolate leather boots ground the bright cotton pullover."
+        }
+      ]
+    },
+    "PROENZA-SCHO-1825883": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "Crisp white tee and black leather sandals keep the leather shorts clean."
+        },
+        {
+          "pieces": [
+            "41",
+            "26"
+          ],
+          "note": "Navy stripe sweater adds pattern; natural raffia platforms lighten the black shorts."
+        }
+      ]
+    },
+    "R13-2857220": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "45",
+            "20"
+          ],
+          "note": "White turtleneck under black tweed, R13 jeans and black sandals stay neutral."
+        },
+        {
+          "pieces": [
+            "43",
+            "50"
+          ],
+          "note": "Black shirtdress echoes the jacket; chocolate leather boots warm the black."
+        },
+        {
+          "pieces": [
+            "12",
+            "19",
+            "26"
+          ],
+          "note": "Natural R13 sweater, black tailored bermudas, raffia platforms balance the tweed."
+        }
+      ]
+    },
+    "REFORMATION-6782836": {
+      "outfits": [
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules echo the linen dress's easy everyday feel."
+        },
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals ground the striped cotton sundress in neutrals."
+        }
+      ]
+    },
+    "ROSIE-ASSOUL-9415170": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "20"
+          ],
+          "note": "Blue jeans and black sandals let the rainbow stripe sweater lead."
+        },
+        {
+          "pieces": [
+            "58",
+            "26"
+          ],
+          "note": "Black wrap skirt with natural raffia platforms keeps the stripes center stage."
+        },
+        {
+          "pieces": [
+            "29",
+            "50"
+          ],
+          "note": "Acorn chinos and chocolate boots ground the multicolor knit in neutrals."
+        }
+      ]
+    },
+    "SANDY-LIANG-6573319": {
+      "outfits": [
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black leather sandals echo the dress's black base for an easy everyday look."
+        },
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platforms lift the floral slipdress with a light neutral contrast."
+        },
+        {
+          "pieces": [
+            "50"
+          ],
+          "note": "Chocolate leather boots ground the black floral dress in warm neutral tones."
+        }
+      ]
+    },
+    "SEA-1512829": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "26"
+          ],
+          "note": "White cotton tee keeps khaki tailored shorts clean; natural raffia platforms echo the neutral."
+        },
+        {
+          "pieces": [
+            "41",
+            "20"
+          ],
+          "note": "Navy stripe sweater adds pattern to solid khaki; black sandals ground it."
+        },
+        {
+          "pieces": [
+            "44",
+            "26"
+          ],
+          "note": "Leopard tank brings print against plain khaki twill; natural mules stay neutral."
+        }
+      ]
+    },
+    "SEA-9407718": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "White cotton tee keeps army cargos clean; black strappy sandals stay neutral."
+        },
+        {
+          "pieces": [
+            "41",
+            "50"
+          ],
+          "note": "Navy stripe sweater adds pattern; chocolate leather boots echo the earthy army."
+        }
+      ]
+    },
+    "SIMKHAI-1927382": {
+      "outfits": [
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black sandals keep this tank tonal and clean."
+        },
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "Light Salt Flats jeans lift the black tank; natural raffia platforms add contrast."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored bermudas and strappy leather sandals make an easy all-black everyday look."
+        }
+      ]
+    },
+    "SIMON-MILLER-4744001": {
+      "outfits": [
+        {
+          "pieces": [
+            "4"
+          ],
+          "note": "Black cotton sundress keeps the zebra-print leather mules the focal point."
+        },
+        {
+          "pieces": [
+            "21",
+            "48"
+          ],
+          "note": "White tee and black slim trousers form a neutral base for animal print."
+        },
+        {
+          "pieces": [
+            "12",
+            "36"
+          ],
+          "note": "Natural knit pullover with light jeans softens the bold zebra leather mules."
+        }
+      ]
+    },
+    "SKIN-4773295": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "White caftan over light jeans; natural raffia platforms keep it easy and neutral."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt grounds the white cotton caftan; black strappy sandals match."
+        }
+      ]
+    },
+    "SOLID-STRIPE-6514282": {
+      "outfits": [
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules lift the pistachio knit sundress for vacation."
+        },
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black strappy leather sandals ground the solid pistachio dress simply."
+        }
+      ]
+    },
+    "SPLITS59-7135323": {
+      "outfits": [
+        {
+          "pieces": [
+            "25",
+            "3"
+          ],
+          "note": "Active shorts and court sneakers match the sweatshirt's sporty, neutral vibe."
+        },
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "Light jeans and natural raffia platforms keep the check top casual and neutral."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt with black strappy sandals balances the vintage white check."
+        }
+      ]
+    },
+    "SPLITS59-7135323-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "25",
+            "3"
+          ],
+          "note": "Active shorts and court sneakers match the sweatshirt's sporty, neutral palette."
+        },
+        {
+          "pieces": [
+            "36",
+            "3"
+          ],
+          "note": "Salt Flats jeans keep it neutral; sneakers echo the active vibe."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and strappy sandals ground the checked vintage white top."
+        }
+      ]
+    },
+    "STAND-STUDIO-9991987": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "45",
+            "50"
+          ],
+          "note": "White turtleneck layers under the black coat; blue jeans and chocolate boots ground it."
+        },
+        {
+          "pieces": [
+            "12",
+            "58",
+            "50"
+          ],
+          "note": "Natural boxy knit over black wrap skirt keeps the palette neutral and simple."
+        },
+        {
+          "pieces": [
+            "43",
+            "50"
+          ],
+          "note": "Black shirtdress matches the coat's solid black; leather boots add warm contrast."
+        }
+      ]
+    },
+    "STAND-STUDIO-9991987-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "45",
+            "50"
+          ],
+          "note": "White turtleneck layers cleanly under the black coat with blue jeans, brown boots."
+        },
+        {
+          "pieces": [
+            "12",
+            "48",
+            "50"
+          ],
+          "note": "Natural boxy sweater and black trousers keep the black coat neutral."
+        },
+        {
+          "pieces": [
+            "43",
+            "50"
+          ],
+          "note": "Black shirtdress echoes the coat; chocolate boots add warm contrast."
+        }
+      ]
+    },
+    "STAUD-3443832": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "Crisp white tee and black sandals keep the orchid shorts clean and easy."
+        },
+        {
+          "pieces": [
+            "12",
+            "26"
+          ],
+          "note": "Natural boxy knit and raffia platforms echo the shorts' cotton, soft tones."
+        }
+      ]
+    },
+    "STAUD-5443206": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "26"
+          ],
+          "note": "Blue jeans ground the orchid crop top; raffia platforms add natural contrast."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt keeps the bright crop top the focus; black sandals match."
+        },
+        {
+          "pieces": [
+            "19",
+            "26"
+          ],
+          "note": "Black tailored bermudas balance the colorful crop; natural mules lighten the look."
+        }
+      ]
+    },
+    "SWEATY-BETTY-6451501": {
+      "outfits": [
+        {
+          "pieces": [
+            "5",
+            "3"
+          ],
+          "note": "Heather grey hoodie matches the marl joggers; court sneakers keep it active."
+        },
+        {
+          "pieces": [
+            "12",
+            "50"
+          ],
+          "note": "Natural boxy sweater and chocolate leather boots warm up grey joggers."
+        },
+        {
+          "pieces": [
+            "21",
+            "26"
+          ],
+          "note": "White tee stays simple; natural raffia platforms lift the neutral joggers."
+        }
+      ]
+    },
+    "SZ-BLOCKPRIN-4186472": {
+      "outfits": [
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules echo the dress's cotton, vacation-ready check."
+        },
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black leather strappy sandals ground the green gingham with neutral simplicity."
+        }
+      ]
+    },
+    "SZ-BLOCKPRIN-4186472-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules lift the green check sundress for vacation."
+        },
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black leather strappy sandals ground the printed cotton dress neutrally."
+        }
+      ]
+    },
+    "THE-GREAT-2635518": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "26"
+          ],
+          "note": "White tee and natural raffia platforms keep cream cotton trousers clean and easy."
+        },
+        {
+          "pieces": [
+            "41",
+            "20"
+          ],
+          "note": "Navy-cream stripe knit plays off cream trousers; black sandals anchor it."
+        }
+      ]
+    },
+    "TIBI-1262775": {
+      "outfits": [
+        {
+          "pieces": [
+            "29",
+            "26"
+          ],
+          "note": "Acorn Tibi chinos echo the tan shirt; natural raffia platforms keep it neutral."
+        },
+        {
+          "pieces": [
+            "36",
+            "20"
+          ],
+          "note": "Salt Flats jeans and black leather sandals balance the oversized tan shirt."
+        }
+      ]
+    },
+    "TIBI-4026125": {
+      "outfits": [
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black leather sandals echo the dress's black leather for a solid, everyday look."
+        },
+        {
+          "pieces": [
+            "50"
+          ],
+          "note": "Chocolate leather boots warm the solid black dress with matching leather texture."
+        },
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platform mules lighten the black dress with contrasting texture."
+        }
+      ]
+    },
+    "TIBI-4026125-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "20"
+          ],
+          "note": "Black leather sandals echo the dress's leather and solid black palette."
+        },
+        {
+          "pieces": [
+            "50"
+          ],
+          "note": "Chocolate leather boots add warm contrast to the solid black dress."
+        },
+        {
+          "pieces": [
+            "26"
+          ],
+          "note": "Natural raffia platforms lighten the all-black leather slipdress."
+        }
+      ]
+    },
+    "TIBI-9679470": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "White cotton tee and black leather sandals keep bleached denim clean and simple."
+        },
+        {
+          "pieces": [
+            "41",
+            "26"
+          ],
+          "note": "Navy stripe sweater adds pattern; natural raffia platforms echo the bleached tone."
+        }
+      ]
+    },
+    "TIBI-9679470-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "White cotton tee and black leather sandals keep bleached denim clean and easy."
+        },
+        {
+          "pieces": [
+            "41",
+            "26"
+          ],
+          "note": "Navy-cream stripe knit with natural raffia platforms adds texture to light denim."
+        }
+      ]
+    },
+    "TIBI-9992392": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "39",
+            "20"
+          ],
+          "note": "Matching Tibi plaid suiting set with white tee and black sandals."
+        },
+        {
+          "pieces": [
+            "24",
+            "36",
+            "50"
+          ],
+          "note": "Optic white turtleneck and pale jeans keep the plaid blazer neutral."
+        },
+        {
+          "pieces": [
+            "43",
+            "26"
+          ],
+          "note": "Black shirtdress under the plaid blazer, natural raffia platforms lighten it."
+        }
+      ]
+    },
+    "ULLA-JOHNSON-0456883": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "White blouse with light salt-flats jeans and natural raffia platforms, easy neutrals."
+        },
+        {
+          "pieces": [
+            "58",
+            "20"
+          ],
+          "note": "Black wrap skirt and black strappy sandals sharpen the blanc cotton blouse."
+        }
+      ]
+    },
+    "VANS-2477184": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "36"
+          ],
+          "note": "White tee and light jeans keep the checkerboard slip-ons the focal point."
+        },
+        {
+          "pieces": [
+            "43"
+          ],
+          "note": "Black cotton shirtdress echoes the sneakers' black and white palette."
+        },
+        {
+          "pieces": [
+            "12",
+            "19"
+          ],
+          "note": "Natural knit with black tailored Bermudas, clean neutrals beside the check."
+        }
+      ]
+    },
+    "VANS-2477184-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "45"
+          ],
+          "note": "White tee and blue jeans keep the checkerboard slip-ons the focus."
+        },
+        {
+          "pieces": [
+            "43"
+          ],
+          "note": "Black cotton shirtdress echoes the sneakers' black-and-white palette."
+        },
+        {
+          "pieces": [
+            "12",
+            "19"
+          ],
+          "note": "Natural knit with black tailored shorts, clean neutrals for everyday."
+        }
+      ]
+    },
+    "VICTORIA-BEC-1667337": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "20"
+          ],
+          "note": "Salt Flats jeans keep the black-and-white stripe crisp; black leather sandals finish it."
+        },
+        {
+          "pieces": [
+            "58",
+            "26"
+          ],
+          "note": "Black wrap skirt echoes the stripe; natural raffia platforms add contrast."
+        }
+      ]
+    },
+    "VINCE-0739643": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "White cardigan over pale jeans; natural raffia platforms keep the palette soft."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored Bermuda and black sandals sharpen the optic white knit."
+        },
+        {
+          "pieces": [
+            "58",
+            "50"
+          ],
+          "note": "Black wrap skirt with chocolate leather boots grounds the white cardigan."
+        }
+      ]
+    },
+    "WARDROBE-NYC-6895055": {
+      "outfits": [
+        {
+          "pieces": [
+            "5",
+            "20"
+          ],
+          "note": "Grey hoodie keeps the black sweatpants easy; black sandals match exactly."
+        },
+        {
+          "pieces": [
+            "12",
+            "26"
+          ],
+          "note": "Natural cotton pullover and raffia platforms soften the solid black pant."
+        }
+      ]
+    },
+    "WHITE-WARREN-0762187": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "26"
+          ],
+          "note": "Chalk cardigan over pale jeans, natural raffia platforms keep it light and neutral."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored bermudas and black leather sandals sharpen the chalk knit."
+        },
+        {
+          "pieces": [
+            "58",
+            "50"
+          ],
+          "note": "Black wrap skirt with chocolate leather boots balances the soft cardigan."
+        }
+      ]
+    },
+    "WORTHY-THREA-3691814": {
+      "outfits": [
+        {
+          "pieces": [
+            "45",
+            "26"
+          ],
+          "note": "Blue jeans ground the tie dye hoodie; natural raffia platforms keep it easy."
+        },
+        {
+          "pieces": [
+            "29",
+            "50"
+          ],
+          "note": "Acorn chinos echo the olive hoodie; chocolate leather boots tie the earth tones."
+        },
+        {
+          "pieces": [
+            "19",
+            "20"
+          ],
+          "note": "Black tailored bermudas and black sandals sharpen the casual olive hoodie."
+        }
+      ]
+    },
+    "WORTHY-THREA-9469900": {
+      "outfits": [
+        {
+          "pieces": [
+            "5",
+            "50"
+          ],
+          "note": "Grey hoodie keeps the tie dye joggers casual; chocolate boots ground the olive."
+        },
+        {
+          "pieces": [
+            "12",
+            "26"
+          ],
+          "note": "Natural boxy sweater and raffia platforms echo the joggers' soft neutral tones."
+        },
+        {
+          "pieces": [
+            "21",
+            "20"
+          ],
+          "note": "White tee and black sandals let the olive tie dye lead."
+        }
+      ]
+    }
+  }
+}

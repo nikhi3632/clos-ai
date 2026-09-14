@@ -4,7 +4,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { styledWithCloset } from "@/lib/closai";
 import { catalog, closet, getProduct, isVariant } from "@/lib/data";
+import { stylistSelections } from "@/lib/selections";
 import { formatPrice } from "@/lib/format";
+import { categoryForProduct } from "@/lib/shop";
 import { ClosaiModule } from "@/components/ClosaiModule";
 import { FitHint } from "@/components/FitHint";
 import { ProductCard } from "@/components/ProductCard";
@@ -31,18 +33,28 @@ export default async function ProductPage(props: PageProps<"/products/[id]">) {
   const product = getProduct(id);
   if (!product) notFound();
 
-  const result = styledWithCloset(product, closet);
+  const result = styledWithCloset(product, closet, stylistSelections);
   const fit = result.state === "looks" ? result.fit : null;
   const onSale = product.priceSale < product.priceMsrp;
   const moreFromBrand = catalog.filter((p) => p.brand === product.brand && p.id !== product.id && !isVariant(p.id)).slice(0, 4);
+  const shop = categoryForProduct(product);
   const crumbs = [product.category.level1, product.category.level2, product.category.level3].filter((c) => c !== null);
 
   return (
     <div className="pt-6">
-      <nav className="mb-6 text-[11px] uppercase tracking-[0.14em] text-neutral-500">
+      <nav className="mb-6 text-[11px] uppercase tracking-[0.14em] text-neutral-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:underline">
-          Women
+          Home
         </Link>
+        {shop && (
+          <>
+            {" "}
+            ›{" "}
+            <Link href={`/shop/${shop.slug}`} className="hover:underline">
+              {shop.label}
+            </Link>
+          </>
+        )}
         {crumbs.map((c) => (
           <span key={c}>
             {" "}

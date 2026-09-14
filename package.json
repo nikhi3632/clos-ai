@@ -10,7 +10,8 @@
     "build:data": "tsx scripts/build-data.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "looks": "tsx scripts/print-looks.ts"
+    "looks": "tsx scripts/print-looks.ts",
+    "select": "tsx scripts/select-looks.ts"
   },
   "dependencies": {
     "next": "16.3.5",

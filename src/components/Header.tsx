@@ -1,7 +1,6 @@
 import Link from "next/link";
+import { SHOP_CATEGORIES } from "@/lib/shop";
 import { ClosaiToggle } from "./ClosaiToggle";
-
-const NAV = ["What's New", "Designers", "Clothing", "Dresses", "Shoes", "Bags", "Jewelry & Accessories", "Sale"];
 
 export function Header() {
   return (
@@ -21,9 +20,9 @@ export function Header() {
         </div>
       </div>
       <nav className="mx-auto flex max-w-7xl gap-7 overflow-x-auto whitespace-nowrap px-6 pb-4 text-[11px] uppercase tracking-[0.14em]">
-        {NAV.map((label) => (
-          <Link key={label} href="/" className={label === "Sale" ? "text-red-600" : "hover:underline"}>
-            {label}
+        {SHOP_CATEGORIES.map((c) => (
+          <Link key={c.slug} href={`/shop/${c.slug}`} className={c.slug === "sale" ? "text-red-600 hover:underline" : "hover:underline"}>
+            {c.label}
           </Link>
         ))}
       </nav>
