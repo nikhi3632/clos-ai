@@ -1,30 +1,62 @@
 {
   "model": "anthropic/claude-opus-5",
-  "promptVersion": 1,
-  "generatedAt": "2026-09-14T21:20:32.064Z",
+  "generatedAt": "2026-09-14T21:44:41.754Z",
   "products": {
     "A-L-C-7409196": {
       "outfits": [
         {
           "pieces": [
             "36",
-            "26"
+            "3",
+            "33",
+            "10"
           ],
-          "note": "White knit with pale jeans and natural raffia platforms keeps it light, neutral."
+          "note": "White knit with light jeans and court sneakers \u2014 easy neutral everyday look."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "10",
+            "2"
+          ],
+          "note": "Plaid suiting trousers dress the white pullover up for work."
         },
         {
           "pieces": [
             "58",
-            "20"
+            "26",
+            "9",
+            "33"
           ],
-          "note": "Black wrap skirt and black strappy sandals sharpen the white pullover."
+          "note": "Black wrap skirt and raffia platforms keep it soft and neutral."
         },
         {
           "pieces": [
             "29",
-            "50"
+            "50",
+            "14",
+            "11"
           ],
-          "note": "Acorn chinos and chocolate leather boots warm up the white knit."
+          "note": "Acorn chinos, brown boots and nougat coat layer warm neutrals."
+        },
+        {
+          "pieces": [
+            "19",
+            "20",
+            "16",
+            "33"
+          ],
+          "note": "Black tailored bermudas and sandals for a crisp black-and-white pairing."
+        },
+        {
+          "pieces": [
+            "45",
+            "22",
+            "3",
+            "33"
+          ],
+          "note": "Checkered cardigan over white knit with blue jeans and sneakers."
         }
       ]
     },
@@ -32,24 +64,122 @@
       "outfits": [
         {
           "pieces": [
-            "29",
-            "26"
+            "13",
+            "50",
+            "11",
+            "10"
           ],
-          "note": "Acorn chinos echo the beige knit polo; natural raffia platforms keep it neutral."
+          "note": "Beige knit polo with gold cotton trousers and chocolate boots \u2014 soft neutral layering."
         },
         {
           "pieces": [
             "36",
-            "50"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Salt Flats jeans and chocolate leather boots ground the beige polo."
+          "note": "Light jeans and court sneakers keep the knit polo easy for everyday."
         },
         {
           "pieces": [
             "19",
-            "20"
+            "20",
+            "2",
+            "33"
           ],
-          "note": "Black tailored bermudas and black strappy sandals sharpen the soft beige knit."
+          "note": "Black tailored bermudas and black sandals sharpen the beige polo."
+        },
+        {
+          "pieces": [
+            "58",
+            "26",
+            "10"
+          ],
+          "note": "Black wrap skirt and natural raffia platforms echo the polo's neutral tone."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "33"
+          ],
+          "note": "Plaid suiting trousers make the solid knit polo work-ready."
+        },
+        {
+          "pieces": [
+            "45",
+            "52",
+            "50",
+            "11"
+          ],
+          "note": "Blue jeans, camel check cardigan and brown boots layer over the polo."
+        },
+        {
+          "pieces": [
+            "29",
+            "14",
+            "50",
+            "9"
+          ],
+          "note": "Acorn chinos and nougat knit coat build a full tonal neutral look."
+        }
+      ]
+    },
+    "ACNE-STUDIOS-0207416": {
+      "outfits": [
+        {
+          "pieces": [
+            "5",
+            "36",
+            "3",
+            "33"
+          ],
+          "note": "Grey hoodie echoes the grey melange knit hat; jeans and sneakers keep it easy."
+        },
+        {
+          "pieces": [
+            "21",
+            "19",
+            "20",
+            "9"
+          ],
+          "note": "White tee, black tailored shorts and sandals keep the knit cap casual-clean."
+        },
+        {
+          "pieces": [
+            "12",
+            "29",
+            "50",
+            "10"
+          ],
+          "note": "Natural knit and acorn chinos sit softly beside grey melange; brown boots ground it."
+        },
+        {
+          "pieces": [
+            "24",
+            "45",
+            "30",
+            "33"
+          ],
+          "note": "White turtleneck, blue jeans and black puffer suit a cold-weather knit hat."
+        },
+        {
+          "pieces": [
+            "41",
+            "13",
+            "26",
+            "2"
+          ],
+          "note": "Striped sailor sweater and relaxed pants add pattern under the solid grey hat."
+        },
+        {
+          "pieces": [
+            "4",
+            "22",
+            "3",
+            "33"
+          ],
+          "note": "Black sundress with checkered cardigan and sneakers, hat keeps it off-duty."
         }
       ]
     },
@@ -57,23 +187,191 @@
       "outfits": [
         {
           "pieces": [
-            "4"
+            "4",
+            "10",
+            "33"
           ],
-          "note": "Black cotton sundress keeps silver strappy sandals the standout."
+          "note": "Black eyelet sundress with silver sandals; gold earrings and roomy tote finish it."
         },
         {
           "pieces": [
+            "49",
+            "10",
+            "2"
+          ],
+          "note": "Jacquard cocktail dress plus silver sandals and delicate gold jewelry for events."
+        },
+        {
+          "pieces": [
+            "39",
             "21",
-            "36"
+            "9"
           ],
-          "note": "White tee and light jeans stay neutral under silver leather sandals."
+          "note": "Plaid suiting trousers, white tee, silver sandals \u2014 polished with black sunglasses."
         },
         {
           "pieces": [
-            "24",
-            "58"
+            "38",
+            "2",
+            "9"
           ],
-          "note": "Optic white knit with black wrap skirt frames the metallic sandals."
+          "note": "Rose floral dress; silver sandals keep it light, gold ring adds shine."
+        },
+        {
+          "pieces": [
+            "36",
+            "41",
+            "33"
+          ],
+          "note": "Salt-flats jeans and striped sweater; silver sandals dress down the casual mix."
+        },
+        {
+          "pieces": [
+            "19",
+            "24",
+            "11",
+            "33"
+          ],
+          "note": "Black tailored bermudas, white turtleneck, cognac belt; sandals add sleek metallic."
+        },
+        {
+          "pieces": [
+            "58",
+            "44",
+            "10"
+          ],
+          "note": "Black wrap skirt with leopard tank; silver sandals and gold huggies."
+        },
+        {
+          "pieces": [
+            "54",
+            "9",
+            "33"
+          ],
+          "note": "Toucan romper with silver sandals, sunglasses and black tote for vacation."
+        }
+      ]
+    },
+    "AEYDE-5847582-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "49",
+            "10",
+            "2"
+          ],
+          "note": "Silver sandals finish this jacquard cocktail dress; gold jewelry keeps it polished."
+        },
+        {
+          "pieces": [
+            "43",
+            "11",
+            "33",
+            "9"
+          ],
+          "note": "Black shirtdress belted in cognac leather, silver sandals add shine for everyday."
+        },
+        {
+          "pieces": [
+            "39",
+            "21",
+            "10",
+            "33"
+          ],
+          "note": "Plaid suiting trousers and white tee; silver sandals dress it up."
+        },
+        {
+          "pieces": [
+            "38",
+            "2",
+            "10"
+          ],
+          "note": "Rose floral sundress with delicate gold jewelry and silver strappy sandals."
+        },
+        {
+          "pieces": [
+            "36",
+            "41",
+            "9"
+          ],
+          "note": "Salt Flats jeans and striped sweater, silver sandals sharpen the casual mix."
+        },
+        {
+          "pieces": [
+            "58",
+            "44",
+            "10"
+          ],
+          "note": "Black wrap skirt with leopard tank; silver sandals keep it evening-ready."
+        },
+        {
+          "pieces": [
+            "19",
+            "24",
+            "33",
+            "9"
+          ],
+          "note": "Black tailored bermudas and white turtleneck, silver sandals for clean contrast."
+        }
+      ]
+    },
+    "AEYDE-5847582-02": {
+      "outfits": [
+        {
+          "pieces": [
+            "49",
+            "10",
+            "33"
+          ],
+          "note": "Silver strappy sandals finish this jacquard cocktail dress; gold huggies and black tote."
+        },
+        {
+          "pieces": [
+            "43",
+            "11",
+            "9"
+          ],
+          "note": "Black shirtdress belted in cognac leather, sandals add shine; sunglasses complete."
+        },
+        {
+          "pieces": [
+            "39",
+            "21",
+            "2",
+            "33"
+          ],
+          "note": "Plaid suiting trousers and white tee stay crisp; silver sandals dress it up."
+        },
+        {
+          "pieces": [
+            "38",
+            "10"
+          ],
+          "note": "Rose floral sundress with gold earrings; silver sandals keep it light."
+        },
+        {
+          "pieces": [
+            "36",
+            "41",
+            "33"
+          ],
+          "note": "Salt Flats jeans and striped sailor sweater, sandals add polish to casual."
+        },
+        {
+          "pieces": [
+            "58",
+            "40",
+            "10"
+          ],
+          "note": "Black wrap skirt and floral corset top, silver sandals for evening."
+        },
+        {
+          "pieces": [
+            "13",
+            "24",
+            "2"
+          ],
+          "note": "Gold relaxed pants with optic white turtleneck; metallic sandals tie the tone."
         }
       ]
     },
@@ -81,15 +379,27 @@
       "outfits": [
         {
           "pieces": [
-            "20"
+            "20",
+            "10",
+            "2"
           ],
-          "note": "Black strappy leather sandals keep the emerald cutout dress clean and sleek."
+          "note": "Black strappy sandals and delicate gold jewelry keep the emerald dress the focus."
         },
         {
           "pieces": [
-            "26"
+            "14",
+            "50",
+            "10"
           ],
-          "note": "Natural raffia platform mules warm up the solid emerald cotton midi."
+          "note": "Nougat long coat and chocolate boots warm up the emerald dress."
+        },
+        {
+          "pieces": [
+            "26",
+            "10",
+            "33"
+          ],
+          "note": "Natural raffia platforms and black tote relax the dress for daytime."
         }
       ]
     },
@@ -97,17 +407,56 @@
       "outfits": [
         {
           "pieces": [
-            "58",
-            "20"
+            "36",
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Black wrap skirt and black sandals keep the ivory blouse crisp and clean."
+          "note": "Ivory blouse with pale jeans, black sandals and tote: easy neutral everyday."
         },
         {
           "pieces": [
-            "36",
-            "26"
+            "13",
+            "26",
+            "11",
+            "2"
           ],
-          "note": "Light jeans with natural raffia platforms soften the blouse's ivory-black contrast."
+          "note": "Gold relaxed trousers and raffia mules keep the ivory crop light and warm."
+        },
+        {
+          "pieces": [
+            "19",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Black tailored shorts, sneakers and cap for a casual black-and-ivory day."
+        },
+        {
+          "pieces": [
+            "39",
+            "50",
+            "33"
+          ],
+          "note": "Plaid suiting trousers and chocolate boots dress the solid blouse up for work."
+        },
+        {
+          "pieces": [
+            "58",
+            "20",
+            "52",
+            "10"
+          ],
+          "note": "Black wrap skirt with check cardigan and sandals: layered neutral weekend look."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "14",
+            "11"
+          ],
+          "note": "Acorn chinos, nougat coat and brown boots build a soft neutral layering story."
         }
       ]
     },
@@ -115,23 +464,60 @@
       "outfits": [
         {
           "pieces": [
-            "4"
+            "43",
+            "33",
+            "9"
           ],
-          "note": "Black cotton sundress echoes the sandals' solid black knit straps."
+          "note": "Black shirtdress and black knit sandals keep one clean solid palette; tote finishes it."
         },
         {
           "pieces": [
             "21",
-            "58"
+            "39",
+            "33",
+            "2"
           ],
-          "note": "White tee and black wrap skirt keep the black sandals central."
+          "note": "White tee with black-and-white plaid trousers echoes the sandals' black."
         },
         {
           "pieces": [
-            "41",
-            "36"
+            "24",
+            "58",
+            "10"
           ],
-          "note": "Striped sweater with light jeans; black sandals ground the neutral palette."
+          "note": "Optic white turtleneck over black wrap skirt, black sandals anchor the base."
+        },
+        {
+          "pieces": [
+            "36",
+            "41",
+            "33",
+            "16"
+          ],
+          "note": "Jeans, navy stripe sweater, black cap and tote for easy everyday."
+        },
+        {
+          "pieces": [
+            "8",
+            "10",
+            "9"
+          ],
+          "note": "Black star polkadot sundress and black sandals share the same everyday palette."
+        },
+        {
+          "pieces": [
+            "49",
+            "10"
+          ],
+          "note": "Knit jacquard cocktail dress and knit crystal sandals for an event."
+        },
+        {
+          "pieces": [
+            "12",
+            "19",
+            "11"
+          ],
+          "note": "Natural boxy sweater, black tailored bermudas, cognac belt for neutral layering."
         }
       ]
     },
@@ -139,24 +525,73 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "26"
+            "36",
+            "3",
+            "33",
+            "10"
           ],
-          "note": "White tank with blue jeans; natural raffia platforms keep it easy everyday."
-        },
-        {
-          "pieces": [
-            "58",
-            "20"
-          ],
-          "note": "Black wrap skirt and black strappy sandals sharpen the white cotton tank."
+          "note": "White tee and light jeans with court sneakers: easy neutral everyday look."
         },
         {
           "pieces": [
             "19",
-            "20"
+            "20",
+            "9",
+            "2"
           ],
-          "note": "Black tailored bermuda plus black sandals: clean neutral pairing with white tank."
+          "note": "Black tailored bermudas and strappy sandals keep the white tank crisp."
+        },
+        {
+          "pieces": [
+            "13",
+            "26",
+            "11",
+            "10"
+          ],
+          "note": "Relaxed gold trousers, cognac belt and raffia platforms for a warm neutral mix."
+        },
+        {
+          "pieces": [
+            "39",
+            "50",
+            "33"
+          ],
+          "note": "Plaid suiting trousers and brown boots dress the plain tee up for work."
+        },
+        {
+          "pieces": [
+            "58",
+            "52",
+            "26",
+            "2"
+          ],
+          "note": "Black wrap skirt plus camel check cardigan layers softly over white."
+        },
+        {
+          "pieces": [
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Active shorts, sneakers and cap make this an easy workout set."
+        },
+        {
+          "pieces": [
+            "45",
+            "22",
+            "20",
+            "9"
+          ],
+          "note": "Blue jeans with checkered cardigan add pattern over the solid tank."
+        },
+        {
+          "pieces": [
+            "29",
+            "30",
+            "3",
+            "33"
+          ],
+          "note": "Acorn cargos and black leather puffer for a layered everyday look."
         }
       ]
     },
@@ -164,24 +599,72 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "20"
+            "36",
+            "3",
+            "33",
+            "10"
           ],
-          "note": "Vintage black tank with blue jeans and black sandals reads easy everyday."
-        },
-        {
-          "pieces": [
-            "58",
-            "26"
-          ],
-          "note": "Black wrap skirt echoes the tank; natural raffia platforms lift the palette."
+          "note": "Vintage black tee with light jeans, neutral sneakers and black tote \u2014 easy everyday."
         },
         {
           "pieces": [
             "19",
-            "20"
+            "20",
+            "9",
+            "2"
           ],
-          "note": "Black tailored bermudas and black leather sandals keep this tonal and simple."
+          "note": "Black tailored bermudas and black sandals keep this tonal and polished."
+        },
+        {
+          "pieces": [
+            "39",
+            "26",
+            "10"
+          ],
+          "note": "Plaid suiting trousers dress the tee up; raffia platforms add natural contrast."
+        },
+        {
+          "pieces": [
+            "58",
+            "11",
+            "20",
+            "33"
+          ],
+          "note": "Black wrap skirt, cognac leather belt and strappy sandals for a sleek look."
+        },
+        {
+          "pieces": [
+            "45",
+            "52",
+            "50",
+            "33"
+          ],
+          "note": "Blue jeans, camel check cardigan and chocolate boots layer over the tee."
+        },
+        {
+          "pieces": [
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Active shorts, court sneakers and leather cap for a sporty all-black base."
+        },
+        {
+          "pieces": [
+            "29",
+            "22",
+            "3"
+          ],
+          "note": "Acorn cargo pants with checkered cardigan add texture over the solid tee."
+        },
+        {
+          "pieces": [
+            "13",
+            "30",
+            "50",
+            "9"
+          ],
+          "note": "Relaxed gold trousers, black leather puffer and chocolate boots for elevated layering."
         }
       ]
     },
@@ -189,24 +672,69 @@
       "outfits": [
         {
           "pieces": [
-            "21",
-            "25"
+            "25",
+            "5",
+            "16"
           ],
-          "note": "Active stretchy shorts and white tee keep these performance sneakers in their element."
+          "note": "Pure active pairing: stretchy shorts, hoodie and leather cap."
         },
         {
           "pieces": [
-            "41",
-            "36"
+            "21",
+            "36",
+            "33",
+            "9"
           ],
-          "note": "Salt Flats jeans and striped sailor sweater balance the mint sneaker brightness."
+          "note": "White tee, jeans and black tote \u2014 clean everyday errand look."
         },
         {
           "pieces": [
             "24",
-            "58"
+            "48",
+            "30",
+            "10"
           ],
-          "note": "Black wrap skirt with optic white turtleneck lets the sneakers pop."
+          "note": "White turtleneck with black capris and leather puffer; gold earrings finish."
+        },
+        {
+          "pieces": [
+            "12",
+            "19",
+            "11",
+            "2"
+          ],
+          "note": "Natural knit, tailored black bermudas, cognac belt \u2014 relaxed weekend polish."
+        },
+        {
+          "pieces": [
+            "4",
+            "22",
+            "33"
+          ],
+          "note": "Black eyelet dress softened by checked cardigan and roomy tote."
+        },
+        {
+          "pieces": [
+            "18",
+            "52",
+            "10"
+          ],
+          "note": "Sunshine dress echoes the sneakers' bright palette; camel cardigan layers over."
+        },
+        {
+          "pieces": [
+            "41",
+            "13",
+            "9"
+          ],
+          "note": "Striped sailor sweater with relaxed gold trousers, sunglasses for ease."
+        },
+        {
+          "pieces": [
+            "38",
+            "14"
+          ],
+          "note": "Rose floral sundress under the nougat long coat, sneakers keep it casual."
         }
       ]
     },
@@ -214,17 +742,73 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "20"
+            "36",
+            "20",
+            "10",
+            "33"
           ],
-          "note": "White stretchy bustier tee with blue jeans and black strappy sandals."
+          "note": "White bustier tee with light jeans, black sandals, gold huggies and tote."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "10"
+          ],
+          "note": "Plaid suiting trousers dress up the white top; black sandals keep it sharp."
         },
         {
           "pieces": [
             "58",
-            "26"
+            "26",
+            "9",
+            "2"
           ],
-          "note": "Black wrap skirt balances the white top; natural raffia platforms lift it."
+          "note": "Black wrap skirt, raffia platforms and sunglasses for an easy everyday look."
+        },
+        {
+          "pieces": [
+            "48",
+            "30",
+            "33",
+            "10"
+          ],
+          "note": "Black capris and leather puffer make the white tee city-ready."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "52",
+            "2"
+          ],
+          "note": "Acorn chinos, camel check cardigan and chocolate boots: warm neutral layering."
+        },
+        {
+          "pieces": [
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Stretchy shorts, court sneakers and leather cap for an active-leaning day."
+        },
+        {
+          "pieces": [
+            "19",
+            "22",
+            "20",
+            "33"
+          ],
+          "note": "Tailored black bermudas plus checkered cardigan add contrast to the solid white."
+        },
+        {
+          "pieces": [
+            "32",
+            "26",
+            "9",
+            "10"
+          ],
+          "note": "Black sarong skirt and natural platforms for a vacation pairing."
         }
       ]
     },
@@ -232,17 +816,66 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "20"
+            "36",
+            "20",
+            "10",
+            "33"
           ],
-          "note": "White bustier tee with blue jeans and black strappy sandals, clean everyday contrast."
+          "note": "White bustier top with light denim, black sandals, gold hoops, black tote."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "10",
+            "2"
+          ],
+          "note": "Plaid suiting trousers dress up the white top; gold jewelry finishes it."
         },
         {
           "pieces": [
             "58",
-            "26"
+            "26",
+            "9",
+            "10"
           ],
-          "note": "Black wrap skirt balances the white top; natural raffia platforms add lightness."
+          "note": "Black wrap skirt and raffia platforms keep the white top summery."
+        },
+        {
+          "pieces": [
+            "48",
+            "30",
+            "33",
+            "2"
+          ],
+          "note": "Black capris and leather puffer give the crystal tee a sleek edge."
+        },
+        {
+          "pieces": [
+            "29",
+            "52",
+            "50",
+            "33"
+          ],
+          "note": "Acorn chinos, check cardigan and chocolate boots layer over the white tee."
+        },
+        {
+          "pieces": [
+            "19",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Tailored black shorts, court sneakers and leather cap for an easy casual look."
+        },
+        {
+          "pieces": [
+            "45",
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Blue jeans, long knit coat and chocolate boots elevate the white top."
         }
       ]
     },
@@ -250,21 +883,36 @@
       "outfits": [
         {
           "pieces": [
-            "20"
+            "20",
+            "10",
+            "2",
+            "33"
           ],
-          "note": "Black leather strappy sandals echo the dress's black, keeping it sleek."
+          "note": "Black strappy sandals and gold jewelry keep the cream cocktail dress clean."
         },
         {
           "pieces": [
-            "26"
+            "26",
+            "11",
+            "10"
           ],
-          "note": "Natural raffia platforms pick up the cream in the dress."
+          "note": "Natural raffia platforms and cognac belt warm up the cream and black dress."
         },
         {
           "pieces": [
-            "50"
+            "14",
+            "50",
+            "33"
           ],
-          "note": "Chocolate leather boots ground the cream and black solid dress."
+          "note": "Nougat shearling coat layers over the dress; chocolate boots and tote ground it."
+        },
+        {
+          "pieces": [
+            "24",
+            "50",
+            "11"
+          ],
+          "note": "White turtleneck under the dress, chocolate boots and cognac belt for cooler layering."
         }
       ]
     },
@@ -272,15 +920,27 @@
       "outfits": [
         {
           "pieces": [
-            "20"
+            "10",
+            "2",
+            "33"
           ],
-          "note": "Black strappy leather sandals keep the magenta knit dress the focus."
+          "note": "Gold earrings and ring keep the magenta knit dress polished; black tote carries everything."
         },
         {
           "pieces": [
-            "26"
+            "14",
+            "10",
+            "50"
           ],
-          "note": "Natural raffia platform mules lighten the solid magenta cocktail dress."
+          "note": "Nougat shearling coat softens the magenta; chocolate leather boots ground the look."
+        },
+        {
+          "pieces": [
+            "30",
+            "10",
+            "33"
+          ],
+          "note": "Black leather puffer and tote give the cocktail knit an edgier evening feel."
         }
       ]
     },
@@ -289,23 +949,53 @@
         {
           "pieces": [
             "21",
-            "20"
+            "20",
+            "11",
+            "10"
           ],
-          "note": "Crisp white tee keeps marine striped shorts clean; black leather sandals ground it."
+          "note": "White tee and black sandals keep the striped marine shorts crisp; gold studs finish."
         },
         {
           "pieces": [
             "47",
-            "26"
+            "3",
+            "9",
+            "33"
           ],
-          "note": "Navy polo matches the marine shorts; natural raffia platforms lighten the palette."
+          "note": "Navy polo matches the marine palette; sneakers and tote for easy days."
         },
         {
           "pieces": [
             "12",
-            "20"
+            "26",
+            "33",
+            "2"
           ],
-          "note": "Natural boxy knit softens the stripe; black sandals keep it neutral."
+          "note": "Natural boxy knit and raffia platforms soften the tailored cotton shorts."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Grey hoodie, court sneakers and leather cap make a relaxed neutral look."
+        },
+        {
+          "pieces": [
+            "53",
+            "26",
+            "10"
+          ],
+          "note": "Blue tie-dye crop echoes the marine stripe; natural mules lighten it."
+        },
+        {
+          "pieces": [
+            "24",
+            "20",
+            "11"
+          ],
+          "note": "Optic white turtleneck with black sandals and cognac belt looks polished."
         }
       ]
     },
@@ -314,23 +1004,54 @@
         {
           "pieces": [
             "21",
-            "20"
+            "20",
+            "11",
+            "33",
+            "9"
           ],
-          "note": "White cotton tee keeps the marine striped shorts crisp; black sandals ground it."
+          "note": "White tee and black sandals keep marine stripe shorts crisp; cognac belt adds warmth."
         },
         {
           "pieces": [
             "47",
-            "26"
+            "26",
+            "10"
           ],
-          "note": "Navy polo matches the marine palette; natural raffia platforms lighten the look."
+          "note": "Navy polo matches the marine palette; raffia platforms lift it for everyday."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Grey hoodie, court sneakers and leather cap for an easy sporty look."
         },
         {
           "pieces": [
             "12",
-            "20"
+            "20",
+            "2",
+            "33"
           ],
-          "note": "Natural cotton pullover softens the stripe, black leather sandals add neutral polish."
+          "note": "Natural boxy knit softens the stripe; black sandals and tote finish it."
+        },
+        {
+          "pieces": [
+            "53",
+            "26",
+            "9"
+          ],
+          "note": "Blue tie-dye crop echoes the marine tone; raffia mules go casual."
+        },
+        {
+          "pieces": [
+            "24",
+            "20",
+            "10",
+            "11"
+          ],
+          "note": "Optic white turtleneck and black sandals make a clean, polished pairing."
         }
       ]
     },
@@ -338,17 +1059,64 @@
       "outfits": [
         {
           "pieces": [
-            "36",
-            "26"
+            "4",
+            "20",
+            "33",
+            "10"
           ],
-          "note": "White cardigan over pale jeans, natural raffia platforms keep it soft and neutral."
+          "note": "White cardigan softens the black eyelet sundress; black sandals and tote keep it clean."
+        },
+        {
+          "pieces": [
+            "21",
+            "36",
+            "3",
+            "9"
+          ],
+          "note": "Classic white tee and light jeans under the cardigan, easy sneakers."
+        },
+        {
+          "pieces": [
+            "44",
+            "29",
+            "26",
+            "10"
+          ],
+          "note": "Leopard tank and acorn chinos warm up the white knit; raffia platforms finish."
+        },
+        {
+          "pieces": [
+            "38",
+            "26",
+            "11"
+          ],
+          "note": "Rose floral sundress with cognac belt and natural espadrilles, cardigan as neutral layer."
+        },
+        {
+          "pieces": [
+            "24",
+            "39",
+            "20",
+            "33"
+          ],
+          "note": "White turtleneck and plaid suiting trousers make the cardigan work-ready."
+        },
+        {
+          "pieces": [
+            "19",
+            "21",
+            "3",
+            "16"
+          ],
+          "note": "Black tailored bermudas and white tee, sneakers and leather cap for weekend ease."
         },
         {
           "pieces": [
             "58",
-            "20"
+            "41",
+            "50"
           ],
-          "note": "Black wrap skirt and black strappy sandals sharpen the white knit."
+          "note": "Black wrap skirt and striped sweater layered under cardigan with chocolate boots."
         }
       ]
     },
@@ -357,16 +1125,56 @@
         {
           "pieces": [
             "21",
-            "20"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "White cotton tee and black sandals keep the black skirt clean and simple."
+          "note": "White tee and black sandals keep this black skirt clean and everyday."
+        },
+        {
+          "pieces": [
+            "24",
+            "50",
+            "14",
+            "2"
+          ],
+          "note": "White turtleneck, chocolate boots and the long coat make a polished neutral layering."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Hoodie, sneakers and leather cap give the skirt a sporty edge."
+        },
+        {
+          "pieces": [
+            "12",
+            "26",
+            "11",
+            "10"
+          ],
+          "note": "Natural knit and raffia platforms warm up black; cognac belt ties it."
+        },
+        {
+          "pieces": [
+            "40",
+            "50",
+            "31",
+            "33"
+          ],
+          "note": "Floral corset top with black puffer for an evening-leaning look."
         },
         {
           "pieces": [
             "41",
-            "26"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Navy stripe knit adds pattern; natural raffia platforms lighten the black skirt."
+          "note": "Navy striped sweater adds pattern over solid black; sneakers stay easy."
         }
       ]
     },
@@ -374,23 +1182,113 @@
       "outfits": [
         {
           "pieces": [
-            "21",
-            "36"
+            "36",
+            "24",
+            "33",
+            "10"
           ],
-          "note": "White tee and pale jeans keep the natural leather sandal easy, neutral."
+          "note": "White turtleneck and pale jeans keep the shearling sandals' natural tones going."
         },
         {
           "pieces": [
-            "4"
-          ],
-          "note": "Black cotton sundress grounds the plaid white and natural footbed."
-        },
-        {
-          "pieces": [
+            "13",
             "12",
-            "19"
+            "2"
           ],
-          "note": "Natural knit echoes the sandal; black tailored shorts stay clean."
+          "note": "Natural boxy knit with gold cotton trousers echoes the sandals' neutral palette."
+        },
+        {
+          "pieces": [
+            "43",
+            "22",
+            "9"
+          ],
+          "note": "Black shirtdress plus checked cardigan grounds the white and natural footbed."
+        },
+        {
+          "pieces": [
+            "29",
+            "5",
+            "16"
+          ],
+          "note": "Acorn cargos, grey hoodie and leather cap for an easy everyday look."
+        },
+        {
+          "pieces": [
+            "58",
+            "41",
+            "33"
+          ],
+          "note": "Striped sweater and black wrap skirt balance the cosy shearling."
+        },
+        {
+          "pieces": [
+            "19",
+            "21",
+            "11"
+          ],
+          "note": "White tee, tailored black bermudas, cognac leather belt matching the sandal leather."
+        }
+      ]
+    },
+    "BIRKENSTOCK-6961829-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "36",
+            "21",
+            "52",
+            "10"
+          ],
+          "note": "Cozy shearling sandals ground light jeans, white tee and camel check cardigan."
+        },
+        {
+          "pieces": [
+            "28",
+            "33",
+            "9"
+          ],
+          "note": "Natural eyelet sundress plus black tote; maroon sandals add warm contrast."
+        },
+        {
+          "pieces": [
+            "13",
+            "24",
+            "2"
+          ],
+          "note": "Gold relaxed trousers and white turtleneck keep the maroon leather the focus."
+        },
+        {
+          "pieces": [
+            "19",
+            "41",
+            "33"
+          ],
+          "note": "Black tailored bermudas with striped sweater; easy weekend with roomy tote."
+        },
+        {
+          "pieces": [
+            "58",
+            "12",
+            "10"
+          ],
+          "note": "Black wrap skirt and natural knit stay neutral beside maroon sandals."
+        },
+        {
+          "pieces": [
+            "5",
+            "25",
+            "16"
+          ],
+          "note": "Hoodie, active shorts and leather cap for an off-duty errand look."
+        },
+        {
+          "pieces": [
+            "43",
+            "11",
+            "9"
+          ],
+          "note": "Black shirtdress belted in cognac leather echoes the sandals' leather."
         }
       ]
     },
@@ -398,26 +1296,57 @@
       "outfits": [
         {
           "pieces": [
-            "24",
+            "21",
             "36",
-            "3"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "White turtleneck and light jeans keep the black puffer crisp and neutral."
+          "note": "Sporty everyday base: white tee, jeans, sneakers, black tote echoing the hoody."
+        },
+        {
+          "pieces": [
+            "24",
+            "48",
+            "50",
+            "10"
+          ],
+          "note": "White turtleneck and black trousers under the hoody, brown boots warm it up."
+        },
+        {
+          "pieces": [
+            "41",
+            "45",
+            "3",
+            "16"
+          ],
+          "note": "Striped sweater, blue jeans, sneakers and black cap for a casual layered look."
+        },
+        {
+          "pieces": [
+            "4",
+            "3",
+            "33",
+            "2"
+          ],
+          "note": "Black sundress with the black hoody over it, sneakers keep it easy."
         },
         {
           "pieces": [
             "12",
-            "13",
-            "50"
+            "29",
+            "50",
+            "11"
           ],
-          "note": "Natural knit with gold cotton trousers and chocolate leather boots, warm neutrals."
+          "note": "Natural knit, acorn cargos and cognac belt give neutral earthy layering."
         },
         {
           "pieces": [
             "43",
-            "50"
+            "50",
+            "10"
           ],
-          "note": "Black shirtdress echoes the hoody; chocolate boots add neutral contrast."
+          "note": "All-black shirtdress with the hoody, brown boots finish a sleek look."
         }
       ]
     },
@@ -425,24 +1354,46 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "26"
+            "36",
+            "3",
+            "33",
+            "10"
           ],
-          "note": "Blue jeans ground the multi tie-dye; natural raffia platform keeps it easy."
+          "note": "Salt Flats jeans and neutral sneakers let the tie-dye lead; black tote grounds it."
         },
         {
           "pieces": [
-            "19",
-            "20"
+            "45",
+            "50",
+            "30",
+            "16"
           ],
-          "note": "Black tailored bermudas and black sandals let the tie-dye pullover lead."
+          "note": "Blue jeans, chocolate boots and black puffer keep the multi knit casual."
+        },
+        {
+          "pieces": [
+            "13",
+            "26",
+            "2"
+          ],
+          "note": "Gold relaxed pants and natural raffia platforms echo the pullover's warm tones."
         },
         {
           "pieces": [
             "58",
-            "50"
+            "50",
+            "14",
+            "10"
           ],
-          "note": "Black wrap skirt with chocolate leather boots balances the printed knit."
+          "note": "Black wrap skirt with nougat knit coat for a softer, everyday layered look."
+        },
+        {
+          "pieces": [
+            "19",
+            "20",
+            "9"
+          ],
+          "note": "Black tailored bermuda and strappy sandals for a pared-back, solid base."
         }
       ]
     },
@@ -451,23 +1402,44 @@
         {
           "pieces": [
             "21",
-            "3"
+            "3",
+            "16",
+            "9"
           ],
-          "note": "White cotton tee and court sneakers keep the multi tie-dye shorts active."
+          "note": "White tee and neutral sneakers keep the tie-dye shorts the focus."
         },
         {
           "pieces": [
             "5",
-            "3"
+            "3",
+            "33"
           ],
-          "note": "Heather grey hoodie balances the print; sneakers match the shorts' active intent."
+          "note": "Heather grey hoodie and court sneakers make an easy active look."
         },
         {
           "pieces": [
             "41",
-            "26"
+            "26",
+            "10"
           ],
-          "note": "Navy stripe knit and natural raffia platforms soften the multicolor shorts."
+          "note": "Striped cropped sweater and raffia platforms dress the shorts up casually."
+        },
+        {
+          "pieces": [
+            "24",
+            "20",
+            "33",
+            "2"
+          ],
+          "note": "Optic white turtleneck with black sandals sharpens the multicolor shorts."
+        },
+        {
+          "pieces": [
+            "53",
+            "3",
+            "9"
+          ],
+          "note": "Matching tie-dye crop top for a full print-on-print set."
         }
       ]
     },
@@ -475,17 +1447,62 @@
       "outfits": [
         {
           "pieces": [
-            "41",
-            "20"
+            "21",
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Denimist striped sweater matches the jeans' label; black sandals keep it neutral."
+          "note": "White tee and court sneakers keep these carpenter jeans clean and everyday."
         },
         {
           "pieces": [
-            "21",
-            "26"
+            "12",
+            "50",
+            "11",
+            "10"
           ],
-          "note": "White tee and natural raffia platforms keep the carpenter jeans easy, everyday."
+          "note": "Natural knit, chocolate boots and cognac belt warm up the denim."
+        },
+        {
+          "pieces": [
+            "41",
+            "26",
+            "2"
+          ],
+          "note": "Matching Denimist sailor stripe with raffia platforms for a relaxed look."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "33"
+          ],
+          "note": "White turtleneck under the nougat shearling coat: soft, neutral layering."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Grey hoodie, sneakers and leather cap for an easy sporty day."
+        },
+        {
+          "pieces": [
+            "44",
+            "30",
+            "3",
+            "10"
+          ],
+          "note": "Leopard tank and black leather puffer add edge over solid jeans."
+        },
+        {
+          "pieces": [
+            "47",
+            "52",
+            "50"
+          ],
+          "note": "Navy polo with camel check cardigan and brown boots layers neutrals."
         }
       ]
     },
@@ -493,17 +1510,70 @@
       "outfits": [
         {
           "pieces": [
-            "41",
-            "20"
+            "21",
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Matching Denimist stripes, navy-cream sweater with black leather sandals keeps it crisp."
+          "note": "White tee and clean sneakers keep the striped carpenter pants easy and everyday."
         },
         {
           "pieces": [
-            "21",
-            "26"
+            "41",
+            "20",
+            "10"
           ],
-          "note": "White tee and natural raffia platforms let the striped jeans lead."
+          "note": "Denimist sailor stripe sweater matches the pants; black sandals sharpen the mix."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "50",
+            "11"
+          ],
+          "note": "White turtleneck under the nougat coat, cognac belt and chocolate boots for polish."
+        },
+        {
+          "pieces": [
+            "5",
+            "16",
+            "3"
+          ],
+          "note": "Grey hoodie, leather cap and sneakers: relaxed, all-neutral everyday mix."
+        },
+        {
+          "pieces": [
+            "12",
+            "26",
+            "2"
+          ],
+          "note": "Natural boxy knit with raffia platforms keeps the palette soft and light."
+        },
+        {
+          "pieces": [
+            "53",
+            "3",
+            "33"
+          ],
+          "note": "Blue tie-dye crop echoes the light blue stripe; sneakers and tote finish it."
+        },
+        {
+          "pieces": [
+            "47",
+            "31",
+            "50"
+          ],
+          "note": "Navy polo with black puffer and brown boots for a tailored casual look."
+        },
+        {
+          "pieces": [
+            "35",
+            "20",
+            "33",
+            "9"
+          ],
+          "note": "White-black logo knit plays off the stripe; black sandals and tote anchor."
         }
       ]
     },
@@ -511,17 +1581,54 @@
       "outfits": [
         {
           "pieces": [
-            "41",
-            "20"
+            "21",
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Matching Denimist stripes top and bottom, grounded by black leather sandals."
+          "note": "White tee and clean sneakers keep the striped carpenter jeans easy everyday."
         },
         {
           "pieces": [
-            "21",
-            "26"
+            "41",
+            "26",
+            "10"
           ],
-          "note": "Clean white tee keeps striped jeans simple; natural raffia platforms add texture."
+          "note": "Denimist sweater matches the stripe; raffia platforms lift the natural palette."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "50",
+            "11"
+          ],
+          "note": "White turtleneck, shearling coat and chocolate boots for a polished neutral layer."
+        },
+        {
+          "pieces": [
+            "5",
+            "16",
+            "3",
+            "33"
+          ],
+          "note": "Grey hoodie, leather cap and sneakers build a relaxed off-duty look."
+        },
+        {
+          "pieces": [
+            "12",
+            "20",
+            "2"
+          ],
+          "note": "Natural boxy knit with black sandals keeps it simple and soft."
+        },
+        {
+          "pieces": [
+            "47",
+            "3",
+            "9"
+          ],
+          "note": "Navy polo picks up the blue stripe; sneakers keep it casual."
         }
       ]
     },
@@ -530,16 +1637,56 @@
         {
           "pieces": [
             "36",
-            "26"
+            "26",
+            "10",
+            "33"
           ],
-          "note": "Salt Flats jeans and raffia platforms keep the floral blouse light and easy."
+          "note": "Light jeans and raffia platforms keep the floral blouse easy for everyday."
+        },
+        {
+          "pieces": [
+            "13",
+            "20",
+            "11",
+            "2"
+          ],
+          "note": "Gold cotton trousers, cognac belt and black sandals ground the multi floral."
         },
         {
           "pieces": [
             "58",
-            "20"
+            "26",
+            "10",
+            "9"
           ],
-          "note": "Black wrap skirt and black strappy sandals ground the multicolor floral print."
+          "note": "Black wrap skirt lets the floral print lead; espadrilles add warm texture."
+        },
+        {
+          "pieces": [
+            "19",
+            "3",
+            "16",
+            "33"
+          ],
+          "note": "Tailored black shorts and sneakers make the blouse casual and easy."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "14",
+            "2"
+          ],
+          "note": "Acorn chinos, chocolate boots and nougat coat for a layered neutral look."
+        },
+        {
+          "pieces": [
+            "45",
+            "30",
+            "50",
+            "9"
+          ],
+          "note": "Blue jeans, black leather puffer and chocolate boots add edge to florals."
         }
       ]
     },
@@ -548,16 +1695,45 @@
         {
           "pieces": [
             "21",
-            "26"
+            "26",
+            "10",
+            "9"
           ],
-          "note": "White tee keeps pink gingham crisp; natural raffia platforms suit vacation shorts."
+          "note": "White tee and raffia platforms keep the gingham shorts vacation-ready."
         },
         {
           "pieces": [
-            "24",
-            "20"
+            "12",
+            "20",
+            "33",
+            "2"
           ],
-          "note": "Optic white knit and black strappy sandals give the plaid a clean frame."
+          "note": "Natural knit and black sandals give the pink plaid a calm base."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Grey hoodie, court sneakers and cap for an easy casual day."
+        },
+        {
+          "pieces": [
+            "47",
+            "11",
+            "20",
+            "9"
+          ],
+          "note": "Navy polo with cognac belt dresses the tailored shorts up neatly."
+        },
+        {
+          "pieces": [
+            "35",
+            "26",
+            "33"
+          ],
+          "note": "White-black sweater and raffia mules balance the picnic-pink check."
         }
       ]
     },
@@ -566,16 +1742,43 @@
         {
           "pieces": [
             "36",
-            "26"
+            "26",
+            "10",
+            "33"
           ],
-          "note": "Pale jeans and raffia platforms keep the pink gingham top light and easy."
+          "note": "Pink check with pale jeans, raffia platforms, gold earrings and black tote."
+        },
+        {
+          "pieces": [
+            "19",
+            "20",
+            "9"
+          ],
+          "note": "Tailored black shorts and flat sandals keep the gingham crisp and easy."
+        },
+        {
+          "pieces": [
+            "29",
+            "3",
+            "16"
+          ],
+          "note": "Acorn chinos, court sneakers and leather cap for a relaxed everyday look."
+        },
+        {
+          "pieces": [
+            "45",
+            "50",
+            "14"
+          ],
+          "note": "Blue jeans, chocolate boots and the nougat coat layer over the check."
         },
         {
           "pieces": [
             "58",
-            "20"
+            "20",
+            "11"
           ],
-          "note": "Black wrap skirt and strappy sandals ground the check cotton top."
+          "note": "Black cotton wrap skirt, black sandals, cognac belt for contrast."
         }
       ]
     },
@@ -584,23 +1787,56 @@
         {
           "pieces": [
             "36",
-            "20"
+            "3",
+            "33",
+            "10"
           ],
-          "note": "Light jeans keep the black striped knit easy; black sandals tie it together."
+          "note": "Striped knit with light jeans and clean sneakers: easy everyday tote look."
         },
         {
           "pieces": [
-            "19",
-            "26"
+            "13",
+            "26",
+            "11",
+            "9"
           ],
-          "note": "Black tailored Bermudas match the stripe's black; natural raffia platforms lighten it."
+          "note": "Relaxed gold trousers, raffia platforms and cognac belt warm up the black stripe."
+        },
+        {
+          "pieces": [
+            "45",
+            "50",
+            "14",
+            "2"
+          ],
+          "note": "Blue jeans, chocolate boots and the textured long coat layer for cooler days."
         },
         {
           "pieces": [
             "58",
-            "50"
+            "20",
+            "10",
+            "33"
           ],
-          "note": "Black wrap skirt echoes the sweater; chocolate leather boots add warm contrast."
+          "note": "Black wrap skirt and flat sandals keep the stripe polished and simple."
+        },
+        {
+          "pieces": [
+            "19",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Tailored black shorts, sneakers and leather cap for a sporty weekend."
+        },
+        {
+          "pieces": [
+            "29",
+            "30",
+            "50",
+            "33"
+          ],
+          "note": "Acorn chinos, black puffer and brown boots build a grounded neutral layering."
         }
       ]
     },
@@ -608,23 +1844,60 @@
       "outfits": [
         {
           "pieces": [
-            "4"
+            "4",
+            "9",
+            "33"
           ],
-          "note": "Black cotton sundress echoes the black slides for an easy everyday look."
+          "note": "Black eyelet sundress with black slides; sunglasses and tote finish the easy look."
+        },
+        {
+          "pieces": [
+            "54",
+            "9",
+            "10"
+          ],
+          "note": "Vacation romper stays casual with black slides, sunglasses and gold huggies."
         },
         {
           "pieces": [
             "21",
-            "19"
+            "19",
+            "16",
+            "33"
           ],
-          "note": "White tee and black tailored bermuda keep the black slides clean and neutral."
+          "note": "White tee, black bermudas and cap: clean neutral weekend set."
         },
         {
           "pieces": [
+            "32",
             "44",
-            "36"
+            "9"
           ],
-          "note": "Leopard tank with light jeans adds print against the solid black slides."
+          "note": "Black sarong skirt and leopard tank read poolside, slides keep it relaxed."
+        },
+        {
+          "pieces": [
+            "5",
+            "25",
+            "33"
+          ],
+          "note": "Hoodie and active shorts with slides for an off-duty errands look."
+        },
+        {
+          "pieces": [
+            "38",
+            "2",
+            "10"
+          ],
+          "note": "Floral sundress with gold jewelry; black slides keep the print low-key."
+        },
+        {
+          "pieces": [
+            "12",
+            "36",
+            "10"
+          ],
+          "note": "Natural sweater and light jeans balance the solid black slides."
         }
       ]
     },
@@ -632,23 +1905,53 @@
       "outfits": [
         {
           "pieces": [
-            "4"
+            "54",
+            "9",
+            "33"
           ],
-          "note": "Black cotton sundress keeps the silver slides the standout neutral."
+          "note": "Vacation romper, slides and sunglasses: easy poolside look with roomy black tote."
+        },
+        {
+          "pieces": [
+            "28",
+            "10",
+            "9"
+          ],
+          "note": "Natural eyelet sundress stays soft beside silver slides; gold earrings, sunglasses finish."
         },
         {
           "pieces": [
             "21",
-            "19"
+            "19",
+            "16",
+            "33"
           ],
-          "note": "White tee and black tailored bermuda: clean solids beside silver slides."
+          "note": "White tee, black bermudas, leather cap and tote: clean everyday casual."
+        },
+        {
+          "pieces": [
+            "32",
+            "44",
+            "9",
+            "2"
+          ],
+          "note": "Black sarong skirt with leopard tank reads vacation; slides keep it relaxed."
+        },
+        {
+          "pieces": [
+            "43",
+            "11",
+            "33"
+          ],
+          "note": "Black shirtdress belted in cognac leather, tote and slides for errands."
         },
         {
           "pieces": [
             "41",
-            "36"
+            "36",
+            "10"
           ],
-          "note": "Navy stripe sweater with light jeans, easy everyday cotton casual."
+          "note": "Striped sailor sweater and light jeans, an easy neutral weekend pairing."
         }
       ]
     },
@@ -656,23 +1959,50 @@
       "outfits": [
         {
           "pieces": [
-            "4"
+            "54",
+            "9",
+            "33"
           ],
-          "note": "Black cotton sundress keeps the solid slides simple and vacation-ready."
+          "note": "Vacation romper and slides, one occasion; black tote and aviators finish it."
+        },
+        {
+          "pieces": [
+            "32",
+            "44",
+            "9"
+          ],
+          "note": "Vacation sarong skirt with leopard tank, sunglasses for a poolside look."
+        },
+        {
+          "pieces": [
+            "28",
+            "10",
+            "33"
+          ],
+          "note": "Natural eyelet sundress, gold huggies and a black tote for easy weekends."
         },
         {
           "pieces": [
             "21",
-            "32"
+            "19",
+            "16"
           ],
-          "note": "White tee and black sarong skirt echo the slides' easy swim vibe."
+          "note": "White tee, black tailored bermudas and leather cap: clean everyday basics."
         },
         {
           "pieces": [
-            "44",
-            "19"
+            "23",
+            "9"
           ],
-          "note": "Leopard tank with black tailored shorts adds print against solid slides."
+          "note": "Botanic floral mini dress plus aviators keeps the slides relaxed."
+        },
+        {
+          "pieces": [
+            "53",
+            "55",
+            "10"
+          ],
+          "note": "Tie dye crop and black wrap skirt, gold earrings for weekend ease."
         }
       ]
     },
@@ -680,23 +2010,106 @@
       "outfits": [
         {
           "pieces": [
-            "54"
+            "54",
+            "9",
+            "10"
           ],
-          "note": "Vacation romper echoes the slides' holiday ease; multi floral pops against neutral knit."
+          "note": "Vacation romper with slides; sunglasses and gold huggies finish it."
+        },
+        {
+          "pieces": [
+            "32",
+            "40",
+            "33"
+          ],
+          "note": "Sarong skirt and corset top stay vacation-easy with black tote."
+        },
+        {
+          "pieces": [
+            "28",
+            "11",
+            "2"
+          ],
+          "note": "Natural eyelet dress, cognac belt and thin gold ring: relaxed weekend."
         },
         {
           "pieces": [
             "21",
-            "19"
+            "36",
+            "16",
+            "33"
           ],
-          "note": "White tee and black tailored Bermuda keep these solid slides clean and simple."
+          "note": "White tee, light jeans, leather cap: simple everyday pairing for slides."
         },
         {
           "pieces": [
-            "44",
-            "32"
+            "19",
+            "41",
+            "9"
           ],
-          "note": "Leopard tank with black sarong skirt: vacation-ready pairing for easy slides."
+          "note": "Black tailored shorts with striped sweater, an easy nautical look."
+        },
+        {
+          "pieces": [
+            "38",
+            "10"
+          ],
+          "note": "Rose floral sundress plus gold earrings keeps the slides breezy."
+        }
+      ]
+    },
+    "GIA-BORGHINI-3818005": {
+      "outfits": [
+        {
+          "pieces": [
+            "49",
+            "10",
+            "2"
+          ],
+          "note": "Cocktail jacquard dress with nude strappy heels and gold jewelry for events."
+        },
+        {
+          "pieces": [
+            "43",
+            "11",
+            "33",
+            "9"
+          ],
+          "note": "Black shirtdress belted in cognac leather; nude sandals lengthen the look."
+        },
+        {
+          "pieces": [
+            "38",
+            "10",
+            "2"
+          ],
+          "note": "Rose floral sundress plus nude sandals and delicate gold pieces."
+        },
+        {
+          "pieces": [
+            "39",
+            "21",
+            "33",
+            "2"
+          ],
+          "note": "Plaid suiting trousers and white tee stay polished on nude heels."
+        },
+        {
+          "pieces": [
+            "36",
+            "41",
+            "9",
+            "33"
+          ],
+          "note": "Striped sailor sweater and pale jeans, dressed up by nude sandals."
+        },
+        {
+          "pieces": [
+            "58",
+            "44",
+            "10"
+          ],
+          "note": "Black wrap skirt with leopard tank; neutral sandals keep prints front."
         }
       ]
     },
@@ -704,23 +2117,55 @@
       "outfits": [
         {
           "pieces": [
+            "36",
             "24",
-            "48"
+            "14",
+            "33"
           ],
-          "note": "Black capri trousers echo the boots; optic white turtleneck keeps it clean."
+          "note": "White turtleneck, light jeans and shearling coat keep the black knit boots grounded."
         },
         {
           "pieces": [
+            "43",
+            "30",
+            "10"
+          ],
+          "note": "All-black shirtdress and leather puffer make a sleek monochrome base for the boots."
+        },
+        {
+          "pieces": [
+            "13",
+            "12",
+            "52",
+            "33"
+          ],
+          "note": "Natural knit layers over relaxed pants echo the boots' soft texture."
+        },
+        {
+          "pieces": [
+            "45",
+            "5",
+            "16"
+          ],
+          "note": "Hoodie, jeans and leather cap: easy casual mix the puffy boots suit."
+        },
+        {
+          "pieces": [
+            "58",
             "41",
-            "36"
+            "33",
+            "2"
           ],
-          "note": "Striped sailor sweater with pale jeans, grounded by black knit boots."
+          "note": "Black wrap skirt with striped sweater balances the chunky knit boots."
         },
         {
           "pieces": [
-            "43"
+            "39",
+            "35",
+            "30",
+            "9"
           ],
-          "note": "Black shirtdress matches the boots' solid black knit for easy monochrome."
+          "note": "Plaid suiting pants and logo knit dress the boots up in black-and-white."
         }
       ]
     },
@@ -728,23 +2173,45 @@
       "outfits": [
         {
           "pieces": [
+            "36",
             "24",
-            "45"
+            "14",
+            "33"
           ],
-          "note": "Optic white turtleneck and blue jeans keep the black knit boots central."
+          "note": "White turtleneck, jeans and nougat knit coat keep these black boots easy."
         },
         {
           "pieces": [
+            "43",
+            "22",
+            "33"
+          ],
+          "note": "Black shirtdress with checked cardigan echoes the boots' black knit."
+        },
+        {
+          "pieces": [
+            "58",
             "41",
-            "48"
+            "30"
           ],
-          "note": "Navy stripe sweater with black trousers echoes the boots' solid black."
+          "note": "Black wrap skirt, striped sweater and black leather puffer: clean monochrome base."
         },
         {
           "pieces": [
-            "43"
+            "48",
+            "5",
+            "16"
           ],
-          "note": "Black shirtdress matches the boots for a clean all-black everyday look."
+          "note": "Black capri, grey hoodie and leather cap for an easy casual day."
+        },
+        {
+          "pieces": [
+            "13",
+            "12",
+            "11",
+            "10"
+          ],
+          "note": "Relaxed gold trousers and natural sweater, cognac belt warms the black boots."
         }
       ]
     },
@@ -753,23 +2220,52 @@
         {
           "pieces": [
             "45",
-            "20"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Blue jeans match the shirt's palette; black leather sandals keep it neutral."
+          "note": "Blue-on-blue jeans, neutral sneakers and black tote for easy everyday."
+        },
+        {
+          "pieces": [
+            "36",
+            "26",
+            "10"
+          ],
+          "note": "Matching pale palette with natural raffia platforms and gold earrings."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "33"
+          ],
+          "note": "Plaid suiting trousers and black sandals make the shirt work-ready."
         },
         {
           "pieces": [
             "19",
-            "26"
+            "11",
+            "20"
           ],
-          "note": "Black tailored bermudas with natural raffia platforms balance the solid cotton shirt."
+          "note": "Tailored black bermudas, cognac belt and strappy black sandals: tidy neutrals."
         },
         {
           "pieces": [
             "58",
-            "50"
+            "20",
+            "52"
           ],
-          "note": "Black wrap skirt and chocolate leather boots ground the blue everyday shirt."
+          "note": "Black wrap skirt with checked camel cardigan for layered everyday dressing."
+        },
+        {
+          "pieces": [
+            "29",
+            "52",
+            "50",
+            "2"
+          ],
+          "note": "Acorn chinos, knit cardigan and brown boots keep it warm-toned."
         }
       ]
     },
@@ -778,16 +2274,131 @@
         {
           "pieces": [
             "21",
-            "20"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Crisp white tee with black tailored shorts and black leather sandals."
+          "note": "White tee and black sandals keep tailored shorts crisp and everyday-easy."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Grey hoodie, sneakers and leather cap dress the suiting shorts down."
         },
         {
           "pieces": [
             "12",
-            "26"
+            "26",
+            "11",
+            "2"
           ],
-          "note": "Natural cotton pullover echoes the raffia platform; black shorts ground it."
+          "note": "Natural knit, raffia platforms and cognac belt warm up the black."
+        },
+        {
+          "pieces": [
+            "40",
+            "20",
+            "33",
+            "9"
+          ],
+          "note": "Floral corset top adds print against solid black tailored shorts."
+        },
+        {
+          "pieces": [
+            "24",
+            "52",
+            "20",
+            "10"
+          ],
+          "note": "White turtleneck under camel check cardigan for a layered look."
+        },
+        {
+          "pieces": [
+            "41",
+            "3",
+            "33"
+          ],
+          "note": "Striped sailor sweater and sneakers give a relaxed casual mix."
+        }
+      ]
+    },
+    "ILLESTEVA-6417560": {
+      "outfits": [
+        {
+          "pieces": [
+            "4",
+            "20",
+            "33",
+            "10"
+          ],
+          "note": "Black eyelet sundress with strappy sandals and tote \u2014 sunglasses finish the all-black look."
+        },
+        {
+          "pieces": [
+            "21",
+            "36",
+            "3",
+            "33"
+          ],
+          "note": "White tee, light jeans, sneakers: matte black shades sharpen the classic basics."
+        },
+        {
+          "pieces": [
+            "12",
+            "29",
+            "50",
+            "11"
+          ],
+          "note": "Natural knit, acorn chinos, chocolate boots; black eyewear anchors the warm neutrals."
+        },
+        {
+          "pieces": [
+            "23",
+            "26",
+            "10",
+            "2"
+          ],
+          "note": "Floral mini with raffia platforms and gold jewelry, cooled by black sunglasses."
+        },
+        {
+          "pieces": [
+            "5",
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Hoodie, active shorts, sneakers and leather cap \u2014 sporty with black eyewear."
+        },
+        {
+          "pieces": [
+            "39",
+            "24",
+            "30",
+            "33"
+          ],
+          "note": "Plaid suiting trousers, white turtleneck, black puffer; sunglasses keep it polished."
+        },
+        {
+          "pieces": [
+            "44",
+            "55",
+            "20",
+            "10"
+          ],
+          "note": "Leopard tank, black wrap skirt, sandals \u2014 bold print with matte black shades."
+        },
+        {
+          "pieces": [
+            "41",
+            "19",
+            "26",
+            "33"
+          ],
+          "note": "Striped sweater, tailored black bermudas, platforms: easy weekend with black eyewear."
         }
       ]
     },
@@ -795,27 +2406,105 @@
       "outfits": [
         {
           "pieces": [
-            "12",
             "36",
-            "50"
-          ],
-          "note": "Natural boxy knit and pale jeans balance the black jacket; brown boots warm it."
-        },
-        {
-          "pieces": [
             "24",
-            "58",
-            "50"
+            "3",
+            "33"
           ],
-          "note": "White turtleneck under the jacket with black wrap skirt, chocolate boots add contrast."
+          "note": "White turtleneck under the black puffer, light jeans, sneakers and roomy black tote."
         },
         {
           "pieces": [
-            "41",
+            "4",
+            "50",
+            "10"
+          ],
+          "note": "Black eyelet sundress with the black knit puffer; brown boots and gold earrings warm it."
+        },
+        {
+          "pieces": [
             "13",
+            "41",
             "50"
           ],
-          "note": "Striped sailor sweater and relaxed cotton trousers keep the black puffer easy."
+          "note": "Striped sweater and relaxed cotton trousers layer easily under black; chocolate boots ground it."
+        },
+        {
+          "pieces": [
+            "29",
+            "21",
+            "16",
+            "3"
+          ],
+          "note": "White tee, acorn cargos, leather cap and court sneakers for an easy everyday look."
+        },
+        {
+          "pieces": [
+            "58",
+            "12",
+            "50",
+            "33"
+          ],
+          "note": "Black wrap skirt with natural boxy sweater, boots and black tote: neutral top to bottom."
+        }
+      ]
+    },
+    "JENNY-BIRD-7068658": {
+      "outfits": [
+        {
+          "pieces": [
+            "4",
+            "20",
+            "10",
+            "33"
+          ],
+          "note": "Black eyelet sundress and strappy sandals leave the gold anklet visible."
+        },
+        {
+          "pieces": [
+            "54",
+            "26",
+            "9",
+            "10"
+          ],
+          "note": "Vacation romper with raffia platforms; gold anklet and huggies add shine."
+        },
+        {
+          "pieces": [
+            "21",
+            "19",
+            "20",
+            "2",
+            "33"
+          ],
+          "note": "White tee, tailored black bermudas, sandals: bare ankle shows the gold."
+        },
+        {
+          "pieces": [
+            "32",
+            "44",
+            "26",
+            "10"
+          ],
+          "note": "Sarong skirt and leopard tank, platforms \u2014 resort look for an anklet."
+        },
+        {
+          "pieces": [
+            "38",
+            "20",
+            "11",
+            "2"
+          ],
+          "note": "Rose floral dress, cognac belt, black sandals; gold jewelry ties it together."
+        },
+        {
+          "pieces": [
+            "25",
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Active shorts and hoodie with court sneakers keep the anklet casual."
         }
       ]
     },
@@ -823,21 +2512,35 @@
       "outfits": [
         {
           "pieces": [
-            "26"
+            "3",
+            "33",
+            "16"
           ],
-          "note": "Natural raffia platform echoes the ecru dress for an easy neutral pairing."
+          "note": "Neutral sneakers, black tote and leather cap keep the ecru dress easy."
         },
         {
           "pieces": [
-            "20"
+            "14",
+            "50",
+            "10"
           ],
-          "note": "Black strappy leather sandals sharpen the solid ecru dress with clean contrast."
+          "note": "Nougat shearling coat and chocolate boots elevate the solid ecru dress."
         },
         {
           "pieces": [
-            "50"
+            "12",
+            "26",
+            "2"
           ],
-          "note": "Chocolate leather boots ground the soft ecru dress in warm neutrals."
+          "note": "Natural boxy sweater layered over, raffia platforms echo the tonal palette."
+        },
+        {
+          "pieces": [
+            "30",
+            "50",
+            "9"
+          ],
+          "note": "Black leather puffer and chocolate boots ground the light stretchy dress."
         }
       ]
     },
@@ -845,21 +2548,60 @@
       "outfits": [
         {
           "pieces": [
-            "20"
+            "21",
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Black strappy leather sandals keep the solid blue denim slip dress clean."
+          "note": "White tee layered under denim, sneakers and black tote keep it easy everyday."
         },
         {
           "pieces": [
-            "26"
+            "20",
+            "10",
+            "2"
           ],
-          "note": "Natural raffia platform mules add light contrast to the blue cotton dress."
+          "note": "Dress worn alone with black strappy sandals and gold jewelry, clean and simple."
         },
         {
           "pieces": [
-            "50"
+            "24",
+            "50",
+            "14"
           ],
-          "note": "Chocolate leather boots ground the everyday denim slip dress."
+          "note": "White turtleneck under the slip, brown boots and nougat coat for cold days."
+        },
+        {
+          "pieces": [
+            "41",
+            "26",
+            "33"
+          ],
+          "note": "Striped sailor sweater over the dress, raffia platforms and roomy tote."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Grey hoodie, court sneakers and leather cap give the slip a sporty edge."
+        },
+        {
+          "pieces": [
+            "52",
+            "50",
+            "11"
+          ],
+          "note": "Camel check cardigan, cognac belt and chocolate boots warm up the blue denim."
+        },
+        {
+          "pieces": [
+            "44",
+            "20",
+            "10"
+          ],
+          "note": "Leopard tank under denim with black sandals and gold huggies for contrast."
         }
       ]
     },
@@ -867,17 +2609,56 @@
       "outfits": [
         {
           "pieces": [
+            "21",
             "36",
-            "26"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "White jeans and natural raffia platforms keep the striped cardigan light and easy."
+          "note": "Striped cardigan over white tee and light jeans; sneakers and tote keep it easy."
         },
         {
           "pieces": [
-            "58",
-            "20"
+            "43",
+            "20",
+            "10"
           ],
-          "note": "Black wrap skirt and black leather sandals ground the nero-cammello stripes."
+          "note": "Black shirtdress grounds the striped knit; sandals and gold studs finish it."
+        },
+        {
+          "pieces": [
+            "21",
+            "13",
+            "26",
+            "2"
+          ],
+          "note": "Gold relaxed trousers echo the cardigan's giallo stripe; raffia platforms lift it."
+        },
+        {
+          "pieces": [
+            "24",
+            "58",
+            "50",
+            "33"
+          ],
+          "note": "White turtleneck and black wrap skirt let the stripes lead; brown boots add warmth."
+        },
+        {
+          "pieces": [
+            "21",
+            "19",
+            "3",
+            "16"
+          ],
+          "note": "Black tailored shorts and tee, sneakers and leather cap for a weekend look."
+        },
+        {
+          "pieces": [
+            "18",
+            "20",
+            "11"
+          ],
+          "note": "Sunshine dress matches the cardigan's yellow; cognac belt and black sandals sharpen it."
         }
       ]
     },
@@ -886,23 +2667,56 @@
         {
           "pieces": [
             "21",
-            "20"
+            "20",
+            "11",
+            "33",
+            "10"
           ],
-          "note": "White cotton tee keeps khaki tailored shorts clean; black leather sandals ground it."
+          "note": "White tee and black sandals keep khaki tailored shorts clean and polished."
         },
         {
           "pieces": [
             "41",
-            "26"
+            "3",
+            "9",
+            "16"
           ],
-          "note": "Navy stripe sweater adds pattern to solid khaki; natural raffia platforms echo the neutrals."
+          "note": "Striped sweater with court sneakers and cap for an easy casual day."
+        },
+        {
+          "pieces": [
+            "24",
+            "26",
+            "2",
+            "10"
+          ],
+          "note": "Optic white turtleneck and raffia platforms make the khaki shorts feel refined."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "33"
+          ],
+          "note": "Grey hoodie, sneakers and black tote: relaxed everyday neutrals."
         },
         {
           "pieces": [
             "44",
-            "20"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Leopard tank livens solid khaki shorts; black strappy sandals keep it simple."
+          "note": "Leopard tank adds print against solid khaki; black sandals and tote anchor it."
+        },
+        {
+          "pieces": [
+            "52",
+            "21",
+            "26",
+            "11"
+          ],
+          "note": "Check cardigan over white tee layers camel tones with the khaki."
         }
       ]
     },
@@ -910,15 +2724,44 @@
       "outfits": [
         {
           "pieces": [
-            "26"
+            "26",
+            "10",
+            "2",
+            "9"
           ],
-          "note": "Natural raffia platform mules echo the floral cotton sundress's vacation ease."
+          "note": "Raffia platforms and gold jewelry keep this floral sundress vacation-ready."
         },
         {
           "pieces": [
-            "20"
+            "20",
+            "33",
+            "9"
           ],
-          "note": "Black strappy leather sandals keep the floral dress grounded and neutral."
+          "note": "Black sandals and tote ground the print for easy everyday errands."
+        },
+        {
+          "pieces": [
+            "12",
+            "50",
+            "11"
+          ],
+          "note": "Natural sweater layered over, cognac belt and chocolate boots for cooler days."
+        },
+        {
+          "pieces": [
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Nougat shearling coat and chocolate boots dress the sundress up warmly."
+        },
+        {
+          "pieces": [
+            "3",
+            "5",
+            "16"
+          ],
+          "note": "Hoodie, sneakers and leather cap make the dress casual and sporty."
         }
       ]
     },
@@ -926,23 +2769,36 @@
       "outfits": [
         {
           "pieces": [
-            "4"
+            "49",
+            "10",
+            "2"
           ],
-          "note": "Black solid cotton sundress lets the crystal silver heels shine."
+          "note": "Cocktail jacquard dress and crystal heels\u2014event-ready, finished with delicate gold jewelry."
+        },
+        {
+          "pieces": [
+            "43",
+            "33",
+            "2"
+          ],
+          "note": "Black shirtdress keeps it simple; silver crystal bows do the talking."
+        },
+        {
+          "pieces": [
+            "58",
+            "24",
+            "30",
+            "10"
+          ],
+          "note": "Black wrap skirt, white turtleneck, leather puffer\u2014sleek dark base for silver heels."
         },
         {
           "pieces": [
             "40",
-            "58"
+            "48",
+            "10"
           ],
-          "note": "Black wrap skirt and floral corset crop top dress up the heels."
-        },
-        {
-          "pieces": [
-            "24",
-            "45"
-          ],
-          "note": "Optic white turtleneck with blue jeans keeps the sparkling heels center stage."
+          "note": "Floral corset top with slim black trousers lets the crystal heels shine."
         }
       ]
     },
@@ -950,21 +2806,43 @@
       "outfits": [
         {
           "pieces": [
-            "26"
+            "20",
+            "10",
+            "2"
           ],
-          "note": "Natural raffia platform mules lift the graphic slipdress for vacation days."
+          "note": "Black strappy sandals and gold jewelry keep the graphic slipdress clean and vacation-ready."
         },
         {
           "pieces": [
-            "20"
+            "26",
+            "9",
+            "33"
           ],
-          "note": "Black strappy leather sandals keep the stretchy printed slipdress neutral and easy."
+          "note": "Raffia platforms, sunglasses and roomy black tote make it an easy daytime look."
         },
         {
           "pieces": [
-            "50"
+            "12",
+            "20",
+            "10"
           ],
-          "note": "Chocolate leather boots ground the slipdress's bold Disco Matrix graphic."
+          "note": "Natural boxy sweater layered over the dress, sandals and gold earrings finish it."
+        },
+        {
+          "pieces": [
+            "14",
+            "50",
+            "2"
+          ],
+          "note": "Nougat shearling coat and chocolate boots dress the slipdress up warmly."
+        },
+        {
+          "pieces": [
+            "30",
+            "3",
+            "16"
+          ],
+          "note": "Black puffer, sneakers and leather cap give the stretchy dress a sportier edge."
         }
       ]
     },
@@ -972,24 +2850,189 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "20"
+            "36",
+            "3",
+            "33",
+            "10"
           ],
-          "note": "Pink sweatshirt over blue jeans, black strappy sandals keep it simple everyday."
+          "note": "Light jeans and neutral sneakers keep the Barbie pullover easy for everyday."
+        },
+        {
+          "pieces": [
+            "45",
+            "50",
+            "14"
+          ],
+          "note": "Blue jeans, chocolate boots and the nougat coat warm up the pink knit."
         },
         {
           "pieces": [
             "19",
-            "26"
+            "20",
+            "9",
+            "16"
           ],
-          "note": "Black tailored bermudas balance the draped sweatshirt; natural raffia platforms add lightness."
+          "note": "Black tailored shorts, sandals and leather cap sharpen the bright sweatshirt."
         },
         {
           "pieces": [
-            "29",
-            "50"
+            "13",
+            "26",
+            "2"
           ],
-          "note": "Acorn chinos and chocolate leather boots ground the bright cotton pullover."
+          "note": "Gold relaxed pants and raffia platforms give a soft neutral pairing."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "33"
+          ],
+          "note": "Plaid suiting trousers dress the cotton pullover up; black sandals and tote anchor."
+        },
+        {
+          "pieces": [
+            "58",
+            "3",
+            "30",
+            "10"
+          ],
+          "note": "Black wrap skirt, sneakers and leather puffer for a sporty everyday mix."
+        }
+      ]
+    },
+    "OLIVER-PEOPL-9456665": {
+      "outfits": [
+        {
+          "pieces": [
+            "4",
+            "20",
+            "33",
+            "10"
+          ],
+          "note": "Black eyelet sundress, black sandals and tote: G-15 lenses finish a clean neutral look."
+        },
+        {
+          "pieces": [
+            "21",
+            "36",
+            "3",
+            "2"
+          ],
+          "note": "White tee and light jeans with sneakers\u2014easy everyday base for gravel frames."
+        },
+        {
+          "pieces": [
+            "12",
+            "13",
+            "26",
+            "11"
+          ],
+          "note": "Natural knit, gold cotton trousers, raffia mules: warm neutrals echo the gravel frame."
+        },
+        {
+          "pieces": [
+            "28",
+            "26",
+            "11",
+            "10"
+          ],
+          "note": "Natural eyelet dress with raffia platforms and cognac belt for sunny days."
+        },
+        {
+          "pieces": [
+            "5",
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Hoodie, active shorts and court sneakers with a leather cap\u2014sporty and simple."
+        },
+        {
+          "pieces": [
+            "24",
+            "29",
+            "50",
+            "14"
+          ],
+          "note": "White turtleneck, acorn chinos, chocolate boots under the nougat coat."
+        },
+        {
+          "pieces": [
+            "41",
+            "19",
+            "3",
+            "2"
+          ],
+          "note": "Striped sailor sweater and black tailored bermudas keep it classic and neutral."
+        },
+        {
+          "pieces": [
+            "44",
+            "48",
+            "20",
+            "33"
+          ],
+          "note": "Leopard tank with slim black capris and sandals for a bolder day."
+        }
+      ]
+    },
+    "PARAJUMPERS-9629180": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "36",
+            "3",
+            "33",
+            "9"
+          ],
+          "note": "White turtleneck and pale jeans keep the black puffer clean and easy."
+        },
+        {
+          "pieces": [
+            "12",
+            "29",
+            "50",
+            "10"
+          ],
+          "note": "Natural knit with acorn cargos and chocolate boots: warm neutrals under black."
+        },
+        {
+          "pieces": [
+            "41",
+            "45",
+            "3",
+            "16"
+          ],
+          "note": "Striped sailor sweater and blue jeans give the parka casual weekend energy."
+        },
+        {
+          "pieces": [
+            "43",
+            "50",
+            "33",
+            "2"
+          ],
+          "note": "Black shirtdress and brown boots, puffer layered over for all-black ease."
+        },
+        {
+          "pieces": [
+            "35",
+            "39",
+            "50",
+            "10"
+          ],
+          "note": "Logo knit with plaid suiting trousers makes the puffer feel polished."
+        },
+        {
+          "pieces": [
+            "21",
+            "48",
+            "3",
+            "11"
+          ],
+          "note": "White tee, black capris, sneakers: simple base, belt adds cognac contrast."
         }
       ]
     },
@@ -998,16 +3041,54 @@
         {
           "pieces": [
             "21",
-            "20"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Crisp white tee and black leather sandals keep the leather shorts clean."
+          "note": "White tee and black sandals keep these leather shorts clean and everyday."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Grey hoodie, sneakers and leather cap for an easy sporty look."
+        },
+        {
+          "pieces": [
+            "40",
+            "20",
+            "2",
+            "10"
+          ],
+          "note": "Floral corset top dresses the black shorts up with gold jewelry."
+        },
+        {
+          "pieces": [
+            "12",
+            "26",
+            "11"
+          ],
+          "note": "Natural knit and raffia platforms warm up the black leather."
         },
         {
           "pieces": [
             "41",
-            "26"
+            "3",
+            "33"
           ],
-          "note": "Navy stripe sweater adds pattern; natural raffia platforms lighten the black shorts."
+          "note": "Striped sweater and sneakers add pattern to solid black shorts."
+        },
+        {
+          "pieces": [
+            "24",
+            "22",
+            "20",
+            "33"
+          ],
+          "note": "White turtleneck layered under checkered cardigan, all black-and-white."
         }
       ]
     },
@@ -1015,26 +3096,58 @@
       "outfits": [
         {
           "pieces": [
-            "24",
+            "21",
             "45",
-            "20"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "White turtleneck under black tweed, R13 jeans and black sandals stay neutral."
+          "note": "White tee and matching R13 jeans keep the tweed jacket easy; black sandals, tote."
+        },
+        {
+          "pieces": [
+            "24",
+            "39",
+            "50",
+            "33"
+          ],
+          "note": "White turtleneck under tweed with plaid suiting trousers and brown boots for work."
         },
         {
           "pieces": [
             "43",
-            "50"
+            "20",
+            "33",
+            "9"
           ],
-          "note": "Black shirtdress echoes the jacket; chocolate leather boots warm the black."
+          "note": "Black shirtdress plus black tweed reads sleek head-to-toe; sandals and tote finish."
         },
         {
           "pieces": [
             "12",
             "19",
-            "26"
+            "3",
+            "16"
           ],
-          "note": "Natural R13 sweater, black tailored bermudas, raffia platforms balance the tweed."
+          "note": "R13 sweater and jacket together over tailored black shorts, sneakers, leather cap."
+        },
+        {
+          "pieces": [
+            "23",
+            "26",
+            "10",
+            "11"
+          ],
+          "note": "Floral mini softens the black tweed; raffia platforms and cognac belt warm it."
+        },
+        {
+          "pieces": [
+            "40",
+            "13",
+            "26",
+            "2"
+          ],
+          "note": "Printed corset top under tweed, relaxed gold pants, natural platforms."
         }
       ]
     },
@@ -1042,15 +3155,53 @@
       "outfits": [
         {
           "pieces": [
-            "26"
+            "26",
+            "11",
+            "10"
           ],
-          "note": "Natural raffia platform mules echo the linen dress's easy everyday feel."
+          "note": "Raffia platforms and cognac belt warm up the striped sundress; gold earrings finish."
         },
         {
           "pieces": [
-            "20"
+            "20",
+            "33",
+            "9",
+            "2"
           ],
-          "note": "Black strappy leather sandals ground the striped cotton sundress in neutrals."
+          "note": "Black sandals, tote and sunglasses keep the striped dress easy for everyday."
+        },
+        {
+          "pieces": [
+            "3",
+            "5",
+            "16",
+            "33"
+          ],
+          "note": "Hoodie, sneakers and cap make a relaxed layered take on the dress."
+        },
+        {
+          "pieces": [
+            "12",
+            "50",
+            "11"
+          ],
+          "note": "Natural sweater over the dress with chocolate boots and cognac belt."
+        },
+        {
+          "pieces": [
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Nougat long coat layers over the dress; chocolate boots ground it."
+        },
+        {
+          "pieces": [
+            "24",
+            "30",
+            "3"
+          ],
+          "note": "White turtleneck under the dress, black puffer and sneakers on top."
         }
       ]
     },
@@ -1058,24 +3209,120 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "20"
+            "36",
+            "3",
+            "33",
+            "10"
           ],
-          "note": "Blue jeans and black sandals let the rainbow stripe sweater lead."
+          "note": "Rainbow stripes pop against pale jeans; neutral sneakers and tote keep it easy."
+        },
+        {
+          "pieces": [
+            "48",
+            "20",
+            "2",
+            "9"
+          ],
+          "note": "Black slim trousers and sandals ground the colorful stripe simply."
         },
         {
           "pieces": [
             "58",
-            "26"
+            "26",
+            "10"
           ],
-          "note": "Black wrap skirt with natural raffia platforms keeps the stripes center stage."
+          "note": "Black wrap skirt plus raffia platforms let the rainbow knit lead."
         },
         {
           "pieces": [
             "29",
-            "50"
+            "50",
+            "14",
+            "33"
           ],
-          "note": "Acorn chinos and chocolate boots ground the multicolor knit in neutrals."
+          "note": "Acorn cargos, chocolate boots and nougat coat build a warm neutral frame."
+        },
+        {
+          "pieces": [
+            "19",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Tailored black shorts with sneakers and cap for a sporty everyday look."
+        },
+        {
+          "pieces": [
+            "45",
+            "30",
+            "50",
+            "33"
+          ],
+          "note": "Blue jeans, black leather puffer and chocolate boots add edge."
+        },
+        {
+          "pieces": [
+            "13",
+            "26",
+            "11",
+            "2"
+          ],
+          "note": "Gold cotton trousers and cognac belt echo the sweater's warm tones."
+        }
+      ]
+    },
+    "ROXANNE-ASSO-9460272": {
+      "outfits": [
+        {
+          "pieces": [
+            "18",
+            "26",
+            "33"
+          ],
+          "note": "Sunshine mini and raffia platforms let the multicolour flower studs pop."
+        },
+        {
+          "pieces": [
+            "23",
+            "20",
+            "2"
+          ],
+          "note": "Botanic floral dress echoes the flowers; black sandals and gold ring keep it clean."
+        },
+        {
+          "pieces": [
+            "21",
+            "36",
+            "3",
+            "2"
+          ],
+          "note": "White tee, light jeans, sneakers: easy base for colourful studs."
+        },
+        {
+          "pieces": [
+            "4",
+            "11",
+            "50",
+            "33"
+          ],
+          "note": "Black eyelet dress, cognac belt and brown boots ground bright earrings."
+        },
+        {
+          "pieces": [
+            "54",
+            "20",
+            "9"
+          ],
+          "note": "Multi floral romper matches the studs; black sandals and sunglasses finish it."
+        },
+        {
+          "pieces": [
+            "39",
+            "24",
+            "50",
+            "33"
+          ],
+          "note": "Plaid suiting trousers and white turtleneck: studs add colour to workwear."
         }
       ]
     },
@@ -1083,21 +3330,52 @@
       "outfits": [
         {
           "pieces": [
-            "20"
+            "20",
+            "33",
+            "10",
+            "2"
           ],
-          "note": "Black leather sandals echo the dress's black base for an easy everyday look."
+          "note": "Black sandals and tote keep the floral slipdress clean and everyday."
         },
         {
           "pieces": [
-            "26"
+            "5",
+            "3",
+            "16"
           ],
-          "note": "Natural raffia platforms lift the floral slipdress with a light neutral contrast."
+          "note": "Grey hoodie layered over the dress with sneakers and leather cap."
         },
         {
           "pieces": [
-            "50"
+            "12",
+            "50",
+            "33"
           ],
-          "note": "Chocolate leather boots ground the black floral dress in warm neutral tones."
+          "note": "Natural sweater over the dress, chocolate boots, black tote."
+        },
+        {
+          "pieces": [
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Nougat long coat and chocolate boots dress up the black floral slip."
+        },
+        {
+          "pieces": [
+            "24",
+            "26",
+            "2"
+          ],
+          "note": "White turtleneck under the dress, raffia platforms for texture."
+        },
+        {
+          "pieces": [
+            "30",
+            "3",
+            "9"
+          ],
+          "note": "Black puffer and sneakers make the slipdress casual and sporty."
         }
       ]
     },
@@ -1106,23 +3384,53 @@
         {
           "pieces": [
             "21",
-            "26"
+            "3",
+            "11",
+            "9"
           ],
-          "note": "White cotton tee keeps khaki tailored shorts clean; natural raffia platforms echo the neutral."
+          "note": "White tee, khaki shorts, neutral sneakers; leather belt and sunglasses finish it."
         },
         {
           "pieces": [
             "41",
-            "20"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Navy stripe sweater adds pattern to solid khaki; black sandals ground it."
+          "note": "Striped sweater and black sandals add polish to khaki tailored shorts."
+        },
+        {
+          "pieces": [
+            "24",
+            "26",
+            "2"
+          ],
+          "note": "Optic white turtleneck with raffia platforms keeps the khaki look tonal."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Grey hoodie, sneakers and leather cap for an easy everyday version."
         },
         {
           "pieces": [
             "44",
-            "26"
+            "20",
+            "33"
           ],
-          "note": "Leopard tank brings print against plain khaki twill; natural mules stay neutral."
+          "note": "Leopard tank lifts solid khaki; black sandals and tote ground it."
+        },
+        {
+          "pieces": [
+            "12",
+            "52",
+            "20",
+            "11"
+          ],
+          "note": "Natural knit layered under checked camel cardigan over neutral shorts."
         }
       ]
     },
@@ -1131,16 +3439,131 @@
         {
           "pieces": [
             "21",
-            "20"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "White cotton tee keeps army cargos clean; black strappy sandals stay neutral."
+          "note": "White tee and neutral sneakers keep army cargos simple for everyday errands."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "50",
+            "11"
+          ],
+          "note": "White turtleneck under the nougat coat, chocolate boots and cognac belt tie it together."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16",
+            "33"
+          ],
+          "note": "Grey hoodie, court sneakers and leather cap make an easy sporty pairing."
         },
         {
           "pieces": [
             "41",
-            "50"
+            "30",
+            "33",
+            "10"
           ],
-          "note": "Navy stripe sweater adds pattern; chocolate leather boots echo the earthy army."
+          "note": "Striped sailor sweater with black puffer and tote; gold earrings finish it."
+        },
+        {
+          "pieces": [
+            "44",
+            "26",
+            "2"
+          ],
+          "note": "Leopard tank and raffia platforms dress the twill cargos up a little."
+        },
+        {
+          "pieces": [
+            "12",
+            "22",
+            "20",
+            "33"
+          ],
+          "note": "Natural knit layered with checkered cardigan, black sandals and tote."
+        },
+        {
+          "pieces": [
+            "47",
+            "50",
+            "11",
+            "9"
+          ],
+          "note": "Navy polo, chocolate boots and cognac leather belt read pulled-together."
+        }
+      ]
+    },
+    "SEA-9407718-01": {
+      "outfits": [
+        {
+          "pieces": [
+            "21",
+            "3",
+            "33",
+            "9"
+          ],
+          "note": "White tee and neutral sneakers keep black cargos clean and easy."
+        },
+        {
+          "pieces": [
+            "5",
+            "16",
+            "3",
+            "33"
+          ],
+          "note": "Grey hoodie, leather cap and sneakers make an easy sporty look."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "White turtleneck under the shearling coat, warm brown boots finish it."
+        },
+        {
+          "pieces": [
+            "40",
+            "30",
+            "3",
+            "2"
+          ],
+          "note": "Floral corset top and leather puffer dress the cargos up at night."
+        },
+        {
+          "pieces": [
+            "12",
+            "11",
+            "26",
+            "10"
+          ],
+          "note": "Natural knit, cognac belt and raffia platforms for a soft neutral look."
+        },
+        {
+          "pieces": [
+            "35",
+            "31",
+            "3",
+            "9"
+          ],
+          "note": "Black-and-white logo sweater with sleek puffer keeps the palette sharp."
+        },
+        {
+          "pieces": [
+            "44",
+            "20",
+            "33",
+            "2"
+          ],
+          "note": "Leopard tank and black strappy sandals add print to plain black twill."
         }
       ]
     },
@@ -1148,24 +3571,74 @@
       "outfits": [
         {
           "pieces": [
-            "58",
-            "20"
+            "36",
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Black wrap skirt and black sandals keep this tank tonal and clean."
+          "note": "Black tank with light jeans, black sandals, tote and gold earrings."
         },
         {
           "pieces": [
-            "36",
-            "26"
+            "39",
+            "50",
+            "33",
+            "2"
           ],
-          "note": "Light Salt Flats jeans lift the black tank; natural raffia platforms add contrast."
+          "note": "Plaid suiting trousers dress the simple black tank up for work."
         },
         {
           "pieces": [
             "19",
-            "20"
+            "26",
+            "9",
+            "10"
           ],
-          "note": "Black tailored bermudas and strappy leather sandals make an easy all-black everyday look."
+          "note": "Tailored black bermudas, raffia platforms and sunglasses for an easy everyday look."
+        },
+        {
+          "pieces": [
+            "58",
+            "52",
+            "26",
+            "2"
+          ],
+          "note": "Black wrap skirt with camel check cardigan and natural espadrilles."
+        },
+        {
+          "pieces": [
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Stretchy black shorts, court sneakers and leather cap for active days."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "14",
+            "10"
+          ],
+          "note": "Acorn chinos, chocolate boots and nougat knit coat layer neutrals."
+        },
+        {
+          "pieces": [
+            "45",
+            "22",
+            "20",
+            "33"
+          ],
+          "note": "Blue jeans and checkered cardigan over the black tank, black sandals."
+        },
+        {
+          "pieces": [
+            "48",
+            "50",
+            "30",
+            "9"
+          ],
+          "note": "All-black capris and leather puffer with chocolate boots, sleek and simple."
         }
       ]
     },
@@ -1173,23 +3646,52 @@
       "outfits": [
         {
           "pieces": [
-            "4"
+            "4",
+            "10",
+            "33"
           ],
-          "note": "Black cotton sundress keeps the zebra-print leather mules the focal point."
+          "note": "Black eyelet sundress keeps zebra mules the focus; gold earrings, black tote finish."
         },
         {
           "pieces": [
             "21",
-            "48"
+            "36",
+            "9",
+            "2"
           ],
-          "note": "White tee and black slim trousers form a neutral base for animal print."
+          "note": "White tee and pale jeans stay quiet under animal-print mules."
+        },
+        {
+          "pieces": [
+            "24",
+            "58",
+            "10"
+          ],
+          "note": "Optic white turtleneck with black wrap skirt frames the print cleanly."
         },
         {
           "pieces": [
             "12",
-            "36"
+            "29",
+            "11"
           ],
-          "note": "Natural knit pullover with light jeans softens the bold zebra leather mules."
+          "note": "Natural knit, acorn chinos and cognac belt echo the mules' leather tones."
+        },
+        {
+          "pieces": [
+            "19",
+            "35",
+            "33"
+          ],
+          "note": "Black tailored bermudas and white-black sweater match the print's two-tone palette."
+        },
+        {
+          "pieces": [
+            "28",
+            "2",
+            "10"
+          ],
+          "note": "Natural eyelet dress with gold jewelry, an easy weekend pairing."
         }
       ]
     },
@@ -1197,17 +3699,53 @@
       "outfits": [
         {
           "pieces": [
-            "36",
-            "26"
+            "13",
+            "26",
+            "10",
+            "9"
           ],
-          "note": "White caftan over light jeans; natural raffia platforms keep it easy and neutral."
+          "note": "Gold relaxed pants and raffia platforms keep your white caftan easy and sunny."
+        },
+        {
+          "pieces": [
+            "19",
+            "20",
+            "33"
+          ],
+          "note": "Black tailored bermudas, strappy sandals and a black tote: crisp everyday contrast."
+        },
+        {
+          "pieces": [
+            "36",
+            "3",
+            "16"
+          ],
+          "note": "Salt Flats jeans, court sneakers and leather cap for a relaxed neutral look."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "14"
+          ],
+          "note": "Acorn chinos, chocolate boots and the nougat coat build a warm neutral layer."
         },
         {
           "pieces": [
             "58",
-            "20"
+            "11",
+            "20",
+            "10"
           ],
-          "note": "Black wrap skirt grounds the white cotton caftan; black strappy sandals match."
+          "note": "Black wrap skirt defined by a cognac belt, with sandals and gold earrings."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "2"
+          ],
+          "note": "Plaid suiting trousers dress the white cotton caftan up for work."
         }
       ]
     },
@@ -1215,15 +3753,44 @@
       "outfits": [
         {
           "pieces": [
-            "26"
+            "20",
+            "33",
+            "10",
+            "2"
           ],
-          "note": "Natural raffia platform mules lift the pistachio knit sundress for vacation."
+          "note": "Black strappy sandals and tote ground the pistachio knit; gold jewelry finishes it."
         },
         {
           "pieces": [
-            "20"
+            "26",
+            "11",
+            "9"
           ],
-          "note": "Black strappy leather sandals ground the solid pistachio dress simply."
+          "note": "Raffia platforms, cognac belt and sunglasses make this a vacation-ready look."
+        },
+        {
+          "pieces": [
+            "52",
+            "3",
+            "16"
+          ],
+          "note": "Camel check cardigan, court sneakers and leather cap for an everyday casual version."
+        },
+        {
+          "pieces": [
+            "24",
+            "50",
+            "14"
+          ],
+          "note": "White turtleneck layered under, chocolate boots and nougat coat for cooler days."
+        },
+        {
+          "pieces": [
+            "41",
+            "20",
+            "33"
+          ],
+          "note": "Navy stripe sweater over the dress, black sandals and tote keep it neutral."
         }
       ]
     },
@@ -1232,23 +3799,44 @@
         {
           "pieces": [
             "25",
-            "3"
+            "3",
+            "16"
           ],
-          "note": "Active shorts and court sneakers match the sweatshirt's sporty, neutral vibe."
+          "note": "Active shorts, court sneakers and leather cap match the sweatshirt's sporty check."
         },
         {
           "pieces": [
             "36",
-            "26"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Light jeans and natural raffia platforms keep the check top casual and neutral."
+          "note": "Light jeans, sneakers and black tote keep this easy and neutral."
         },
         {
           "pieces": [
-            "58",
-            "20"
+            "13",
+            "26",
+            "10"
           ],
-          "note": "Black wrap skirt with black strappy sandals balances the vintage white check."
+          "note": "Gold relaxed trousers and raffia platforms dress the sweatshirt up softly."
+        },
+        {
+          "pieces": [
+            "48",
+            "50",
+            "33",
+            "2"
+          ],
+          "note": "Black capri and chocolate boots give the checked sweatshirt a polished neutral base."
+        },
+        {
+          "pieces": [
+            "19",
+            "20",
+            "11"
+          ],
+          "note": "Tailored black bermuda, sandals and cognac belt for a clean everyday look."
         }
       ]
     },
@@ -1257,23 +3845,105 @@
         {
           "pieces": [
             "25",
-            "3"
+            "3",
+            "16"
           ],
-          "note": "Active shorts and court sneakers match the sweatshirt's sporty, neutral palette."
+          "note": "Active shorts, court sneakers and cap match the sweatshirt's sporty intent."
+        },
+        {
+          "pieces": [
+            "45",
+            "3",
+            "33"
+          ],
+          "note": "Blue jeans, neutral sneakers and black tote for easy everyday wear."
+        },
+        {
+          "pieces": [
+            "13",
+            "20",
+            "10"
+          ],
+          "note": "Relaxed cotton trousers and black sandals dress the check sweatshirt down softly."
+        },
+        {
+          "pieces": [
+            "19",
+            "26",
+            "9"
+          ],
+          "note": "Black tailored shorts and raffia platforms lift the vintage white top."
         },
         {
           "pieces": [
             "36",
-            "3"
+            "50",
+            "11"
           ],
-          "note": "Salt Flats jeans keep it neutral; sneakers echo the active vibe."
+          "note": "Pale jeans, chocolate boots and cognac belt keep it warmly neutral."
+        }
+      ]
+    },
+    "STAND-STUDIO-7097786": {
+      "outfits": [
+        {
+          "pieces": [
+            "24",
+            "36",
+            "50",
+            "33",
+            "10"
+          ],
+          "note": "White turtleneck and pale jeans keep rust coat clean; chocolate boots echo warm tone."
         },
         {
           "pieces": [
-            "58",
-            "20"
+            "12",
+            "13",
+            "50",
+            "11",
+            "2"
           ],
-          "note": "Black wrap skirt and strappy sandals ground the checked vintage white top."
+          "note": "Natural knit, gold cotton trousers and cognac belt build a warm tonal base."
+        },
+        {
+          "pieces": [
+            "41",
+            "45",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Striped sweater, blue jeans and sneakers for an easy weekend layering look."
+        },
+        {
+          "pieces": [
+            "43",
+            "50",
+            "33",
+            "10"
+          ],
+          "note": "Black shirtdress under the rust coat, grounded with brown boots and tote."
+        },
+        {
+          "pieces": [
+            "35",
+            "39",
+            "50",
+            "33",
+            "9"
+          ],
+          "note": "Plaid suiting trousers and logo knit make the coat feel polished for work."
+        },
+        {
+          "pieces": [
+            "24",
+            "58",
+            "50",
+            "2",
+            "10"
+          ],
+          "note": "Black wrap skirt with white turtleneck; gold jewelry warms the rust."
         }
       ]
     },
@@ -1282,25 +3952,72 @@
         {
           "pieces": [
             "24",
-            "45",
-            "50"
+            "36",
+            "3",
+            "33"
           ],
-          "note": "White turtleneck layers under the black coat; blue jeans and chocolate boots ground it."
-        },
-        {
-          "pieces": [
-            "12",
-            "58",
-            "50"
-          ],
-          "note": "Natural boxy knit over black wrap skirt keeps the palette neutral and simple."
+          "note": "White turtleneck and pale jeans keep the black coat crisp and everyday."
         },
         {
           "pieces": [
             "43",
-            "50"
+            "50",
+            "10"
           ],
-          "note": "Black shirtdress matches the coat's solid black; leather boots add warm contrast."
+          "note": "All-black shirtdress with chocolate boots; gold earrings lift the neutral palette."
+        },
+        {
+          "pieces": [
+            "12",
+            "29",
+            "50",
+            "2"
+          ],
+          "note": "Natural knit and acorn chinos add warm neutrals under black cotton."
+        },
+        {
+          "pieces": [
+            "21",
+            "39",
+            "33",
+            "9"
+          ],
+          "note": "White tee and plaid suiting pants make the coat work-ready."
+        },
+        {
+          "pieces": [
+            "41",
+            "45",
+            "3",
+            "16"
+          ],
+          "note": "Striped sweater, blue jeans and sneakers for an easy casual day."
+        },
+        {
+          "pieces": [
+            "58",
+            "24",
+            "50",
+            "33"
+          ],
+          "note": "Black wrap skirt and white turtleneck: simple monochrome layering."
+        },
+        {
+          "pieces": [
+            "38",
+            "50",
+            "10"
+          ],
+          "note": "Rose floral dress gets grounded by the solid black coat."
+        },
+        {
+          "pieces": [
+            "35",
+            "13",
+            "3",
+            "9"
+          ],
+          "note": "Logo knit and gold cotton pants keep it neutral and relaxed."
         }
       ]
     },
@@ -1309,25 +4026,57 @@
         {
           "pieces": [
             "24",
-            "45",
-            "50"
+            "36",
+            "50",
+            "33",
+            "10"
           ],
-          "note": "White turtleneck layers cleanly under the black coat with blue jeans, brown boots."
-        },
-        {
-          "pieces": [
-            "12",
-            "48",
-            "50"
-          ],
-          "note": "Natural boxy sweater and black trousers keep the black coat neutral."
+          "note": "White turtleneck and light jeans under black puffer; brown boots and tote finish it."
         },
         {
           "pieces": [
             "43",
-            "50"
+            "3",
+            "16",
+            "9"
           ],
-          "note": "Black shirtdress echoes the coat; chocolate boots add warm contrast."
+          "note": "Black shirtdress matches the coat; sneakers, leather cap and sunglasses keep it easy."
+        },
+        {
+          "pieces": [
+            "12",
+            "13",
+            "50",
+            "2"
+          ],
+          "note": "Natural sweater and gold cotton trousers warm up the black coat."
+        },
+        {
+          "pieces": [
+            "41",
+            "45",
+            "3",
+            "33"
+          ],
+          "note": "Striped sweater and blue jeans, court sneakers and black tote for everyday."
+        },
+        {
+          "pieces": [
+            "21",
+            "39",
+            "50",
+            "11"
+          ],
+          "note": "Plaid suiting trousers and white tee dress the parka up for work."
+        },
+        {
+          "pieces": [
+            "58",
+            "35",
+            "3",
+            "33"
+          ],
+          "note": "Black wrap skirt with white-black knit keeps the palette clean and graphic."
         }
       ]
     },
@@ -1336,16 +4085,53 @@
         {
           "pieces": [
             "21",
-            "20"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Crisp white tee and black sandals keep the orchid shorts clean and easy."
+          "note": "White tee and black sandals keep the orchid shorts crisp and everyday."
         },
         {
           "pieces": [
             "12",
-            "26"
+            "26",
+            "11",
+            "9"
           ],
-          "note": "Natural boxy knit and raffia platforms echo the shorts' cotton, soft tones."
+          "note": "Natural knit, raffia platforms and cognac belt warm up the bright shorts."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16"
+          ],
+          "note": "Grey hoodie, court sneakers and leather cap for an easy sporty look."
+        },
+        {
+          "pieces": [
+            "40",
+            "20",
+            "2"
+          ],
+          "note": "Floral corset top adds print contrast; black sandals ground the purple."
+        },
+        {
+          "pieces": [
+            "41",
+            "3",
+            "33"
+          ],
+          "note": "Navy stripe sweater and sneakers make a relaxed nautical pairing."
+        },
+        {
+          "pieces": [
+            "24",
+            "52",
+            "26",
+            "10"
+          ],
+          "note": "White turtleneck under checked camel cardigan, layered and polished."
         }
       ]
     },
@@ -1353,24 +4139,52 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "26"
+            "36",
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Blue jeans ground the orchid crop top; raffia platforms add natural contrast."
+          "note": "Crop top with light jeans, black sandals and tote\u2014easy everyday neutrals."
         },
         {
           "pieces": [
-            "58",
-            "20"
+            "13",
+            "26",
+            "9"
           ],
-          "note": "Black wrap skirt keeps the bright crop top the focus; black sandals match."
+          "note": "Gold relaxed trousers and raffia platforms keep the orchid crop top warm-toned."
         },
         {
           "pieces": [
             "19",
-            "26"
+            "3",
+            "16"
           ],
-          "note": "Black tailored bermudas balance the colorful crop; natural mules lighten the look."
+          "note": "Tailored black shorts, court sneakers and leather cap for a sporty everyday look."
+        },
+        {
+          "pieces": [
+            "58",
+            "20",
+            "11"
+          ],
+          "note": "Black cotton wrap skirt, cognac belt and strappy sandals define the waist."
+        },
+        {
+          "pieces": [
+            "45",
+            "22",
+            "3"
+          ],
+          "note": "Blue jeans, checkered cardigan and sneakers layer the crop top casually."
+        },
+        {
+          "pieces": [
+            "39",
+            "50",
+            "33"
+          ],
+          "note": "Plaid suiting trousers, brown boots and black tote dress the crop top up."
         }
       ]
     },
@@ -1379,23 +4193,54 @@
         {
           "pieces": [
             "5",
-            "3"
+            "3",
+            "16"
           ],
-          "note": "Heather grey hoodie matches the marl joggers; court sneakers keep it active."
-        },
-        {
-          "pieces": [
-            "12",
-            "50"
-          ],
-          "note": "Natural boxy sweater and chocolate leather boots warm up grey joggers."
+          "note": "Grey hoodie, court sneakers and leather cap: easy matching athleisure set."
         },
         {
           "pieces": [
             "21",
-            "26"
+            "46",
+            "3",
+            "33"
           ],
-          "note": "White tee stays simple; natural raffia platforms lift the neutral joggers."
+          "note": "White tee and running jacket keep the active joggers purposeful; tote carries all."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "White turtleneck under the long coat and boots elevates grey joggers."
+        },
+        {
+          "pieces": [
+            "41",
+            "26",
+            "9"
+          ],
+          "note": "Striped cropped sweater and raffia platforms add print to neutral joggers."
+        },
+        {
+          "pieces": [
+            "12",
+            "30",
+            "3",
+            "2"
+          ],
+          "note": "Natural boxy knit with black leather puffer and sneakers: clean contrast."
+        },
+        {
+          "pieces": [
+            "35",
+            "52",
+            "3",
+            "10"
+          ],
+          "note": "Logo sweater layered with camel check cardigan for a soft neutral mix."
         }
       ]
     },
@@ -1403,15 +4248,43 @@
       "outfits": [
         {
           "pieces": [
-            "26"
+            "26",
+            "9",
+            "10"
           ],
-          "note": "Natural raffia platform mules echo the dress's cotton, vacation-ready check."
+          "note": "Raffia platforms and gold hoops keep the green gingham sundress vacation-ready."
         },
         {
           "pieces": [
-            "20"
+            "20",
+            "33",
+            "2"
           ],
-          "note": "Black leather strappy sandals ground the green gingham with neutral simplicity."
+          "note": "Black sandals and tote ground the check print for everyday errands."
+        },
+        {
+          "pieces": [
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Sneakers, leather cap and sunglasses make the sundress casual and easy."
+        },
+        {
+          "pieces": [
+            "12",
+            "50",
+            "11"
+          ],
+          "note": "Natural knit layered over, cognac belt and chocolate boots for cooler days."
+        },
+        {
+          "pieces": [
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Nougat long coat, chocolate boots and gold earrings over the gingham dress."
         }
       ]
     },
@@ -1419,15 +4292,51 @@
       "outfits": [
         {
           "pieces": [
-            "26"
+            "26",
+            "9",
+            "10"
           ],
-          "note": "Natural raffia platform mules lift the green check sundress for vacation."
+          "note": "Raffia platforms and gold hoops keep this cotton sundress vacation-ready."
         },
         {
           "pieces": [
-            "20"
+            "20",
+            "33",
+            "2"
           ],
-          "note": "Black leather strappy sandals ground the printed cotton dress neutrally."
+          "note": "Black sandals and tote make the green dress an easy everyday look."
+        },
+        {
+          "pieces": [
+            "3",
+            "16",
+            "33"
+          ],
+          "note": "Sneakers, leather cap and tote for a relaxed casual take."
+        },
+        {
+          "pieces": [
+            "12",
+            "50",
+            "11"
+          ],
+          "note": "Natural sweater layered over, cognac belt and chocolate boots for cooler days."
+        },
+        {
+          "pieces": [
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Nougat shearling coat and chocolate boots dress the check dress up."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "9"
+          ],
+          "note": "Grey hoodie over the dress with court sneakers, sporty and neutral."
         }
       ]
     },
@@ -1436,16 +4345,63 @@
         {
           "pieces": [
             "21",
-            "26"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "White tee and natural raffia platforms keep cream cotton trousers clean and easy."
+          "note": "White tee and black sandals keep cream trousers crisp and easy."
         },
         {
           "pieces": [
             "41",
-            "20"
+            "50",
+            "11"
           ],
-          "note": "Navy-cream stripe knit plays off cream trousers; black sandals anchor it."
+          "note": "Navy stripe sweater and chocolate boots warm up the cream palette."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "10",
+            "2"
+          ],
+          "note": "White turtleneck under nougat coat makes a soft tonal look."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Hoodie, sneakers and leather cap for a relaxed everyday take."
+        },
+        {
+          "pieces": [
+            "44",
+            "26",
+            "33"
+          ],
+          "note": "Leopard tank and raffia platforms add print against solid cream."
+        },
+        {
+          "pieces": [
+            "12",
+            "30",
+            "33",
+            "9"
+          ],
+          "note": "Natural knit with black leather puffer balances soft and sharp."
+        },
+        {
+          "pieces": [
+            "47",
+            "52",
+            "50",
+            "2"
+          ],
+          "note": "Navy polo layered under camel check cardigan, finished with brown boots."
         }
       ]
     },
@@ -1454,16 +4410,64 @@
         {
           "pieces": [
             "29",
-            "26"
+            "50",
+            "11",
+            "10"
           ],
-          "note": "Acorn Tibi chinos echo the tan shirt; natural raffia platforms keep it neutral."
+          "note": "Tibi-on-Tibi neutrals: acorn chinos, chocolate boots, cognac belt, gold earrings."
         },
         {
           "pieces": [
             "36",
-            "20"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Salt Flats jeans and black leather sandals balance the oversized tan shirt."
+          "note": "Light jeans and sneakers keep the oversized shirt easy for everyday errands."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "33",
+            "2"
+          ],
+          "note": "Plaid suiting trousers and black sandals make it work-ready."
+        },
+        {
+          "pieces": [
+            "19",
+            "26",
+            "10",
+            "9"
+          ],
+          "note": "Black tailored bermudas and raffia platforms for a relaxed warm-weather look."
+        },
+        {
+          "pieces": [
+            "58",
+            "50",
+            "14",
+            "11"
+          ],
+          "note": "Black wrap skirt, chocolate boots, nougat coat layer over the tan shirt."
+        },
+        {
+          "pieces": [
+            "45",
+            "3",
+            "16",
+            "33"
+          ],
+          "note": "Blue jeans, sneakers and leather cap for a casual weekend."
+        },
+        {
+          "pieces": [
+            "43",
+            "20",
+            "33"
+          ],
+          "note": "Wear it open over the black shirtdress with black sandals."
         }
       ]
     },
@@ -1471,21 +4475,61 @@
       "outfits": [
         {
           "pieces": [
-            "20"
+            "20",
+            "33",
+            "10",
+            "2"
           ],
-          "note": "Black leather sandals echo the dress's black leather for a solid, everyday look."
+          "note": "Black slip dress, black sandals and tote; gold jewelry keeps it polished."
         },
         {
           "pieces": [
-            "50"
+            "24",
+            "50",
+            "33"
           ],
-          "note": "Chocolate leather boots warm the solid black dress with matching leather texture."
+          "note": "White turtleneck layered under the dress, chocolate boots and black tote."
         },
         {
           "pieces": [
-            "26"
+            "14",
+            "50",
+            "10"
           ],
-          "note": "Natural raffia platform mules lighten the black dress with contrasting texture."
+          "note": "Nougat shearling coat softens black leather; chocolate boots, gold earrings."
+        },
+        {
+          "pieces": [
+            "5",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Grey hoodie, court sneakers, leather cap and sunglasses dress the slip down."
+        },
+        {
+          "pieces": [
+            "30",
+            "3",
+            "33"
+          ],
+          "note": "Black leather puffer and sneakers for an all-black everyday look."
+        },
+        {
+          "pieces": [
+            "52",
+            "26",
+            "2"
+          ],
+          "note": "Camel check cardigan and raffia platforms warm up the black dress."
+        },
+        {
+          "pieces": [
+            "22",
+            "20",
+            "33"
+          ],
+          "note": "Checkered cardigan adds pattern over solid black; sandals and tote finish."
         }
       ]
     },
@@ -1493,21 +4537,57 @@
       "outfits": [
         {
           "pieces": [
-            "20"
+            "20",
+            "33",
+            "10",
+            "2"
           ],
-          "note": "Black leather sandals echo the dress's leather and solid black palette."
+          "note": "Black sandals and tote keep the leather slipdress sleek and simple."
         },
         {
           "pieces": [
-            "50"
+            "24",
+            "50",
+            "14",
+            "10"
           ],
-          "note": "Chocolate leather boots add warm contrast to the solid black dress."
+          "note": "White turtleneck layered under the dress, brown boots and shearling coat warm it."
         },
         {
           "pieces": [
-            "26"
+            "5",
+            "3",
+            "16",
+            "33"
           ],
-          "note": "Natural raffia platforms lighten the all-black leather slipdress."
+          "note": "Hoodie, sneakers and leather cap make the slipdress easy everyday."
+        },
+        {
+          "pieces": [
+            "12",
+            "26",
+            "11",
+            "9"
+          ],
+          "note": "Natural knit and raffia platforms soften black leather; cognac belt defines waist."
+        },
+        {
+          "pieces": [
+            "22",
+            "20",
+            "33",
+            "10"
+          ],
+          "note": "Checkered cardigan adds graphic contrast over black leather; black sandals and tote."
+        },
+        {
+          "pieces": [
+            "21",
+            "3",
+            "9",
+            "2"
+          ],
+          "note": "White tee under the dress with court sneakers for a clean, casual look."
         }
       ]
     },
@@ -1516,16 +4596,83 @@
         {
           "pieces": [
             "21",
-            "20"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "White cotton tee and black leather sandals keep bleached denim clean and simple."
+          "note": "White tee and clean sneakers keep bleached denim easy and everyday."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Optic white turtleneck under the nougat coat, chocolate boots warm the denim."
+        },
+        {
+          "pieces": [
+            "12",
+            "20",
+            "11",
+            "2"
+          ],
+          "note": "Natural knit, black sandals and cognac belt: quiet neutral layering."
+        },
+        {
+          "pieces": [
+            "5",
+            "16",
+            "3",
+            "33"
+          ],
+          "note": "Grey hoodie, leather cap and court sneakers for sporty everyday ease."
+        },
+        {
+          "pieces": [
+            "44",
+            "26",
+            "10",
+            "33"
+          ],
+          "note": "Leopard tank and raffia platforms add print against solid bleached denim."
         },
         {
           "pieces": [
             "41",
-            "26"
+            "20",
+            "33",
+            "9"
           ],
-          "note": "Navy stripe sweater adds pattern; natural raffia platforms echo the bleached tone."
+          "note": "Navy stripe sweater with black sandals and tote, simple and neutral."
+        },
+        {
+          "pieces": [
+            "47",
+            "30",
+            "50",
+            "2"
+          ],
+          "note": "Navy polo, black leather puffer, chocolate boots: polished neutral mix."
+        },
+        {
+          "pieces": [
+            "40",
+            "31",
+            "50",
+            "10"
+          ],
+          "note": "Floral corset top with black puffer and boots for an evening edge."
+        },
+        {
+          "pieces": [
+            "53",
+            "52",
+            "26",
+            "2"
+          ],
+          "note": "Tie-dye crop under camel check cardigan, raffia mules finish it."
         }
       ]
     },
@@ -1534,16 +4681,64 @@
         {
           "pieces": [
             "21",
-            "20"
+            "3",
+            "33",
+            "9"
           ],
-          "note": "White cotton tee and black leather sandals keep bleached denim clean and easy."
+          "note": "White tee and clean sneakers keep bleached denim easy and everyday."
+        },
+        {
+          "pieces": [
+            "24",
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "White turtleneck under the nougat coat, chocolate boots: polished neutral layering."
         },
         {
           "pieces": [
             "41",
-            "26"
+            "26",
+            "2"
           ],
-          "note": "Navy-cream stripe knit with natural raffia platforms adds texture to light denim."
+          "note": "Cropped sailor stripe and raffia platforms give denim a breezy lift."
+        },
+        {
+          "pieces": [
+            "5",
+            "16",
+            "3",
+            "33"
+          ],
+          "note": "Grey hoodie, leather cap and sneakers make a relaxed everyday look."
+        },
+        {
+          "pieces": [
+            "44",
+            "20",
+            "11",
+            "33"
+          ],
+          "note": "Leopard tank, black sandals and cognac belt dress the jeans up."
+        },
+        {
+          "pieces": [
+            "12",
+            "22",
+            "50",
+            "10"
+          ],
+          "note": "Natural knit with checkered cardigan layers texture over neutral denim."
+        },
+        {
+          "pieces": [
+            "47",
+            "30",
+            "50",
+            "9"
+          ],
+          "note": "Navy polo, black leather puffer and chocolate boots keep it sleek."
         }
       ]
     },
@@ -1551,26 +4746,68 @@
       "outfits": [
         {
           "pieces": [
-            "21",
             "39",
-            "20"
+            "21",
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Matching Tibi plaid suiting set with white tee and black sandals."
+          "note": "Matching Tibi plaid suit set with white tee, black sandals and tote."
         },
         {
           "pieces": [
+            "39",
             "24",
-            "36",
-            "50"
+            "50",
+            "2"
           ],
-          "note": "Optic white turtleneck and pale jeans keep the plaid blazer neutral."
+          "note": "Full plaid suiting over white turtleneck, warmed by chocolate leather boots."
+        },
+        {
+          "pieces": [
+            "36",
+            "21",
+            "20",
+            "33",
+            "9"
+          ],
+          "note": "Plaid blazer sharpens white jeans and tee; black sandals, tote, sunglasses."
+        },
+        {
+          "pieces": [
+            "29",
+            "12",
+            "50",
+            "11"
+          ],
+          "note": "Acorn chinos and natural knit keep the plaid blazer casual; cognac belt."
         },
         {
           "pieces": [
             "43",
-            "26"
+            "20",
+            "33",
+            "10"
           ],
-          "note": "Black shirtdress under the plaid blazer, natural raffia platforms lighten it."
+          "note": "Black shirtdress grounds the white-black plaid blazer; sandals and tote finish."
+        },
+        {
+          "pieces": [
+            "19",
+            "35",
+            "26",
+            "9"
+          ],
+          "note": "Black tailored bermudas with white-black sweater echo the blazer's palette."
+        },
+        {
+          "pieces": [
+            "58",
+            "24",
+            "50",
+            "2"
+          ],
+          "note": "Black wrap skirt and optic white turtleneck, clean under plaid suiting."
         }
       ]
     },
@@ -1579,16 +4816,56 @@
         {
           "pieces": [
             "36",
-            "26"
+            "20",
+            "10",
+            "33"
           ],
-          "note": "White blouse with light salt-flats jeans and natural raffia platforms, easy neutrals."
+          "note": "White blouse with pale jeans, black sandals, gold earrings and roomy tote."
+        },
+        {
+          "pieces": [
+            "39",
+            "20",
+            "33",
+            "2"
+          ],
+          "note": "Plaid suiting trousers make the white cotton blouse work-ready."
         },
         {
           "pieces": [
             "58",
-            "20"
+            "26",
+            "10",
+            "11"
           ],
-          "note": "Black wrap skirt and black strappy sandals sharpen the blanc cotton blouse."
+          "note": "Black wrap skirt, raffia platforms and cognac belt for an easy everyday look."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "52",
+            "11"
+          ],
+          "note": "Acorn chinos, check cardigan and chocolate boots keep it warm and neutral."
+        },
+        {
+          "pieces": [
+            "19",
+            "3",
+            "16",
+            "9"
+          ],
+          "note": "Tailored black shorts, court sneakers, cap and sunglasses for casual days."
+        },
+        {
+          "pieces": [
+            "45",
+            "50",
+            "14",
+            "10"
+          ],
+          "note": "Blue jeans and chocolate boots under the nougat coat, gold huggies finish it."
         }
       ]
     },
@@ -1596,23 +4873,62 @@
       "outfits": [
         {
           "pieces": [
+            "45",
             "21",
-            "36"
+            "33",
+            "9"
           ],
-          "note": "White tee and light jeans keep the checkerboard slip-ons the focal point."
+          "note": "White tee and blue jeans let the checkerboard slip-ons lead; black tote ties in."
         },
         {
           "pieces": [
-            "43"
+            "5",
+            "25",
+            "16"
           ],
-          "note": "Black cotton shirtdress echoes the sneakers' black and white palette."
+          "note": "Grey hoodie, black active shorts and cap match the sneakers' active purpose."
+        },
+        {
+          "pieces": [
+            "43",
+            "9",
+            "10"
+          ],
+          "note": "Black shirtdress keeps it simple; gold earrings and dark shades finish."
         },
         {
           "pieces": [
             "12",
-            "19"
+            "13",
+            "11",
+            "2"
           ],
-          "note": "Natural knit with black tailored Bermudas, clean neutrals beside the check."
+          "note": "Natural knit with relaxed pants and cognac belt softens the black-and-white check."
+        },
+        {
+          "pieces": [
+            "35",
+            "19",
+            "33"
+          ],
+          "note": "White-black sweater echoes the checkerboard; black tailored shorts and tote stay neutral."
+        },
+        {
+          "pieces": [
+            "24",
+            "58",
+            "14",
+            "10"
+          ],
+          "note": "White turtleneck, black wrap skirt and nougat coat: a clean neutral layering."
+        },
+        {
+          "pieces": [
+            "18",
+            "9",
+            "33"
+          ],
+          "note": "Sunshine cotton mini dress pops against black-and-white sneakers and tote."
         }
       ]
     },
@@ -1621,22 +4937,63 @@
         {
           "pieces": [
             "21",
-            "45"
+            "45",
+            "33",
+            "9"
           ],
           "note": "White tee and blue jeans keep the checkerboard slip-ons the focus."
         },
         {
           "pieces": [
-            "43"
+            "4",
+            "10",
+            "9"
           ],
-          "note": "Black cotton shirtdress echoes the sneakers' black-and-white palette."
+          "note": "Black eyelet sundress with gold earrings balances the playful check sneakers."
+        },
+        {
+          "pieces": [
+            "5",
+            "19",
+            "16",
+            "33"
+          ],
+          "note": "Grey hoodie, black tailored shorts and cap: easy neutral everyday look."
         },
         {
           "pieces": [
             "12",
-            "19"
+            "13",
+            "11",
+            "2"
           ],
-          "note": "Natural knit with black tailored shorts, clean neutrals for everyday."
+          "note": "Natural sweater and relaxed pants, cognac belt warms the black-and-white base."
+        },
+        {
+          "pieces": [
+            "24",
+            "36",
+            "14",
+            "33"
+          ],
+          "note": "White turtleneck, pale jeans and long coat for a polished neutral layering."
+        },
+        {
+          "pieces": [
+            "53",
+            "58",
+            "10"
+          ],
+          "note": "Tie-dye crop and black wrap skirt make a relaxed weekend pairing."
+        },
+        {
+          "pieces": [
+            "35",
+            "48",
+            "31",
+            "9"
+          ],
+          "note": "White-black logo sweater echoes the checkerboard; black capris and puffer finish it."
         }
       ]
     },
@@ -1645,16 +5002,64 @@
         {
           "pieces": [
             "36",
-            "20"
+            "3",
+            "33",
+            "10"
           ],
-          "note": "Salt Flats jeans keep the black-and-white stripe crisp; black leather sandals finish it."
+          "note": "Light jeans and court sneakers keep the striped polo easy everyday."
+        },
+        {
+          "pieces": [
+            "19",
+            "20",
+            "9",
+            "2"
+          ],
+          "note": "Black tailored bermudas and strappy sandals sharpen the black-and-white stripe."
         },
         {
           "pieces": [
             "58",
-            "26"
+            "26",
+            "10",
+            "33"
           ],
-          "note": "Black wrap skirt echoes the stripe; natural raffia platforms add contrast."
+          "note": "Black wrap skirt with raffia platforms adds texture to the neutral stripe."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "11",
+            "9"
+          ],
+          "note": "Acorn chinos, chocolate boots and cognac belt warm the black-white stripe."
+        },
+        {
+          "pieces": [
+            "45",
+            "30",
+            "3",
+            "16"
+          ],
+          "note": "Blue jeans, black puffer and cap for a relaxed layered look."
+        },
+        {
+          "pieces": [
+            "13",
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "Gold trousers, nougat coat and chocolate boots make the polo polished."
+        },
+        {
+          "pieces": [
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Active shorts, sneakers and leather cap for a sporty all-black base."
         }
       ]
     },
@@ -1662,24 +5067,56 @@
       "outfits": [
         {
           "pieces": [
+            "21",
             "36",
-            "26"
+            "3",
+            "10"
           ],
-          "note": "White cardigan over pale jeans; natural raffia platforms keep the palette soft."
+          "note": "White tee and light jeans under the cardigan: easy everyday neutrals."
+        },
+        {
+          "pieces": [
+            "4",
+            "20",
+            "33",
+            "10"
+          ],
+          "note": "Black eyelet sundress layered with white knit, black sandals and tote."
         },
         {
           "pieces": [
             "19",
-            "20"
+            "21",
+            "26",
+            "9"
           ],
-          "note": "Black tailored Bermuda and black sandals sharpen the optic white knit."
+          "note": "Tailored black bermuda, white tee and raffia platforms for a polished daytime look."
         },
         {
           "pieces": [
-            "58",
-            "50"
+            "29",
+            "41",
+            "50",
+            "2"
           ],
-          "note": "Black wrap skirt with chocolate leather boots grounds the white cardigan."
+          "note": "Acorn chinos, striped sweater and chocolate boots for a warm neutral mix."
+        },
+        {
+          "pieces": [
+            "39",
+            "24",
+            "20",
+            "10"
+          ],
+          "note": "Plaid suiting trousers and white turtleneck keep the cardigan work-ready."
+        },
+        {
+          "pieces": [
+            "38",
+            "26",
+            "11"
+          ],
+          "note": "Rose floral dress softened by white knit, belt and natural platforms."
         }
       ]
     },
@@ -1688,16 +5125,55 @@
         {
           "pieces": [
             "5",
-            "20"
+            "3",
+            "16",
+            "33"
           ],
-          "note": "Grey hoodie keeps the black sweatpants easy; black sandals match exactly."
+          "note": "Grey hoodie, sneakers and cap keep these black sweatpants easy and sporty."
+        },
+        {
+          "pieces": [
+            "21",
+            "14",
+            "50",
+            "10"
+          ],
+          "note": "White tee under a long neutral coat, brown boots; gold studs finish."
+        },
+        {
+          "pieces": [
+            "24",
+            "52",
+            "50",
+            "2"
+          ],
+          "note": "White turtleneck under camel check cardigan, brown boots for a soft neutral layer."
         },
         {
           "pieces": [
             "12",
-            "26"
+            "30",
+            "3",
+            "9"
           ],
-          "note": "Natural cotton pullover and raffia platforms soften the solid black pant."
+          "note": "Natural knit with black leather puffer and sneakers: clean monochrome contrast."
+        },
+        {
+          "pieces": [
+            "41",
+            "26",
+            "33"
+          ],
+          "note": "Striped cropped sweater and raffia platforms lighten the solid black bottoms."
+        },
+        {
+          "pieces": [
+            "35",
+            "46",
+            "3",
+            "16"
+          ],
+          "note": "Logo knit with active jacket and court sneakers for a sport-led look."
         }
       ]
     },
@@ -1706,23 +5182,62 @@
         {
           "pieces": [
             "36",
-            "26"
+            "21",
+            "3",
+            "10"
           ],
-          "note": "Chalk cardigan over pale jeans, natural raffia platforms keep it light and neutral."
+          "note": "Classic everyday: white tee, light jeans, sneakers, gold huggies under the chalk cardigan."
+        },
+        {
+          "pieces": [
+            "4",
+            "20",
+            "33"
+          ],
+          "note": "Black eyelet sundress with strappy sandals and tote; cardigan softens the contrast."
+        },
+        {
+          "pieces": [
+            "39",
+            "24",
+            "50",
+            "2"
+          ],
+          "note": "Plaid suiting trousers, white turtleneck and boots make a polished work layer."
+        },
+        {
+          "pieces": [
+            "28",
+            "26",
+            "9"
+          ],
+          "note": "Natural eyelet dress and raffia platforms echo the chalk knit tonally."
         },
         {
           "pieces": [
             "19",
-            "20"
+            "21",
+            "3",
+            "16"
           ],
-          "note": "Black tailored bermudas and black leather sandals sharpen the chalk knit."
+          "note": "Tailored black bermudas, white tee, sneakers and cap for easy weekend layering."
         },
         {
           "pieces": [
-            "58",
-            "50"
+            "29",
+            "41",
+            "50",
+            "11"
           ],
-          "note": "Black wrap skirt with chocolate leather boots balances the soft cardigan."
+          "note": "Acorn chinos, striped sweater, chocolate boots and cognac belt: warm neutrals."
+        },
+        {
+          "pieces": [
+            "38",
+            "20",
+            "33"
+          ],
+          "note": "Rose floral sundress grounded by black sandals and tote, cardigan on top."
         }
       ]
     },
@@ -1730,24 +5245,44 @@
       "outfits": [
         {
           "pieces": [
-            "45",
-            "26"
+            "36",
+            "3",
+            "33",
+            "9"
           ],
-          "note": "Blue jeans ground the tie dye hoodie; natural raffia platforms keep it easy."
-        },
-        {
-          "pieces": [
-            "29",
-            "50"
-          ],
-          "note": "Acorn chinos echo the olive hoodie; chocolate leather boots tie the earth tones."
+          "note": "Light jeans and court sneakers keep this olive tie dye hoodie easy everyday."
         },
         {
           "pieces": [
             "19",
-            "20"
+            "20",
+            "10"
           ],
-          "note": "Black tailored bermudas and black sandals sharpen the casual olive hoodie."
+          "note": "Black tailored bermudas and leather sandals sharpen the casual hoodie."
+        },
+        {
+          "pieces": [
+            "29",
+            "50",
+            "11"
+          ],
+          "note": "Acorn chinos, chocolate boots and cognac belt echo the hoodie's earthy olive."
+        },
+        {
+          "pieces": [
+            "25",
+            "3",
+            "16"
+          ],
+          "note": "Active shorts, sneakers and black cap for a sporty cotton layer."
+        },
+        {
+          "pieces": [
+            "58",
+            "26",
+            "2"
+          ],
+          "note": "Black wrap skirt with raffia platforms softens the hoodie into a daytime look."
         }
       ]
     },
@@ -1756,23 +5291,53 @@
         {
           "pieces": [
             "5",
-            "50"
+            "3",
+            "33",
+            "16"
           ],
-          "note": "Grey hoodie keeps the tie dye joggers casual; chocolate boots ground the olive."
+          "note": "Grey hoodie and court sneakers keep these lounge joggers easy and neutral."
         },
         {
           "pieces": [
             "12",
-            "26"
+            "50",
+            "10"
           ],
-          "note": "Natural boxy sweater and raffia platforms echo the joggers' soft neutral tones."
+          "note": "Natural boxy knit with chocolate boots warms the olive tie dye."
         },
         {
           "pieces": [
-            "21",
-            "20"
+            "24",
+            "14",
+            "50",
+            "2"
           ],
-          "note": "White tee and black sandals let the olive tie dye lead."
+          "note": "White turtleneck and long nougat coat dress the joggers up in neutrals."
+        },
+        {
+          "pieces": [
+            "41",
+            "30",
+            "3",
+            "9"
+          ],
+          "note": "Striped sweater and black puffer add pattern play with sporty sneakers."
+        },
+        {
+          "pieces": [
+            "53",
+            "26",
+            "10"
+          ],
+          "note": "Tie dye crop echoes the joggers; raffia platforms lift the look."
+        },
+        {
+          "pieces": [
+            "35",
+            "46",
+            "3"
+          ],
+          "note": "Logo knit and reflective active jacket make a fully sporty pairing."
         }
       ]
     }

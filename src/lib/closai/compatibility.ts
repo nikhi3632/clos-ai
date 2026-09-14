@@ -1,5 +1,5 @@
 import type { ProductBase } from "../types";
-import { classify, season } from "./slots";
+import { bodyZone, classify, season } from "./slots";
 import type { Reason } from "./types";
 
 const NEUTRAL_FAMILIES = new Set(["Black", "White", "Grey", "Cream", "Tan", "Brown", "Gold", "Silver"]);
@@ -14,9 +14,6 @@ const OCCASION_CONFLICTS: ReadonlyArray<readonly [string, string]> = [
   ["Lounge", "Night Out"],
   ["Vacation", "Work"],
 ];
-
-/** The bar a pairing must clear to be shown: no conflict and at least this many reasons. */
-export const MIN_REASONS = 2;
 
 export interface Compatibility {
   reasons: Reason[];
@@ -52,18 +49,44 @@ export function seasonsConflict(a: ProductBase, b: ProductBase): boolean {
   return sa !== "any" && sb !== "any" && sa !== sb;
 }
 
-/** Conflicts that apply between any two pieces in the same outfit. */
-export function conflicts(a: ProductBase, b: ProductBase): boolean {
-  return occasionsConflict(a, b) || printsClash(a, b) || seasonsConflict(a, b);
+/** A cardigan or sweatshirt does not go under a coat or blazer. */
+export function layersConflict(a: ProductBase, b: ProductBase): boolean {
+  const ca = classify(a);
+  const cb = classify(b);
+  if (ca === null || cb === null) return false;
+  const midUnderOuter = (x: typeof ca, y: typeof cb) => x.slot === "outerwear" && y.slot === "top" && y.layer === "mid";
+  return midUnderOuter(ca, cb) || midUnderOuter(cb, ca);
+}
+
+/** Two pieces on the same part of the body, or a dress with a bottom. */
+export function zonesConflict(a: ProductBase, b: ProductBase): boolean {
+  const ca = classify(a);
+  const cb = classify(b);
+  if (ca === null || cb === null) return false;
+  if (bodyZone(a, ca) === bodyZone(b, cb)) return true;
+  const slots = new Set([ca.slot, cb.slot]);
+  return slots.has("dress") && slots.has("bottom");
 }
 
 /**
- * Scores an owned candidate against the product being viewed. The reasons
- * returned are exactly the rules that fired; nothing is generated afterwards.
+ * Everything that makes two pieces impossible together: clashing occasions,
+ * competing prints, opposite seasons, a mid-layer under outerwear, or the same
+ * part of the body. These are the facts the rules own; whether two compatible
+ * pieces look good together is the stylist model's call.
+ */
+export function conflicts(a: ProductBase, b: ProductBase): boolean {
+  return occasionsConflict(a, b) || printsClash(a, b) || seasonsConflict(a, b) || layersConflict(a, b) || zonesConflict(a, b);
+}
+
+/**
+ * Evidence for an owned piece against the product being viewed. The reasons
+ * returned are exactly the rules that fired and are shown under the piece;
+ * they do not gate anything. A piece is a candidate as long as it does not
+ * conflict.
  */
 export function compatibility(viewed: ProductBase, candidate: ProductBase): Compatibility {
   const reasons: Reason[] = [];
-  let conflict = conflicts(viewed, candidate);
+  const conflict = conflicts(viewed, candidate);
 
   if (viewed.occasion !== null && viewed.occasion === candidate.occasion) {
     reasons.push({ code: "same-occasion", label: "Same occasion" });
@@ -89,17 +112,9 @@ export function compatibility(viewed: ProductBase, candidate: ProductBase): Comp
 
   const viewedClass = classify(viewed);
   const candidateClass = classify(candidate);
-  if (viewedClass?.slot === "outerwear" && candidateClass?.slot === "top") {
-    if (candidateClass.layer === "base") {
-      reasons.push({ code: "layers-under", label: "Layers underneath" });
-    } else {
-      conflict = true;
-    }
+  if (viewedClass?.slot === "outerwear" && candidateClass?.slot === "top" && candidateClass.layer === "base") {
+    reasons.push({ code: "layers-under", label: "Layers underneath" });
   }
 
   return { reasons, conflict };
-}
-
-export function passes(c: Compatibility): boolean {
-  return !c.conflict && c.reasons.length >= MIN_REASONS;
 }

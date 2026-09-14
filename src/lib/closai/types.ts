@@ -52,7 +52,6 @@ export interface Look {
  */
 export interface StylistSelections {
   model: string;
-  promptVersion: number;
   generatedAt: string;
   products: Record<string, { outfits: { pieces: string[]; note: string }[] }>;
 }

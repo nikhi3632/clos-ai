@@ -9,11 +9,13 @@ export interface Classified {
 export type Season = "warm" | "cold" | "any";
 
 const COLD_CATEGORIES = new Set(["Puffers & Parkas", "Fur/Shearling", "Boots & Booties"]);
-const WARM_CATEGORIES = new Set(["Shorts", "Sandals", "Espadrilles", "Flip Flops", "Sundresses", "Tank Tops", "Crop Tops", "Rompers", "Sarongs"]);
+const WARM_CATEGORIES = new Set(["Shorts", "Sandals", "Espadrilles", "Flip Flops", "Rompers", "Sarongs"]);
 
 /**
- * Whether a piece belongs to warm or cold weather, derived from category since
- * the dataset has no season field. Most pieces are "any" and never conflict.
+ * Whether a piece is unambiguously cold- or warm-weather, derived from category
+ * since the dataset has no season field. Only the obvious cases are listed;
+ * everything else is "any" and never conflicts. Finer judgment is the
+ * stylist model's job.
  */
 export function season(product: ProductBase): Season {
   const { level2, level3 } = product.category;
@@ -61,3 +63,19 @@ export function classify(product: ProductBase): Classified | null {
   }
 }
 
+/**
+ * The part of the body a piece occupies. Two pieces in the same zone cannot be
+ * worn together; a dress also takes the legs. Tops are split by layer so a tee
+ * under a cardigan under a coat is one of each. Accessories are keyed by kind,
+ * so a ring and earrings coexist but two rings do not.
+ */
+export function bodyZone(product: ProductBase, cls: Classified): string {
+  switch (cls.slot) {
+    case "top":
+      return `top:${cls.layer}`;
+    case "accessory":
+      return `accessory:${product.category.level2 ?? product.category.level1}`;
+    default:
+      return cls.slot;
+  }
+}

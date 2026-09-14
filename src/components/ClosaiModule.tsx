@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import type { ClosaiResult, Look, LookItem, Reason } from "@/lib/closai";
 import type { CatalogProduct, ClosetItem } from "@/lib/types";
 import { useClosai } from "./closai-context";
@@ -35,8 +36,14 @@ function ModuleHeading({ title, subtitle }: { title: string; subtitle: string })
   );
 }
 
+/** How many looks show before the shopper asks for the rest. A layout choice, not a limit on the answer. */
+const LOOKS_BEFORE_FOLD = 3;
+
 function Looks({ product, looks }: { product: CatalogProduct; looks: Look[] }) {
+  const [expanded, setExpanded] = useState(false);
   const n = looks.length;
+  const visible = expanded ? looks : looks.slice(0, LOOKS_BEFORE_FOLD);
+  const hidden = n - visible.length;
   return (
     <>
       <ModuleHeading
@@ -44,11 +51,11 @@ function Looks({ product, looks }: { product: CatalogProduct; looks: Look[] }) {
         subtitle={`${n} ${n === 1 ? "way" : "ways"} to wear it with what you already own`}
       />
       <ol className="space-y-8">
-        {looks.map((look, i) => (
+        {visible.map((look, i) => (
           <li key={i}>
             <p className="mb-1 text-[11px] uppercase tracking-[0.14em] text-neutral-500">Look {i + 1}</p>
             <p className="mb-3 text-[14px] leading-snug">{look.note}</p>
-            <div className="flex gap-3 overflow-x-auto pb-2 md:grid md:grid-cols-4 md:overflow-visible md:pb-0">
+            <div className="flex gap-3 overflow-x-auto pb-2">
               <Tile image={product.image} brand={product.brand} name={product.name} tag="This item" emphasis />
               {look.items.map((li) => (
                 <OwnedTile key={li.item.id} lookItem={li} />
@@ -57,12 +64,21 @@ function Looks({ product, looks }: { product: CatalogProduct; looks: Look[] }) {
           </li>
         ))}
       </ol>
+      {hidden > 0 && (
+        <button
+          type="button"
+          onClick={() => setExpanded(true)}
+          className="mt-6 border-b border-black text-[12px] uppercase tracking-[0.2em]"
+        >
+          See {hidden} more {hidden === 1 ? "look" : "looks"}
+        </button>
+      )}
       <p className="mt-6 text-[12px] text-neutral-500">
         Every piece comes from{" "}
         <Link href="/closet" className="underline">
           your closet
         </Link>
-        . Under each piece: the rules that matched it.
+        . Under a piece, when shown: the retailer&apos;s own rules that matched it.
       </p>
     </>
   );
@@ -72,7 +88,7 @@ function AlreadyOwn({ owned, reasons }: { owned: ClosetItem; reasons: Reason[] }
   return (
     <>
       <ModuleHeading title="You already own something like this" subtitle="A close match is in your closet." />
-      <div className="flex gap-3 md:grid md:grid-cols-4">
+      <div className="flex gap-3">
         <Tile image={owned.image} brand={owned.brand} name={owned.name} tag="In your closet" reasons={reasons} />
       </div>
       <p className="mt-6 text-[12px] text-neutral-500">
@@ -106,9 +122,9 @@ function Tile({
   emphasis?: boolean;
 }) {
   return (
-    <figure className="w-32 shrink-0 md:w-auto md:min-w-0">
+    <figure className="w-32 shrink-0">
       <div className={`aspect-[564/1000] overflow-hidden bg-neutral-100 ${emphasis ? "ring-1 ring-black ring-offset-2" : ""}`}>
-        <Image src={image} alt={name} width={564} height={1000} className="h-full w-full object-cover" sizes="(min-width: 768px) 12vw, 128px" />
+        <Image src={image} alt={name} width={564} height={1000} className="h-full w-full object-cover" sizes="128px" />
       </div>
       <figcaption className="mt-2 space-y-0.5 text-[12px] leading-snug">
         <p className={`text-[10px] uppercase tracking-[0.14em] ${emphasis ? "text-black" : "text-neutral-400"}`}>{tag}</p>
