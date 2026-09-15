@@ -1,6 +1,6 @@
 # Closai × North & Main
 
-A mock retailer storefront, Shopbop-style as the brief asks, under a fictional name, with one Closai-powered module on the product page.
+A mock retailer storefront under a fictional name, with one Closai-powered module on the product page.
 
 Live: https://clos-ai-theta.vercel.app
 
@@ -37,7 +37,7 @@ catalog + closet  ──►  rules (facts)  ──►  candidate pieces  ──�
 
 **The rules** (`src/lib/closai/`) decide only things that are true or false:
 
-- Which owned items are garments at all. Home, beauty, swim and workout gear are never styled.
+- Which owned items are garments at all. Home, beauty, swim, intimates, workout gear and one-size "footwear" like socks are never styled.
 - Which pieces cannot be worn with the product or with each other: clashing occasions (Active with Work), two competing prints, obviously opposite seasons (a puffer with sandals), a cardigan under a coat, two pieces on the same part of the body, a dress with a bottom.
 - Whether the closet holds a close substitute: same category at every level, prints that agree, and at least two independent signals among colour, designer, name and fabric.
 - The fit hint: owned sizes for the same brand and category, shown only when they agree.
@@ -52,7 +52,7 @@ The committed file records which model produced it and when. `npm run looks` pri
 
 ### Where the LLM is, and isn't
 
-It is not in the site. The deployed pages never call a model. It is not in the facts: ownership, substitutes, sizing and hard conflicts are code, and would be wrong to delegate. It is in exactly one place, styling judgment, because "which of these valid combinations are good outfits" is not a rule anyone can write down. An earlier version of this prototype tried, with a formality table and weighted reasons, and produced outfits that were compatible but tasteless. The split above is the honest one: the rules guarantee nothing impossible is shown, the model is responsible for whether what's shown is good, and the page shows both the model's note and the rules' evidence.
+It is not in the site. The deployed pages never call a model. It is not in the facts: ownership, substitutes, sizing and hard conflicts are code, and would be wrong to delegate. It is in exactly one place, styling judgment, because "which of these valid combinations are good outfits" is not a rule anyone can write down. Rules can say that nothing in an outfit clashes; they cannot say that it looks good. Encoding that as scores and weights would just be someone's taste written as constants, tuned until the demo looked right, and it would fail on the next closet. The split above is the honest one: the rules guarantee nothing impossible is shown, the model is responsible for whether what's shown is good, and the page shows both the model's note and the rules' evidence.
 
 Selection is not deterministic run to run. The page is, because the file is.
 
