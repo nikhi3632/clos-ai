@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { STORE } from "@/lib/data";
 import { SHOP_CATEGORIES } from "@/lib/shop";
 import { ClosaiToggle } from "./ClosaiToggle";
 
@@ -10,7 +11,7 @@ export function Header() {
       </div>
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-5">
         <Link href="/" className="text-xl font-semibold tracking-[0.2em] sm:text-2xl sm:tracking-[0.3em]">
-          SHOPBOP
+          {STORE.name.toUpperCase()}
         </Link>
         <div className="flex shrink-0 items-center gap-4 sm:gap-6">
           <Link href="/closet" className="whitespace-nowrap text-[11px] uppercase tracking-[0.14em] hover:underline">

@@ -7,8 +7,11 @@ import closetJson from "@/data/closet.json";
 export const catalog = catalogJson as CatalogProduct[];
 export const closet = closetJson as ClosetItem[];
 
-/** Products whose Closai module the reviewer should see first: looks, fit hint, already-own. */
-export const FEATURED_IDS = ["TIBI-9992392", "R13-2857220", "ZOE-CHICCO-7532027"];
+/**
+ * The storefront is fictional. The dataset labels its catalog retailer "Shopbop"
+ * (the brief's aesthetic target); the site presents that retailer under its own name.
+ */
+export const STORE = { name: "North & Main", retailerInData: "Shopbop" } as const;
 
 /** Color variants share a base id with a numeric suffix, e.g. TIBI-9679470-01. */
 export function isVariant(id: string): boolean {

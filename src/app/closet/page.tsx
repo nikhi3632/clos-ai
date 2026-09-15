@@ -1,14 +1,16 @@
 import Image from "next/image";
-import { closet } from "@/lib/data";
+import { closet, STORE } from "@/lib/data";
 import { formatPurchaseDate } from "@/lib/format";
 
 export default function ClosetPage() {
   const items = [...closet].sort((a, b) => b.purchasedAt.localeCompare(a.purchasedAt));
+  const elsewhere = [...new Set(items.map((i) => i.retailer))].filter((r) => r !== STORE.retailerInData).sort();
+  const boughtAt = (item: (typeof items)[number]) => (item.retailer === STORE.retailerInData ? "Bought here" : item.retailer);
   return (
     <div className="pt-10">
       <h1 className="text-[11px] uppercase tracking-[0.2em] text-neutral-500">Your closet</h1>
       <p className="mt-2 text-[13px] text-neutral-700">
-        {items.length} pieces you have bought across Shopbop, Bergdorf Goodman and Nordstrom. This is what Closai knows about you.
+        {items.length} pieces you have bought here{elsewhere.length > 0 && ` and at ${elsewhere.join(" and ")}`}. This is what Closai knows about you.
       </p>
       <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-4 lg:grid-cols-6">
         {items.map((item) => (
@@ -20,7 +22,7 @@ export default function ClosetPage() {
               <p className="font-semibold">{item.brand}</p>
               <p className="text-neutral-700">{item.name}</p>
               <p className="text-neutral-400">
-                {formatPurchaseDate(item.purchasedAt)} · {item.retailer}
+                {formatPurchaseDate(item.purchasedAt)} · {boughtAt(item)}
               </p>
             </figcaption>
           </figure>

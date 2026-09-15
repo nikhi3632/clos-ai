@@ -3,7 +3,7 @@ import { isVariant } from "./data";
 
 /**
  * The storefront's browse categories. Each one is backed by real catalog rows;
- * labels Shopbop shows but this catalog cannot fill (Bags, Designers, What's New)
+ * labels a Shopbop-style nav shows but this catalog cannot fill (Bags, Designers, What's New)
  * are deliberately absent rather than linked to nothing.
  */
 export interface ShopCategory {

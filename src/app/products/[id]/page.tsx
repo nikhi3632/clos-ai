@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { styledWithCloset } from "@/lib/closai";
-import { catalog, closet, getProduct, isVariant } from "@/lib/data";
+import { catalog, closet, getProduct, isVariant, STORE } from "@/lib/data";
 import { stylistSelections } from "@/lib/selections";
 import { formatPrice } from "@/lib/format";
 import { categoryForProduct } from "@/lib/shop";
@@ -25,7 +25,7 @@ export function generateStaticParams() {
 export async function generateMetadata(props: PageProps<"/products/[id]">): Promise<Metadata> {
   const { id } = await props.params;
   const product = getProduct(id);
-  return { title: product ? `${product.brand} ${product.name} | Shopbop` : "Not found | Shopbop" };
+  return { title: product ? `${product.brand} ${product.name} | ${STORE.name}` : `Not found | ${STORE.name}` };
 }
 
 export default async function ProductPage(props: PageProps<"/products/[id]">) {

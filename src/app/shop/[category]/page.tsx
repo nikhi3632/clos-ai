@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { catalog } from "@/lib/data";
+import { catalog, STORE } from "@/lib/data";
 import { getShopCategory, isBrowsable, isInCategory, SHOP_CATEGORIES } from "@/lib/shop";
 import { ProductCard } from "@/components/ProductCard";
 
@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata(props: PageProps<"/shop/[category]">): Promise<Metadata> {
   const { category } = await props.params;
   const shop = getShopCategory(category);
-  return { title: shop ? `${shop.label} | Shopbop` : "Not found | Shopbop" };
+  return { title: shop ? `${shop.label} | ${STORE.name}` : `Not found | ${STORE.name}` };
 }
 
 export default async function ShopCategoryPage(props: PageProps<"/shop/[category]">) {

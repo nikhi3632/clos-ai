@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import { ClosaiProvider } from "@/components/closai-context";
 import { Header } from "@/components/Header";
+import { STORE } from "@/lib/data";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -10,8 +11,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: { default: "Shopbop × Closai", template: "%s" },
-  description: "A mock Shopbop storefront showing what Closai can do when it knows what the shopper already owns.",
+  title: { default: `${STORE.name} × Closai`, template: "%s" },
+  description: "A mock retailer storefront showing what Closai can do when it knows what the shopper already owns.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
