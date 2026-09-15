@@ -2,6 +2,7 @@ import Link from "next/link";
 import { STORE } from "@/lib/data";
 import { SHOP_CATEGORIES } from "@/lib/shop";
 import { ClosaiToggle } from "./ClosaiToggle";
+import { ClosetLink } from "./ClosetLink";
 
 export function Header() {
   return (
@@ -14,9 +15,7 @@ export function Header() {
           {STORE.name.toUpperCase()}
         </Link>
         <div className="flex shrink-0 items-center gap-4 sm:gap-6">
-          <Link href="/closet" className="whitespace-nowrap text-[11px] uppercase tracking-[0.14em] hover:underline">
-            Your closet
-          </Link>
+          <ClosetLink />
           <ClosaiToggle />
         </div>
       </div>
